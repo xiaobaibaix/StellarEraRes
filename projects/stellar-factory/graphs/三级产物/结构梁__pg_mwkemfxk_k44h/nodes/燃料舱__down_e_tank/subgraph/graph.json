@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "id": "down_e_tank",
+  "name": "燃料舱",
+  "nodeOrder": [
+    "p_beam",
+    "p_pipe",
+    "m_ss",
+    "mach_e_tank",
+    "prod_e_tank"
+  ],
+  "edges": [
+    {
+      "id": "e_8bqnp5e",
+      "from": {
+        "node": "p_beam",
+        "port": "p_gud6rxx"
+      },
+      "to": {
+        "node": "mach_e_tank",
+        "port": "p_n3p7q68"
+      },
+      "label": "20×"
+    },
+    {
+      "id": "e_r8fbv4u",
+      "from": {
+        "node": "p_pipe",
+        "port": "p_wvd0958"
+      },
+      "to": {
+        "node": "mach_e_tank",
+        "port": "p_8vo9cgi"
+      },
+      "label": "10×"
+    },
+    {
+      "id": "e_akygtv6",
+      "from": {
+        "node": "m_ss",
+        "port": "p_e9venyb"
+      },
+      "to": {
+        "node": "mach_e_tank",
+        "port": "p_4w26q78"
+      },
+      "label": "3×"
+    },
+    {
+      "id": "e_n8vqx1x",
+      "from": {
+        "node": "mach_e_tank",
+        "port": "p_rif2ozn"
+      },
+      "to": {
+        "node": "prod_e_tank",
+        "port": "p_j3frfmz"
+      },
+      "label": ""
+    }
+  ]
+}

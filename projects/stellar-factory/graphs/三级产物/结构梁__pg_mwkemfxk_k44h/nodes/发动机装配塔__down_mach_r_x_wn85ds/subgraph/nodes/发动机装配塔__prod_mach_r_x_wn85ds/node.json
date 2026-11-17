@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "id": "prod_mach_r_x_wn85ds",
+  "kind": "资源",
+  "title": "发动机装配塔",
+  "props": {
+    "类别": {
+      "value": "产物",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_a35brs2",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 800,
+    "y": 510
+  }
+}

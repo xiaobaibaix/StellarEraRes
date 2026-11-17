@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mach_p_pc",
+  "kind": "机器",
+  "title": "总装",
+  "props": {
+    "配方": {
+      "value": "总装",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_57ahldm",
+      "dir": "in",
+      "label": "芯片",
+      "capacity": "one"
+    },
+    {
+      "id": "p_zr4e9qs",
+      "dir": "in",
+      "label": "电路板",
+      "capacity": "one"
+    },
+    {
+      "id": "p_kdb6myi",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 210
+  }
+}

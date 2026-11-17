@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "id": "pg_mwkemfxw_8o67",
+  "name": "气体井",
+  "nodeOrder": [
+    "m_steel",
+    "p_pipe",
+    "p_motor",
+    "mach_mach_r_x_vwf6tm",
+    "prod_mach_r_x_vwf6tm"
+  ],
+  "edges": [
+    {
+      "id": "e_dzpqayv",
+      "from": {
+        "node": "m_steel",
+        "port": "p_3cih5qn"
+      },
+      "to": {
+        "node": "mach_mach_r_x_vwf6tm",
+        "port": "p_gkbopzp"
+      },
+      "label": "4×"
+    },
+    {
+      "id": "e_9545jp7",
+      "from": {
+        "node": "p_pipe",
+        "port": "p_qyyfilm"
+      },
+      "to": {
+        "node": "mach_mach_r_x_vwf6tm",
+        "port": "p_nsvnrj8"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_dunwsn4",
+      "from": {
+        "node": "p_motor",
+        "port": "p_r3k595m"
+      },
+      "to": {
+        "node": "mach_mach_r_x_vwf6tm",
+        "port": "p_fpdhu84"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_4n1e0um",
+      "from": {
+        "node": "mach_mach_r_x_vwf6tm",
+        "port": "p_rpnxhwq"
+      },
+      "to": {
+        "node": "prod_mach_r_x_vwf6tm",
+        "port": "p_kdai4pt"
+      },
+      "label": ""
+    }
+  ]
+}

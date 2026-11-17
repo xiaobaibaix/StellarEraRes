@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "id": "p_bearing",
+  "kind": "子图",
+  "title": "轴承",
+  "props": {},
+  "ports": [
+    {
+      "id": "p_w6im6pg",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 1050
+  },
+  "subgraphMap": {
+    "p_w6im6pg": {
+      "node": "mach_p_bearing",
+      "port": "p_oan5hcg"
+    }
+  }
+}

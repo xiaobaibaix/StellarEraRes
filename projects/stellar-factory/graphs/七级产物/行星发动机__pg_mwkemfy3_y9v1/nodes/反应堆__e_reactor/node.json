@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "id": "e_reactor",
+  "kind": "子图",
+  "title": "反应堆",
+  "props": {},
+  "ports": [
+    {
+      "id": "p_02ls1qi",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 1380
+  },
+  "subgraphMap": {
+    "p_02ls1qi": {
+      "node": "mach_e_reactor",
+      "port": "p_9f8uht4"
+    }
+  }
+}

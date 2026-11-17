@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mach_p_gear",
+  "kind": "机器",
+  "title": "滚齿",
+  "props": {
+    "配方": {
+      "value": "滚齿",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_z1yqfli",
+      "dir": "in",
+      "label": "钢",
+      "capacity": "one"
+    },
+    {
+      "id": "p_f4rjnbz",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 60
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "id": "e_reactor",
+  "kind": "资源",
+  "title": "反应堆",
+  "props": {
+    "类别": {
+      "value": "发动机模块",
+      "type": "string"
+    },
+    "层级": {
+      "value": "模块",
+      "type": "string"
+    },
+    "输入数": {
+      "value": 2,
+      "type": "number"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_iquor9q",
+      "dir": "in",
+      "label": "原料1",
+      "capacity": "one"
+    },
+    {
+      "id": "p_2yr1vay",
+      "dir": "in",
+      "label": "原料2",
+      "capacity": "one"
+    },
+    {
+      "id": "p_z15zlo1",
+      "dir": "in",
+      "label": "原料3",
+      "capacity": "one"
+    },
+    {
+      "id": "p_blk88ys",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 1260
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "id": "down_mach_r_x_3ttiuj",
+  "name": "真空熔炼炉",
+  "nodeOrder": [
+    "m_steel",
+    "m_super",
+    "p_pipe",
+    "p_chip",
+    "mach_mach_r_x_3ttiuj",
+    "prod_mach_r_x_3ttiuj"
+  ],
+  "edges": [
+    {
+      "id": "e_fymnw0a",
+      "from": {
+        "node": "m_steel",
+        "port": "p_nmwu0ii"
+      },
+      "to": {
+        "node": "mach_mach_r_x_3ttiuj",
+        "port": "p_i2ppcvt"
+      },
+      "label": "8×"
+    },
+    {
+      "id": "e_rjq4hat",
+      "from": {
+        "node": "m_super",
+        "port": "p_emxpuml"
+      },
+      "to": {
+        "node": "mach_mach_r_x_3ttiuj",
+        "port": "p_fyrg1mo"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_tvs44fp",
+      "from": {
+        "node": "p_pipe",
+        "port": "p_wvd0958"
+      },
+      "to": {
+        "node": "mach_mach_r_x_3ttiuj",
+        "port": "p_q5xc5q4"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_nh6va3o",
+      "from": {
+        "node": "p_chip",
+        "port": "p_w3v34d6"
+      },
+      "to": {
+        "node": "mach_mach_r_x_3ttiuj",
+        "port": "p_6rzd8sb"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_5buxr1r",
+      "from": {
+        "node": "mach_mach_r_x_3ttiuj",
+        "port": "p_uacm9r8"
+      },
+      "to": {
+        "node": "prod_mach_r_x_3ttiuj",
+        "port": "p_ga632u5"
+      },
+      "label": ""
+    }
+  ]
+}

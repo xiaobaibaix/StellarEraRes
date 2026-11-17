@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "id": "down_mach_r_x_c68riu",
+  "name": "卡车",
+  "nodeOrder": [
+    "m_steel",
+    "p_motor",
+    "p_gear",
+    "p_bearing",
+    "mach_mach_r_x_c68riu",
+    "prod_mach_r_x_c68riu"
+  ],
+  "edges": [
+    {
+      "id": "e_fomwdoa",
+      "from": {
+        "node": "m_steel",
+        "port": "p_nmwu0ii"
+      },
+      "to": {
+        "node": "mach_mach_r_x_c68riu",
+        "port": "p_vzfhbao"
+      },
+      "label": "6×"
+    },
+    {
+      "id": "e_877t14d",
+      "from": {
+        "node": "p_motor",
+        "port": "p_u2och3g"
+      },
+      "to": {
+        "node": "mach_mach_r_x_c68riu",
+        "port": "p_t4ikbfw"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_d18p6ny",
+      "from": {
+        "node": "p_gear",
+        "port": "p_omtnv9i"
+      },
+      "to": {
+        "node": "mach_mach_r_x_c68riu",
+        "port": "p_zulxmym"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_6g5o8os",
+      "from": {
+        "node": "p_bearing",
+        "port": "p_s5fdho8"
+      },
+      "to": {
+        "node": "mach_mach_r_x_c68riu",
+        "port": "p_3jvagnq"
+      },
+      "label": "4×"
+    },
+    {
+      "id": "e_38tfk2y",
+      "from": {
+        "node": "mach_mach_r_x_c68riu",
+        "port": "p_7ohfwyl"
+      },
+      "to": {
+        "node": "prod_mach_r_x_c68riu",
+        "port": "p_bc8465g"
+      },
+      "label": ""
+    }
+  ]
+}

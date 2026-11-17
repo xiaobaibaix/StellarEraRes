@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "id": "prod_m_ss",
+  "kind": "资源",
+  "title": "不锈钢",
+  "props": {
+    "类别": {
+      "value": "产物",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_vro097v",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 800,
+    "y": 360
+  }
+}

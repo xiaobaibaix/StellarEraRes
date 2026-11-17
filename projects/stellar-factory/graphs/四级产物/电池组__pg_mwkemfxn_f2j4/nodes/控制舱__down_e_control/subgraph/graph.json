@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "id": "down_e_control",
+  "name": "控制舱",
+  "nodeOrder": [
+    "p_pc",
+    "p_board",
+    "m_glass",
+    "m_new_18ampt",
+    "mach_e_control",
+    "prod_e_control"
+  ],
+  "edges": [
+    {
+      "id": "e_3pawz0i",
+      "from": {
+        "node": "p_pc",
+        "port": "p_0c8gk38"
+      },
+      "to": {
+        "node": "mach_e_control",
+        "port": "p_28955ef"
+      },
+      "label": "3×"
+    },
+    {
+      "id": "e_dt7s750",
+      "from": {
+        "node": "p_board",
+        "port": "p_sb8pgyj"
+      },
+      "to": {
+        "node": "mach_e_control",
+        "port": "p_i3pdbum"
+      },
+      "label": "10×"
+    },
+    {
+      "id": "e_wb25xqc",
+      "from": {
+        "node": "m_glass",
+        "port": "p_hxczqpe"
+      },
+      "to": {
+        "node": "mach_e_control",
+        "port": "p_k1q533d"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_ifr4emh",
+      "from": {
+        "node": "m_new_18ampt",
+        "port": "p_hgfzi7"
+      },
+      "to": {
+        "node": "mach_e_control",
+        "port": "p_afioanz"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_f203pxi",
+      "from": {
+        "node": "mach_e_control",
+        "port": "p_8473pnd"
+      },
+      "to": {
+        "node": "prod_e_control",
+        "port": "p_tcnv0re"
+      },
+      "label": ""
+    }
+  ]
+}

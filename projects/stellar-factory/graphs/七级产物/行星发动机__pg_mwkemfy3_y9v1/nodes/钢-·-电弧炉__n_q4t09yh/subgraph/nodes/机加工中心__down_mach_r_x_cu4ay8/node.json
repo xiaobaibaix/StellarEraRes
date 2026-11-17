@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "down_mach_r_x_cu4ay8",
+  "kind": "子图",
+  "title": "机加工中心",
+  "props": {
+    "类别": {
+      "value": "下游",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_wj1l1sy",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 3490,
+    "y": 40
+  },
+  "linkGraph": "pg_mwkemfxz_di70",
+  "subgraphMap": {
+    "p_wj1l1sy": {
+      "node": "mach_mach_r_x_cu4ay8",
+      "port": "p_q2d6p4u"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "down_p_heat",
+  "kind": "子图",
+  "title": "散热板",
+  "props": {
+    "类别": {
+      "value": "下游",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_zqb1pfi",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 1180,
+    "y": 40
+  },
+  "linkGraph": "pg_mwkemfxm_os23",
+  "subgraphMap": {
+    "p_zqb1pfi": {
+      "node": "mach_p_heat",
+      "port": "p_b391005"
+    }
+  }
+}

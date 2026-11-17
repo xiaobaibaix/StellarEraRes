@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "id": "k_electro",
+  "kind": "机器",
+  "title": "电解槽",
+  "props": {
+    "类别": {
+      "value": "冶炼",
+      "type": "string"
+    },
+    "功率": {
+      "value": "800",
+      "type": "string"
+    },
+    "阶段": {
+      "value": "S2",
+      "type": "string"
+    },
+    "输入": {
+      "value": "铝土 / 水",
+      "type": "string"
+    },
+    "输出": {
+      "value": "铝 / 氢氧",
+      "type": "string"
+    },
+    "层级": {
+      "value": "冶炼",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_sgm2uks",
+      "dir": "in",
+      "label": "输入",
+      "capacity": "one"
+    },
+    {
+      "id": "p_95t1kk2",
+      "dir": "out",
+      "label": "输出",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 780,
+    "y": 140
+  }
+}

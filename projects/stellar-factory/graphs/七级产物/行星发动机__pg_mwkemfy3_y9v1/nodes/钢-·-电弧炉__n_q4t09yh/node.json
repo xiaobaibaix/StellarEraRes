@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "id": "n_q4t09yh",
+  "title": "钢 · 电弧炉",
+  "props": {},
+  "ports": [
+    {
+      "id": "p_dtz23m3",
+      "dir": "out",
+      "label": "输出",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 647.4389545436852,
+    "y": 1942.928827439708
+  },
+  "linkGraph": "pg_mwkemfxj_twk8"
+}

@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "id": "down_mach_r_x_mlj5kx",
+  "name": "轧机",
+  "nodeOrder": [
+    "m_steel",
+    "p_motor",
+    "p_gear",
+    "p_bearing",
+    "mach_mach_r_x_mlj5kx",
+    "prod_mach_r_x_mlj5kx"
+  ],
+  "edges": [
+    {
+      "id": "e_fow0rc6",
+      "from": {
+        "node": "m_steel",
+        "port": "p_nmwu0ii"
+      },
+      "to": {
+        "node": "mach_mach_r_x_mlj5kx",
+        "port": "p_ab6ovv5"
+      },
+      "label": "10×"
+    },
+    {
+      "id": "e_ycjrjcu",
+      "from": {
+        "node": "p_motor",
+        "port": "p_u2och3g"
+      },
+      "to": {
+        "node": "mach_mach_r_x_mlj5kx",
+        "port": "p_7e6nayf"
+      },
+      "label": "3×"
+    },
+    {
+      "id": "e_2rv9234",
+      "from": {
+        "node": "p_gear",
+        "port": "p_omtnv9i"
+      },
+      "to": {
+        "node": "mach_mach_r_x_mlj5kx",
+        "port": "p_53f9e75"
+      },
+      "label": "3×"
+    },
+    {
+      "id": "e_i5901k5",
+      "from": {
+        "node": "p_bearing",
+        "port": "p_s5fdho8"
+      },
+      "to": {
+        "node": "mach_mach_r_x_mlj5kx",
+        "port": "p_4gc1swd"
+      },
+      "label": "4×"
+    },
+    {
+      "id": "e_d6gnky3",
+      "from": {
+        "node": "mach_mach_r_x_mlj5kx",
+        "port": "p_km4khwy"
+      },
+      "to": {
+        "node": "prod_mach_r_x_mlj5kx",
+        "port": "p_50wd6q0"
+      },
+      "label": ""
+    }
+  ]
+}

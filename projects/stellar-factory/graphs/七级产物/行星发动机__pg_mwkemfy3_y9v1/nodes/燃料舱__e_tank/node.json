@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "id": "e_tank",
+  "kind": "子图",
+  "title": "燃料舱",
+  "props": {},
+  "ports": [
+    {
+      "id": "p_5qyeif5",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 2040
+  },
+  "subgraphMap": {
+    "p_5qyeif5": {
+      "node": "mach_e_tank",
+      "port": "p_vzmi08i"
+    }
+  }
+}

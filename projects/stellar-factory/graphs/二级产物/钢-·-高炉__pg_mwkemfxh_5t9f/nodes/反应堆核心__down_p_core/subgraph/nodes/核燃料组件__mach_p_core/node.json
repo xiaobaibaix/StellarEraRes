@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "id": "mach_p_core",
+  "kind": "机器",
+  "title": "核燃料组件",
+  "props": {
+    "配方": {
+      "value": "核燃料组件",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_hl88oq3",
+      "dir": "in",
+      "label": "铀",
+      "capacity": "one"
+    },
+    {
+      "id": "p_zj090fd",
+      "dir": "in",
+      "label": "钢",
+      "capacity": "one"
+    },
+    {
+      "id": "p_w5njrjl",
+      "dir": "in",
+      "label": "氦-3",
+      "capacity": "one"
+    },
+    {
+      "id": "p_22byeki",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 360
+  }
+}

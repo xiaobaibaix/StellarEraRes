@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "id": "down_mach_r_x_9awu7f",
+  "name": "管道铺设",
+  "nodeOrder": [
+    "m_steel",
+    "p_pipe",
+    "m_concrete",
+    "mach_mach_r_x_9awu7f",
+    "prod_mach_r_x_9awu7f"
+  ],
+  "edges": [
+    {
+      "id": "e_uvprd2b",
+      "from": {
+        "node": "m_steel",
+        "port": "p_nmwu0ii"
+      },
+      "to": {
+        "node": "mach_mach_r_x_9awu7f",
+        "port": "p_ll8md9j"
+      },
+      "label": "4×"
+    },
+    {
+      "id": "e_p60r6cl",
+      "from": {
+        "node": "p_pipe",
+        "port": "p_wvd0958"
+      },
+      "to": {
+        "node": "mach_mach_r_x_9awu7f",
+        "port": "p_7rgf2t4"
+      },
+      "label": "4×"
+    },
+    {
+      "id": "e_1nsqmvl",
+      "from": {
+        "node": "m_concrete",
+        "port": "p_p90h7nf"
+      },
+      "to": {
+        "node": "mach_mach_r_x_9awu7f",
+        "port": "p_4liwfj5"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_nd3e7vr",
+      "from": {
+        "node": "mach_mach_r_x_9awu7f",
+        "port": "p_jxd8h9y"
+      },
+      "to": {
+        "node": "prod_mach_r_x_9awu7f",
+        "port": "p_3jznsw7"
+      },
+      "label": ""
+    }
+  ]
+}

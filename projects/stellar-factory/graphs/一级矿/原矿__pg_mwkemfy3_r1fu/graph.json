@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "id": "pg_mwkemfy3_r1fu",
+  "name": "原矿",
+  "nodeOrder": [
+    "r_fe",
+    "r_cu",
+    "r_si",
+    "r_al",
+    "r_c",
+    "r_ca",
+    "r_s",
+    "r_ti",
+    "r_ni",
+    "r_cr",
+    "r_li",
+    "r_u",
+    "r_ree",
+    "r_he3",
+    "r_h2o",
+    "r_h2",
+    "r_o2",
+    "r_scrap"
+  ],
+  "edges": []
+}

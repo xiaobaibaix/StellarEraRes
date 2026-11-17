@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "down_mach_r_x_dp0dim",
+  "kind": "子图",
+  "title": "浮选机",
+  "props": {
+    "类别": {
+      "value": "下游",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_68jih6n",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 3160,
+    "y": 300
+  },
+  "linkGraph": "pg_mwkemfxx_zxw4",
+  "subgraphMap": {
+    "p_68jih6n": {
+      "node": "mach_mach_r_x_dp0dim",
+      "port": "p_bps6ua7"
+    }
+  }
+}

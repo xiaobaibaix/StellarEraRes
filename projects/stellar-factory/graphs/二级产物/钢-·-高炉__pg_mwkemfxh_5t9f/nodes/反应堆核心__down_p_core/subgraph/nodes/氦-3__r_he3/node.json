@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "id": "r_he3",
+  "kind": "资源",
+  "title": "氦-3",
+  "props": {
+    "符号": {
+      "value": "He-3",
+      "type": "string"
+    },
+    "类别": {
+      "value": "元素",
+      "type": "string"
+    },
+    "深度": {
+      "value": "气态巨行星",
+      "type": "string"
+    },
+    "星球": {
+      "value": "气态巨行星 / 月壤",
+      "type": "string"
+    },
+    "用途": {
+      "value": "聚变",
+      "type": "string"
+    },
+    "层级": {
+      "value": "原矿",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_9ydhdll",
+      "dir": "out",
+      "label": "产出",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 660
+  }
+}

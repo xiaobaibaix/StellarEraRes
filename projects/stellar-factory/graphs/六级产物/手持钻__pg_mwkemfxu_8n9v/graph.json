@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "id": "pg_mwkemfxu_8n9v",
+  "name": "手持钻",
+  "nodeOrder": [
+    "m_steel",
+    "p_motor",
+    "p_board",
+    "mach_mach_r_x_4q2hqm",
+    "prod_mach_r_x_4q2hqm"
+  ],
+  "edges": [
+    {
+      "id": "e_waqyqxg",
+      "from": {
+        "node": "m_steel",
+        "port": "p_ginyprh"
+      },
+      "to": {
+        "node": "mach_mach_r_x_4q2hqm",
+        "port": "p_zc2r2yl"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_jnhzdcp",
+      "from": {
+        "node": "p_motor",
+        "port": "p_37kd4vj"
+      },
+      "to": {
+        "node": "mach_mach_r_x_4q2hqm",
+        "port": "p_mx96l5n"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_gb3fzkc",
+      "from": {
+        "node": "p_board",
+        "port": "p_6t68866"
+      },
+      "to": {
+        "node": "mach_mach_r_x_4q2hqm",
+        "port": "p_sfkq256"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_mud5j2f",
+      "from": {
+        "node": "mach_mach_r_x_4q2hqm",
+        "port": "p_686u7ay"
+      },
+      "to": {
+        "node": "prod_mach_r_x_4q2hqm",
+        "port": "p_18jxl4c"
+      },
+      "label": ""
+    }
+  ]
+}

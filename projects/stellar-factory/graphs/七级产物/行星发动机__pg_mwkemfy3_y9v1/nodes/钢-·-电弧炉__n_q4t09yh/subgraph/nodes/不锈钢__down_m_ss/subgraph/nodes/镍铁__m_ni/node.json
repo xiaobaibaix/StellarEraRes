@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "id": "m_ni",
+  "kind": "资源",
+  "title": "镍铁",
+  "props": {
+    "类别": {
+      "value": "材料",
+      "type": "string"
+    },
+    "配方": {
+      "value": "矿热炉",
+      "type": "string"
+    },
+    "层级": {
+      "value": "材料",
+      "type": "string"
+    },
+    "输入数": {
+      "value": 2,
+      "type": "number"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_roqaahi",
+      "dir": "in",
+      "label": "原料1",
+      "capacity": "one"
+    },
+    {
+      "id": "p_1l3ux6m",
+      "dir": "in",
+      "label": "原料2",
+      "capacity": "one"
+    },
+    {
+      "id": "p_vxpri0x",
+      "dir": "in",
+      "label": "原料3",
+      "capacity": "one"
+    },
+    {
+      "id": "p_cdeld0b",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 360
+  }
+}

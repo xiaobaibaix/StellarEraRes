@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "id": "mach_m_super",
+  "kind": "机器",
+  "title": "真空熔炼",
+  "props": {
+    "配方": {
+      "value": "真空熔炼",
+      "type": "string"
+    },
+    "层级": {
+      "value": "L3",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_tutqks5",
+      "dir": "in",
+      "label": "镍铁",
+      "capacity": "one"
+    },
+    {
+      "id": "p_5rzpg7z",
+      "dir": "in",
+      "label": "铬铁",
+      "capacity": "one"
+    },
+    {
+      "id": "p_9z6g2be",
+      "dir": "in",
+      "label": "钛锭",
+      "capacity": "one"
+    },
+    {
+      "id": "p_lvgfv8a",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 390
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "id": "pg_mwkemfxq_03h0",
+  "name": "控制计算机",
+  "nodeOrder": [
+    "p_chip",
+    "p_board",
+    "mach_p_pc",
+    "prod_p_pc",
+    "down_e_reactor",
+    "down_e_control"
+  ],
+  "edges": [
+    {
+      "id": "e_nm6x96l",
+      "from": {
+        "node": "p_chip",
+        "port": "p_89m6z6c"
+      },
+      "to": {
+        "node": "mach_p_pc",
+        "port": "p_h1c13wa"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_ip64nhy",
+      "from": {
+        "node": "p_board",
+        "port": "p_cx9rtss"
+      },
+      "to": {
+        "node": "mach_p_pc",
+        "port": "p_2pmpz9d"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_f8ohv07",
+      "from": {
+        "node": "mach_p_pc",
+        "port": "p_a5r9of0"
+      },
+      "to": {
+        "node": "prod_p_pc",
+        "port": "p_f2h71em"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_hh9sz9z",
+      "from": {
+        "node": "prod_p_pc",
+        "port": "p_nre11tg"
+      },
+      "to": {
+        "node": "down_e_reactor",
+        "port": "p_6lmu2aw"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_thnkrt4",
+      "from": {
+        "node": "prod_p_pc",
+        "port": "p_nre11tg"
+      },
+      "to": {
+        "node": "down_e_control",
+        "port": "p_g9tumeo"
+      },
+      "label": ""
+    }
+  ]
+}

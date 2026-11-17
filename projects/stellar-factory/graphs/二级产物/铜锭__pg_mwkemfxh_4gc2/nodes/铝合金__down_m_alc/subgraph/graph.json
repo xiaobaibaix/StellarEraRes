@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "id": "down_m_alc",
+  "name": "铝合金",
+  "nodeOrder": [
+    "m_al",
+    "m_cu",
+    "mach_m_alc",
+    "prod_m_alc"
+  ],
+  "edges": [
+    {
+      "id": "e_ra9tkxj",
+      "from": {
+        "node": "m_al",
+        "port": "p_qbfycqb"
+      },
+      "to": {
+        "node": "mach_m_alc",
+        "port": "p_cmng0qx"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_q1r6o77",
+      "from": {
+        "node": "m_cu",
+        "port": "p_k45uic3"
+      },
+      "to": {
+        "node": "mach_m_alc",
+        "port": "p_mjdjgub"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_nf02kmo",
+      "from": {
+        "node": "mach_m_alc",
+        "port": "p_dqyzrqt"
+      },
+      "to": {
+        "node": "prod_m_alc",
+        "port": "p_tg96q37"
+      },
+      "label": ""
+    }
+  ]
+}

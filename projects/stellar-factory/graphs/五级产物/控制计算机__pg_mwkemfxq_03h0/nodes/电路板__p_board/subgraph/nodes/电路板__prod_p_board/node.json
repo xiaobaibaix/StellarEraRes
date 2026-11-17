@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "prod_p_board",
+  "kind": "资源",
+  "title": "电路板",
+  "props": {
+    "类别": {
+      "value": "产物",
+      "type": "string"
+    },
+    "层级": {
+      "value": "L4",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_yaf910w",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 800,
+    "y": 225
+  }
+}

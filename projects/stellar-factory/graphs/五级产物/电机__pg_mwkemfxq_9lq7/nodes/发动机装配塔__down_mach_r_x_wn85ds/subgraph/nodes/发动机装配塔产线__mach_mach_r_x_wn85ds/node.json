@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "id": "mach_mach_r_x_wn85ds",
+  "kind": "机器",
+  "title": "发动机装配塔产线",
+  "props": {
+    "配方": {
+      "value": "发动机装配塔产线",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_ufq4gsa",
+      "dir": "in",
+      "label": "钢",
+      "capacity": "one"
+    },
+    {
+      "id": "p_bsr0uww",
+      "dir": "in",
+      "label": "结构梁",
+      "capacity": "one"
+    },
+    {
+      "id": "p_vgwm21f",
+      "dir": "in",
+      "label": "混凝土",
+      "capacity": "one"
+    },
+    {
+      "id": "p_nplhofi",
+      "dir": "in",
+      "label": "电机",
+      "capacity": "one"
+    },
+    {
+      "id": "p_fz41rbl",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 510
+  }
+}

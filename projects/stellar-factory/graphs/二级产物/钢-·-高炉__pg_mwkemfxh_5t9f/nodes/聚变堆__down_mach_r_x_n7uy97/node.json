@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "down_mach_r_x_n7uy97",
+  "kind": "子图",
+  "title": "聚变堆",
+  "props": {
+    "类别": {
+      "value": "下游",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_xruy7ap",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 3490,
+    "y": 300
+  },
+  "linkGraph": "pg_mwkemfxz_q2d1",
+  "subgraphMap": {
+    "p_xruy7ap": {
+      "node": "mach_mach_r_x_n7uy97",
+      "port": "p_y1d79xj"
+    }
+  }
+}

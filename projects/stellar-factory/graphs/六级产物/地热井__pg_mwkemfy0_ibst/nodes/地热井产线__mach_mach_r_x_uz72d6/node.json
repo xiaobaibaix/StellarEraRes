@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "id": "mach_mach_r_x_uz72d6",
+  "kind": "机器",
+  "title": "地热井产线",
+  "props": {
+    "配方": {
+      "value": "地热井产线",
+      "type": "string"
+    },
+    "层级": {
+      "value": "L6",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_d0xi69d",
+      "dir": "in",
+      "label": "钢",
+      "capacity": "one"
+    },
+    {
+      "id": "p_oy864b1",
+      "dir": "in",
+      "label": "管道",
+      "capacity": "one"
+    },
+    {
+      "id": "p_l60oyut",
+      "dir": "in",
+      "label": "电机",
+      "capacity": "one"
+    },
+    {
+      "id": "p_xjoq00m",
+      "dir": "in",
+      "label": "混凝土",
+      "capacity": "one"
+    },
+    {
+      "id": "p_jn382sl",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 555
+  }
+}

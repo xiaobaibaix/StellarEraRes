@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "id": "m_al",
+  "kind": "资源",
+  "title": "铝锭",
+  "props": {
+    "类别": {
+      "value": "材料",
+      "type": "string"
+    },
+    "配方": {
+      "value": "电解铝（耗电 20）",
+      "type": "string"
+    },
+    "层级": {
+      "value": "材料",
+      "type": "string"
+    },
+    "输入数": {
+      "value": 1,
+      "type": "number"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_wqvcgun",
+      "dir": "in",
+      "label": "原料1",
+      "capacity": "one"
+    },
+    {
+      "id": "p_xp3hyfp",
+      "dir": "in",
+      "label": "原料2",
+      "capacity": "one"
+    },
+    {
+      "id": "p_f4htz5v",
+      "dir": "in",
+      "label": "原料3",
+      "capacity": "one"
+    },
+    {
+      "id": "p_qbfycqb",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 660
+  }
+}

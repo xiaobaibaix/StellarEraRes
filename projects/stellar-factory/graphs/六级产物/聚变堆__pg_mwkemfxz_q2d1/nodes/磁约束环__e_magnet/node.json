@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "id": "e_magnet",
+  "kind": "子图",
+  "title": "磁约束环",
+  "props": {},
+  "ports": [
+    {
+      "id": "p_98s7o0k",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 390
+  },
+  "subgraphMap": {
+    "p_98s7o0k": {
+      "node": "mach_e_magnet",
+      "port": "p_opxhabe"
+    }
+  }
+}

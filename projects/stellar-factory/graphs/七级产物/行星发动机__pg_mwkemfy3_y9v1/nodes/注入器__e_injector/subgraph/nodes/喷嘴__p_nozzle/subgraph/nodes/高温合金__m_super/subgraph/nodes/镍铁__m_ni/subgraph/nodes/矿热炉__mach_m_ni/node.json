@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "id": "mach_m_ni",
+  "kind": "机器",
+  "title": "矿热炉",
+  "props": {
+    "配方": {
+      "value": "矿热炉",
+      "type": "string"
+    },
+    "层级": {
+      "value": "L2",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_fk8mm2w",
+      "dir": "in",
+      "label": "镍",
+      "capacity": "one"
+    },
+    {
+      "id": "p_pzsh0lq",
+      "dir": "in",
+      "label": "煤",
+      "capacity": "one"
+    },
+    {
+      "id": "p_fmu7qid",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 225
+  }
+}

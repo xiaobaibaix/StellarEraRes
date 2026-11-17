@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "id": "m_wire",
+  "kind": "资源",
+  "title": "铜线",
+  "props": {
+    "类别": {
+      "value": "材料",
+      "type": "string"
+    },
+    "配方": {
+      "value": "拉丝",
+      "type": "string"
+    },
+    "层级": {
+      "value": "材料",
+      "type": "string"
+    },
+    "输入数": {
+      "value": 1,
+      "type": "number"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_lstq5ua",
+      "dir": "in",
+      "label": "原料1",
+      "capacity": "one"
+    },
+    {
+      "id": "p_okbk5gr",
+      "dir": "in",
+      "label": "原料2",
+      "capacity": "one"
+    },
+    {
+      "id": "p_ha1ql09",
+      "dir": "in",
+      "label": "原料3",
+      "capacity": "one"
+    },
+    {
+      "id": "p_agyk41s",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 960
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "id": "pg_mwkemfxh_a0vl",
+  "name": "钛锭",
+  "nodeOrder": [
+    "r_ti",
+    "mach_m_ti",
+    "prod_m_ti",
+    "down_m_super",
+    "down_p_nozzle"
+  ],
+  "edges": [
+    {
+      "id": "e_fhv32br",
+      "from": {
+        "node": "r_ti",
+        "port": "p_nxbrv6t"
+      },
+      "to": {
+        "node": "mach_m_ti",
+        "port": "p_v9oogj5"
+      },
+      "label": "3×"
+    },
+    {
+      "id": "e_k2cbrjs",
+      "from": {
+        "node": "mach_m_ti",
+        "port": "p_knpxpug"
+      },
+      "to": {
+        "node": "prod_m_ti",
+        "port": "p_nam1iv9"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_fd15yea",
+      "from": {
+        "node": "prod_m_ti",
+        "port": "p_dsxrh1w"
+      },
+      "to": {
+        "node": "down_m_super",
+        "port": "p_kg2xug1"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_b0fkojp",
+      "from": {
+        "node": "prod_m_ti",
+        "port": "p_dsxrh1w"
+      },
+      "to": {
+        "node": "down_p_nozzle",
+        "port": "p_6q8x0wk"
+      },
+      "label": ""
+    }
+  ]
+}

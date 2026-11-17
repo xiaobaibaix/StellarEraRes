@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "id": "k_deep",
+  "kind": "机器",
+  "title": "深井钻",
+  "props": {
+    "类别": {
+      "value": "采掘",
+      "type": "string"
+    },
+    "功率": {
+      "value": "30",
+      "type": "string"
+    },
+    "阶段": {
+      "value": "S1",
+      "type": "string"
+    },
+    "输入": {
+      "value": "深层矿脉",
+      "type": "string"
+    },
+    "输出": {
+      "value": "矿石",
+      "type": "string"
+    },
+    "层级": {
+      "value": "采掘",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_7m5s8gy",
+      "dir": "in",
+      "label": "输入",
+      "capacity": "one"
+    },
+    {
+      "id": "p_gaugb3q",
+      "dir": "out",
+      "label": "输出",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 80,
+    "y": 926
+  }
+}

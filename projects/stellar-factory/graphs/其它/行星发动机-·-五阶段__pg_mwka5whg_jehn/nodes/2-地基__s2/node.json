@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "s2",
+  "kind": "阶段",
+  "title": "2 地基",
+  "props": {
+    "目标": {
+      "value": "挖到基岩，浇筑基座环",
+      "type": "string"
+    },
+    "关键资源": {
+      "value": "混凝土 80、结构梁 40、钢",
+      "type": "string"
+    },
+    "验收": {
+      "value": "基座环落地，地壳应力合格",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_hc4dtq6",
+      "dir": "in",
+      "label": "前置",
+      "capacity": "one"
+    },
+    {
+      "id": "p_g3lk95d",
+      "dir": "out",
+      "label": "完成",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 60
+  }
+}

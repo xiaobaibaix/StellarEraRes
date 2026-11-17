@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "id": "mach_mach_r_x_mlj5kx",
+  "kind": "机器",
+  "title": "轧机产线",
+  "props": {
+    "配方": {
+      "value": "轧机产线",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_g8fmqou",
+      "dir": "in",
+      "label": "钢",
+      "capacity": "one"
+    },
+    {
+      "id": "p_r6oc0vt",
+      "dir": "in",
+      "label": "电机",
+      "capacity": "one"
+    },
+    {
+      "id": "p_zjut8b0",
+      "dir": "in",
+      "label": "齿轮",
+      "capacity": "one"
+    },
+    {
+      "id": "p_mccs5t2",
+      "dir": "in",
+      "label": "轴承",
+      "capacity": "one"
+    },
+    {
+      "id": "p_ve1qwm1",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 510
+  }
+}

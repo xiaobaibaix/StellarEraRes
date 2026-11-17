@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "id": "down_m_new_18ampt",
+  "name": "电池组",
+  "nodeOrder": [
+    "r_li",
+    "m_wire",
+    "mach_m_new_18ampt",
+    "prod_m_new_18ampt"
+  ],
+  "edges": [
+    {
+      "id": "e_71ewgox",
+      "from": {
+        "node": "r_li",
+        "port": "p_8g0kcxl"
+      },
+      "to": {
+        "node": "mach_m_new_18ampt",
+        "port": "p_sem4271"
+      },
+      "label": "3×"
+    },
+    {
+      "id": "e_ze5xbcz",
+      "from": {
+        "node": "m_wire",
+        "port": "p_agyk41s"
+      },
+      "to": {
+        "node": "mach_m_new_18ampt",
+        "port": "p_5mh0pkc"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_ng3s4a1",
+      "from": {
+        "node": "mach_m_new_18ampt",
+        "port": "p_11lb44i"
+      },
+      "to": {
+        "node": "prod_m_new_18ampt",
+        "port": "p_cpb1tma"
+      },
+      "label": ""
+    }
+  ]
+}

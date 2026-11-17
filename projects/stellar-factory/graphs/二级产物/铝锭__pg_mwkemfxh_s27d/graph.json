@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "id": "pg_mwkemfxh_s27d",
+  "name": "铝锭",
+  "nodeOrder": [
+    "r_al",
+    "mach_m_al",
+    "prod_m_al",
+    "down_m_alc",
+    "down_mach_r_x_qzs98u"
+  ],
+  "edges": [
+    {
+      "id": "e_yv6k8h7",
+      "from": {
+        "node": "r_al",
+        "port": "p_zyrn0xs"
+      },
+      "to": {
+        "node": "mach_m_al",
+        "port": "p_h150nzd"
+      },
+      "label": "3×"
+    },
+    {
+      "id": "e_1lm2n7s",
+      "from": {
+        "node": "mach_m_al",
+        "port": "p_1sxa6vn"
+      },
+      "to": {
+        "node": "prod_m_al",
+        "port": "p_8m7b6bp"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_j4ad9ps",
+      "from": {
+        "node": "prod_m_al",
+        "port": "p_p12belu"
+      },
+      "to": {
+        "node": "down_m_alc",
+        "port": "p_q3h87k9"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_yun2cub",
+      "from": {
+        "node": "prod_m_al",
+        "port": "p_p12belu"
+      },
+      "to": {
+        "node": "down_mach_r_x_qzs98u",
+        "port": "p_m4to0o0"
+      },
+      "label": ""
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "id": "mach_e_control",
+  "kind": "机器",
+  "title": "制造",
+  "props": {
+    "配方": {
+      "value": "制造"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_wjl91b9",
+      "dir": "in",
+      "label": "控制计算机",
+      "capacity": "one"
+    },
+    {
+      "id": "p_m160mef",
+      "dir": "in",
+      "label": "电路板",
+      "capacity": "one"
+    },
+    {
+      "id": "p_pdi5oqu",
+      "dir": "in",
+      "label": "玻璃",
+      "capacity": "one"
+    },
+    {
+      "id": "p_3r7e0s6",
+      "dir": "in",
+      "label": "电池组",
+      "capacity": "one"
+    },
+    {
+      "id": "p_9enmdrk",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 510
+  }
+}

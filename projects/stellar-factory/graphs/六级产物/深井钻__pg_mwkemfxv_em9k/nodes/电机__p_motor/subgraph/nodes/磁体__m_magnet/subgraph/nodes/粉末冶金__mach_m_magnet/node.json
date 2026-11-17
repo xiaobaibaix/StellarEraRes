@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "id": "mach_m_magnet",
+  "kind": "机器",
+  "title": "粉末冶金",
+  "props": {
+    "配方": {
+      "value": "粉末冶金",
+      "type": "string"
+    },
+    "层级": {
+      "value": "L2",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_on8jv1o",
+      "dir": "in",
+      "label": "稀土",
+      "capacity": "one"
+    },
+    {
+      "id": "p_52i1pr9",
+      "dir": "in",
+      "label": "铁",
+      "capacity": "one"
+    },
+    {
+      "id": "p_9jv9zhv",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 225
+  }
+}

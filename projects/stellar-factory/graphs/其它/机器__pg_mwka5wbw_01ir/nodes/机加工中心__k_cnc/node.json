@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "id": "k_cnc",
+  "kind": "机器",
+  "title": "机加工中心",
+  "props": {
+    "类别": {
+      "value": "制造",
+      "type": "string"
+    },
+    "功率": {
+      "value": "90",
+      "type": "string"
+    },
+    "阶段": {
+      "value": "S2",
+      "type": "string"
+    },
+    "输入": {
+      "value": "钢 / 合金",
+      "type": "string"
+    },
+    "输出": {
+      "value": "齿轮 / 轴承 / 喷嘴",
+      "type": "string"
+    },
+    "层级": {
+      "value": "制造",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_1nyf50m",
+      "dir": "in",
+      "label": "输入",
+      "capacity": "one"
+    },
+    {
+      "id": "p_nv16zpj",
+      "dir": "out",
+      "label": "输出",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 1480,
+    "y": 402
+  }
+}

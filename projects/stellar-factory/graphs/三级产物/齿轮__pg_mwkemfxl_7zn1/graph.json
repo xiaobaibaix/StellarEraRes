@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "id": "pg_mwkemfxl_7zn1",
+  "name": "齿轮",
+  "nodeOrder": [
+    "m_steel",
+    "mach_p_gear",
+    "prod_p_gear",
+    "down_p_motor",
+    "down_mach_r_x_mfyowd",
+    "down_mach_r_x_3om4kz",
+    "down_mach_r_x_8ezn9q",
+    "down_mach_r_x_sxhqeu",
+    "down_mach_r_x_mlj5kx",
+    "down_mach_r_x_cu4ay8",
+    "down_mach_r_x_rzcki8",
+    "down_mach_r_x_c68riu"
+  ],
+  "edges": [
+    {
+      "id": "e_w7e69kz",
+      "from": {
+        "node": "m_steel",
+        "port": "p_p6vb9lh"
+      },
+      "to": {
+        "node": "mach_p_gear",
+        "port": "p_8cnouix"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_xoz8skg",
+      "from": {
+        "node": "mach_p_gear",
+        "port": "p_nvb92xm"
+      },
+      "to": {
+        "node": "prod_p_gear",
+        "port": "p_sr4kuu8"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_t05an4f",
+      "from": {
+        "node": "prod_p_gear",
+        "port": "p_f5d35co"
+      },
+      "to": {
+        "node": "down_p_motor",
+        "port": "p_vs78fx2"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_y40tgze",
+      "from": {
+        "node": "prod_p_gear",
+        "port": "p_f5d35co"
+      },
+      "to": {
+        "node": "down_mach_r_x_mfyowd",
+        "port": "p_zk91275"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_ijz3xcd",
+      "from": {
+        "node": "prod_p_gear",
+        "port": "p_f5d35co"
+      },
+      "to": {
+        "node": "down_mach_r_x_3om4kz",
+        "port": "p_c2tv7tl"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_71fyhjb",
+      "from": {
+        "node": "prod_p_gear",
+        "port": "p_f5d35co"
+      },
+      "to": {
+        "node": "down_mach_r_x_8ezn9q",
+        "port": "p_bozh2ue"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_p5d8zzx",
+      "from": {
+        "node": "prod_p_gear",
+        "port": "p_f5d35co"
+      },
+      "to": {
+        "node": "down_mach_r_x_sxhqeu",
+        "port": "p_yloiigj"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_z5wvoge",
+      "from": {
+        "node": "prod_p_gear",
+        "port": "p_f5d35co"
+      },
+      "to": {
+        "node": "down_mach_r_x_mlj5kx",
+        "port": "p_vh995u0"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_s0pn24g",
+      "from": {
+        "node": "prod_p_gear",
+        "port": "p_f5d35co"
+      },
+      "to": {
+        "node": "down_mach_r_x_cu4ay8",
+        "port": "p_wy63us2"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_qa6ok94",
+      "from": {
+        "node": "prod_p_gear",
+        "port": "p_f5d35co"
+      },
+      "to": {
+        "node": "down_mach_r_x_rzcki8",
+        "port": "p_v6til5g"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_pd9da3l",
+      "from": {
+        "node": "prod_p_gear",
+        "port": "p_f5d35co"
+      },
+      "to": {
+        "node": "down_mach_r_x_c68riu",
+        "port": "p_sip3ilg"
+      },
+      "label": ""
+    }
+  ]
+}

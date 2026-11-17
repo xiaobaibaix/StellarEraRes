@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "id": "e_base",
+  "kind": "子图",
+  "title": "基座环",
+  "props": {},
+  "ports": [
+    {
+      "id": "p_n0altav",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 60
+  },
+  "subgraphMap": {
+    "p_n0altav": {
+      "node": "mach_e_base",
+      "port": "p_54ulngx"
+    }
+  }
+}

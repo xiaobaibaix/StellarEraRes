@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "id": "n_bvn190w",
+  "title": "焦炉",
+  "props": {},
+  "ports": [
+    {
+      "id": "p_o4ys5a7",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 1209.920006612603,
+    "y": 1512.883543055117
+  },
+  "linkGraph": "pg_mwkemfxo_tj4n"
+}

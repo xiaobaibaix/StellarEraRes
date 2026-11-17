@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "id": "mach_mach_r_x_4q2hqm",
+  "kind": "机器",
+  "title": "手持钻产线",
+  "props": {
+    "配方": {
+      "value": "手持钻产线",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_aot7ciq",
+      "dir": "in",
+      "label": "钢",
+      "capacity": "one"
+    },
+    {
+      "id": "p_weraqip",
+      "dir": "in",
+      "label": "电机",
+      "capacity": "one"
+    },
+    {
+      "id": "p_38d51wz",
+      "dir": "in",
+      "label": "电路板",
+      "capacity": "one"
+    },
+    {
+      "id": "p_6mx24v6",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 360
+  }
+}

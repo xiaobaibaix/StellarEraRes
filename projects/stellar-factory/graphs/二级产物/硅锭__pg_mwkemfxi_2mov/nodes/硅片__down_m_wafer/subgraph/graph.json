@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "id": "down_m_wafer",
+  "name": "硅片",
+  "nodeOrder": [
+    "m_si",
+    "r_s",
+    "mach_m_wafer",
+    "prod_m_wafer"
+  ],
+  "edges": [
+    {
+      "id": "e_qelre3k",
+      "from": {
+        "node": "m_si",
+        "port": "p_q9vqkqj"
+      },
+      "to": {
+        "node": "mach_m_wafer",
+        "port": "p_ri3smix"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_k0xbdi2",
+      "from": {
+        "node": "r_s",
+        "port": "p_xipt5qc"
+      },
+      "to": {
+        "node": "mach_m_wafer",
+        "port": "p_ghp41h2"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_qa35xud",
+      "from": {
+        "node": "mach_m_wafer",
+        "port": "p_dobmesu"
+      },
+      "to": {
+        "node": "prod_m_wafer",
+        "port": "p_898u9v6"
+      },
+      "label": ""
+    }
+  ]
+}

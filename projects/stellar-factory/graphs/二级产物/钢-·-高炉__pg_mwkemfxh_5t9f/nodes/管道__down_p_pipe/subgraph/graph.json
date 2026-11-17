@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "down_p_pipe",
+  "name": "管道",
+  "nodeOrder": [
+    "m_steel",
+    "mach_p_pipe",
+    "prod_p_pipe"
+  ],
+  "edges": [
+    {
+      "id": "e_83virio",
+      "from": {
+        "node": "m_steel",
+        "port": "p_nmwu0ii"
+      },
+      "to": {
+        "node": "mach_p_pipe",
+        "port": "p_o2m6u7n"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_9j4lp9e",
+      "from": {
+        "node": "mach_p_pipe",
+        "port": "p_fs9some"
+      },
+      "to": {
+        "node": "prod_p_pipe",
+        "port": "p_hw76zl0"
+      },
+      "label": ""
+    }
+  ]
+}

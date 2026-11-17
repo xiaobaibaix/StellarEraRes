@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "id": "r_o2",
+  "kind": "资源",
+  "title": "氧",
+  "props": {
+    "符号": {
+      "value": "O2",
+      "type": "string"
+    },
+    "类别": {
+      "value": "挥发",
+      "type": "string"
+    },
+    "深度": {
+      "value": "大气",
+      "type": "string"
+    },
+    "星球": {
+      "value": "有大气行星",
+      "type": "string"
+    },
+    "用途": {
+      "value": "冶炼、氧化剂",
+      "type": "string"
+    },
+    "层级": {
+      "value": "原矿",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_wq626rl",
+      "dir": "out",
+      "label": "产出",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 390
+  }
+}

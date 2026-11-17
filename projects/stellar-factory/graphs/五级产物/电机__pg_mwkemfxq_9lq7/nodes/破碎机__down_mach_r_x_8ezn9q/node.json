@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "down_mach_r_x_8ezn9q",
+  "kind": "子图",
+  "title": "破碎机",
+  "props": {
+    "类别": {
+      "value": "下游",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_co7emgz",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 1510,
+    "y": 300
+  },
+  "linkGraph": "pg_mwkemfxw_pt34",
+  "subgraphMap": {
+    "p_co7emgz": {
+      "node": "mach_mach_r_x_8ezn9q",
+      "port": "p_aons9l3"
+    }
+  }
+}

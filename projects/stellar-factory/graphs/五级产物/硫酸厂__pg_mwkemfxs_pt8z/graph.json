@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "id": "pg_mwkemfxs_pt8z",
+  "name": "硫酸厂",
+  "nodeOrder": [
+    "m_steel",
+    "p_pipe",
+    "m_concrete",
+    "p_board",
+    "mach_mach_r_x_te49iq",
+    "prod_mach_r_x_te49iq"
+  ],
+  "edges": [
+    {
+      "id": "e_08n2r09",
+      "from": {
+        "node": "m_steel",
+        "port": "p_nudusb6"
+      },
+      "to": {
+        "node": "mach_mach_r_x_te49iq",
+        "port": "p_2m44452"
+      },
+      "label": "6×"
+    },
+    {
+      "id": "e_snjkcsq",
+      "from": {
+        "node": "p_pipe",
+        "port": "p_rez6pib"
+      },
+      "to": {
+        "node": "mach_mach_r_x_te49iq",
+        "port": "p_pmv5df7"
+      },
+      "label": "4×"
+    },
+    {
+      "id": "e_2re7tv1",
+      "from": {
+        "node": "m_concrete",
+        "port": "p_4b0rsy7"
+      },
+      "to": {
+        "node": "mach_mach_r_x_te49iq",
+        "port": "p_ytld2ek"
+      },
+      "label": "4×"
+    },
+    {
+      "id": "e_xqmcbbw",
+      "from": {
+        "node": "p_board",
+        "port": "p_0ti3a1r"
+      },
+      "to": {
+        "node": "mach_mach_r_x_te49iq",
+        "port": "p_6dh0dg9"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_azvsmjh",
+      "from": {
+        "node": "mach_mach_r_x_te49iq",
+        "port": "p_f5f5eem"
+      },
+      "to": {
+        "node": "prod_mach_r_x_te49iq",
+        "port": "p_h9qo0lw"
+      },
+      "label": ""
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "down_e_control",
+  "kind": "子图",
+  "title": "控制舱",
+  "props": {
+    "类别": {
+      "value": "下游",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_wfwb3fg",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 1180,
+    "y": 40
+  },
+  "linkGraph": "pg_mwkemfxt_mkb6",
+  "subgraphMap": {
+    "p_wfwb3fg": {
+      "node": "mach_e_control",
+      "port": "p_afioanz"
+    }
+  }
+}

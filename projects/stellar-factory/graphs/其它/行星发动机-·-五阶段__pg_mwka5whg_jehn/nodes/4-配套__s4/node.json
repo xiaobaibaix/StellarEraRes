@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "s4",
+  "kind": "阶段",
+  "title": "4 配套",
+  "props": {
+    "目标": {
+      "value": "反应堆、散热、燃料舱、控制舱",
+      "type": "string"
+    },
+    "关键资源": {
+      "value": "反应堆核心 3、控制计算机 5、散热板 60、管道 40",
+      "type": "string"
+    },
+    "验收": {
+      "value": "50 MW 并网，冷却循环稳定",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_5pju6hj",
+      "dir": "in",
+      "label": "前置",
+      "capacity": "one"
+    },
+    {
+      "id": "p_wktasx7",
+      "dir": "out",
+      "label": "完成",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 1140,
+    "y": 60
+  }
+}

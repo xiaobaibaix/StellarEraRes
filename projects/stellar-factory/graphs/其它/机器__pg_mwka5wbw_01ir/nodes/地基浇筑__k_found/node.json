@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "id": "k_found",
+  "kind": "机器",
+  "title": "地基浇筑",
+  "props": {
+    "类别": {
+      "value": "巨型",
+      "type": "string"
+    },
+    "功率": {
+      "value": "0",
+      "type": "string"
+    },
+    "阶段": {
+      "value": "S3",
+      "type": "string"
+    },
+    "输入": {
+      "value": "混凝土 / 钢",
+      "type": "string"
+    },
+    "输出": {
+      "value": "地基",
+      "type": "string"
+    },
+    "层级": {
+      "value": "巨型",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_zr6c1fg",
+      "dir": "in",
+      "label": "输入",
+      "capacity": "one"
+    },
+    {
+      "id": "p_fzqs24k",
+      "dir": "out",
+      "label": "输出",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 2530,
+    "y": 140
+  }
+}

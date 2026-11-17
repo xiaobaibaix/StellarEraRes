@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "id": "prod_m_super",
+  "kind": "资源",
+  "title": "高温合金",
+  "props": {
+    "类别": {
+      "value": "产物",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_wv8ao6d",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 800,
+    "y": 360
+  }
+}

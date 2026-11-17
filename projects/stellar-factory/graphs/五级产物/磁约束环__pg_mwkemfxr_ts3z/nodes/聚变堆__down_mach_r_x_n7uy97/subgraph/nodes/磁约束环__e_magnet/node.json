@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "id": "e_magnet",
+  "kind": "资源",
+  "title": "磁约束环",
+  "props": {
+    "类别": {
+      "value": "发动机模块",
+      "type": "string"
+    },
+    "层级": {
+      "value": "模块",
+      "type": "string"
+    },
+    "输入数": {
+      "value": 2,
+      "type": "number"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_nhlyfin",
+      "dir": "in",
+      "label": "原料1",
+      "capacity": "one"
+    },
+    {
+      "id": "p_ab95hx2",
+      "dir": "in",
+      "label": "原料2",
+      "capacity": "one"
+    },
+    {
+      "id": "p_1otgsox",
+      "dir": "in",
+      "label": "原料3",
+      "capacity": "one"
+    },
+    {
+      "id": "p_mgt5hbr",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 360
+  }
+}

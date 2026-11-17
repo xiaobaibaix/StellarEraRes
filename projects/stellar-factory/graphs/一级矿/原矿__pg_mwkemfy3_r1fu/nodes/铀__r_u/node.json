@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "id": "r_u",
+  "kind": "资源",
+  "title": "铀",
+  "props": {
+    "符号": {
+      "value": "U",
+      "type": "string"
+    },
+    "类别": {
+      "value": "元素",
+      "type": "string"
+    },
+    "深度": {
+      "value": "20+ 格",
+      "type": "string"
+    },
+    "星球": {
+      "value": "火山 / 沉积",
+      "type": "string"
+    },
+    "用途": {
+      "value": "裂变堆、核热",
+      "type": "string"
+    },
+    "层级": {
+      "value": "原矿",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_cpv8lxr",
+      "dir": "out",
+      "label": "产出",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 960,
+    "y": 740
+  }
+}

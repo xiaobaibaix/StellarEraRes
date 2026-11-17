@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mach_e_radiator",
+  "kind": "机器",
+  "title": "制造",
+  "props": {
+    "配方": {
+      "value": "制造"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_15d48f1",
+      "dir": "in",
+      "label": "散热板",
+      "capacity": "one"
+    },
+    {
+      "id": "p_dhkbsvd",
+      "dir": "in",
+      "label": "管道",
+      "capacity": "one"
+    },
+    {
+      "id": "p_ym0dy3q",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 210
+  }
+}

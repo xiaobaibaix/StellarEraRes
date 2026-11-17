@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "id": "k_acid",
+  "kind": "机器",
+  "title": "硫酸厂",
+  "props": {
+    "类别": {
+      "value": "化工",
+      "type": "string"
+    },
+    "功率": {
+      "value": "40",
+      "type": "string"
+    },
+    "阶段": {
+      "value": "S2",
+      "type": "string"
+    },
+    "输入": {
+      "value": "硫 + 水",
+      "type": "string"
+    },
+    "输出": {
+      "value": "硫酸",
+      "type": "string"
+    },
+    "层级": {
+      "value": "化工",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_okze5sj",
+      "dir": "in",
+      "label": "输入",
+      "capacity": "one"
+    },
+    {
+      "id": "p_vl5rvgw",
+      "dir": "out",
+      "label": "输出",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 1130,
+    "y": 402
+  }
+}

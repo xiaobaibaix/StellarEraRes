@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "down_mach_r_x_uz72d6",
+  "kind": "子图",
+  "title": "地热井",
+  "props": {
+    "类别": {
+      "value": "下游",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_quictef",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 2170,
+    "y": 300
+  },
+  "linkGraph": "pg_mwkemfy0_ibst",
+  "subgraphMap": {
+    "p_quictef": {
+      "node": "mach_mach_r_x_uz72d6",
+      "port": "p_rjoxan7"
+    }
+  }
+}

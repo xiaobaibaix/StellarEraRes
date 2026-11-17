@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "id": "pg_mwkemfxn_q02h",
+  "name": "基座环",
+  "nodeOrder": [
+    "p_beam",
+    "m_concrete",
+    "mach_e_base",
+    "prod_e_base",
+    "down_m_new_zcu45c"
+  ],
+  "edges": [
+    {
+      "id": "e_ns3edt7",
+      "from": {
+        "node": "p_beam",
+        "port": "p_3kpiwzy"
+      },
+      "to": {
+        "node": "mach_e_base",
+        "port": "p_q7ynrtq"
+      },
+      "label": "40×"
+    },
+    {
+      "id": "e_hml0n7z",
+      "from": {
+        "node": "m_concrete",
+        "port": "p_vj1p38p"
+      },
+      "to": {
+        "node": "mach_e_base",
+        "port": "p_3sxixew"
+      },
+      "label": "80×"
+    },
+    {
+      "id": "e_tfx6y4b",
+      "from": {
+        "node": "mach_e_base",
+        "port": "p_54ulngx"
+      },
+      "to": {
+        "node": "prod_e_base",
+        "port": "p_tsveerz"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_jz6uuf0",
+      "from": {
+        "node": "prod_e_base",
+        "port": "p_v3thm1f"
+      },
+      "to": {
+        "node": "down_m_new_zcu45c",
+        "port": "p_9ux2yvu"
+      },
+      "label": ""
+    }
+  ]
+}

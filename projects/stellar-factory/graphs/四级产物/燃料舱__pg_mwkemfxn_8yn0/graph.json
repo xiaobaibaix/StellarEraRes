@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "id": "pg_mwkemfxn_8yn0",
+  "name": "燃料舱",
+  "nodeOrder": [
+    "p_beam",
+    "p_pipe",
+    "m_ss",
+    "mach_e_tank",
+    "prod_e_tank",
+    "down_m_new_zcu45c"
+  ],
+  "edges": [
+    {
+      "id": "e_e92l9e6",
+      "from": {
+        "node": "p_beam",
+        "port": "p_g45l7jc"
+      },
+      "to": {
+        "node": "mach_e_tank",
+        "port": "p_9twspim"
+      },
+      "label": "20×"
+    },
+    {
+      "id": "e_bx6u4fu",
+      "from": {
+        "node": "p_pipe",
+        "port": "p_ely38un"
+      },
+      "to": {
+        "node": "mach_e_tank",
+        "port": "p_xvlvar2"
+      },
+      "label": "10×"
+    },
+    {
+      "id": "e_7crfojd",
+      "from": {
+        "node": "m_ss",
+        "port": "p_nrn562d"
+      },
+      "to": {
+        "node": "mach_e_tank",
+        "port": "p_j8vnuj2"
+      },
+      "label": "3×"
+    },
+    {
+      "id": "e_f4zvckw",
+      "from": {
+        "node": "mach_e_tank",
+        "port": "p_vzmi08i"
+      },
+      "to": {
+        "node": "prod_e_tank",
+        "port": "p_mfegl8n"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_stzl1or",
+      "from": {
+        "node": "prod_e_tank",
+        "port": "p_us48j5p"
+      },
+      "to": {
+        "node": "down_m_new_zcu45c",
+        "port": "p_pqexp6p"
+      },
+      "label": ""
+    }
+  ]
+}

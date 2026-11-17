@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "id": "k_gas",
+  "kind": "机器",
+  "title": "气体井",
+  "props": {
+    "类别": {
+      "value": "采掘",
+      "type": "string"
+    },
+    "功率": {
+      "value": "20",
+      "type": "string"
+    },
+    "阶段": {
+      "value": "S2",
+      "type": "string"
+    },
+    "输入": {
+      "value": "气态巨行星",
+      "type": "string"
+    },
+    "输出": {
+      "value": "H2 / He-3",
+      "type": "string"
+    },
+    "层级": {
+      "value": "采掘",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_k7slwek",
+      "dir": "in",
+      "label": "输入",
+      "capacity": "one"
+    },
+    {
+      "id": "p_3yticnj",
+      "dir": "out",
+      "label": "输出",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 80,
+    "y": 664
+  }
+}

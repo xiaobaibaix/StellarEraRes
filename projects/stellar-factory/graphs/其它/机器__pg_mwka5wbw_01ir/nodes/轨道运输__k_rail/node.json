@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "id": "k_rail",
+  "kind": "机器",
+  "title": "轨道运输",
+  "props": {
+    "类别": {
+      "value": "物流",
+      "type": "string"
+    },
+    "功率": {
+      "value": "0",
+      "type": "string"
+    },
+    "阶段": {
+      "value": "S3",
+      "type": "string"
+    },
+    "输入": {
+      "value": "物品",
+      "type": "string"
+    },
+    "输出": {
+      "value": "运输",
+      "type": "string"
+    },
+    "层级": {
+      "value": "物流",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_mw3hawf",
+      "dir": "in",
+      "label": "输入",
+      "capacity": "one"
+    },
+    {
+      "id": "p_whtazf5",
+      "dir": "out",
+      "label": "输出",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 2180,
+    "y": 926
+  }
+}

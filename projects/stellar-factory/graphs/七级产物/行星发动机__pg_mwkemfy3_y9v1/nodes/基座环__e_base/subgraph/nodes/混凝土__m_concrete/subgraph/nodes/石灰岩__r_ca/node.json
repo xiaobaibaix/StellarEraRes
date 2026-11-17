@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "id": "r_ca",
+  "kind": "资源",
+  "title": "石灰岩",
+  "props": {
+    "符号": {
+      "value": "Ca",
+      "type": "string"
+    },
+    "类别": {
+      "value": "元素",
+      "type": "string"
+    },
+    "深度": {
+      "value": "0–2 格",
+      "type": "string"
+    },
+    "星球": {
+      "value": "沉积行星",
+      "type": "string"
+    },
+    "用途": {
+      "value": "水泥、炼钢熔剂",
+      "type": "string"
+    },
+    "层级": {
+      "value": "原矿",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_0ug4j4q",
+      "dir": "out",
+      "label": "产出",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 60
+  }
+}

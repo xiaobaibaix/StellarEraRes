@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "prod_p_core",
+  "kind": "资源",
+  "title": "反应堆核心",
+  "props": {
+    "类别": {
+      "value": "产物",
+      "type": "string"
+    },
+    "层级": {
+      "value": "L3",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_yaqkrbe",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    },
+    {
+      "id": "p_r0evuun",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 800,
+    "y": 390
+  }
+}

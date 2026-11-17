@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "id": "mach_mach_r_x_qfouqe",
+  "kind": "机器",
+  "title": "高炉产线",
+  "props": {
+    "配方": {
+      "value": "高炉产线",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_afvofvu",
+      "dir": "in",
+      "label": "钢",
+      "capacity": "one"
+    },
+    {
+      "id": "p_wb1nhwf",
+      "dir": "in",
+      "label": "结构梁",
+      "capacity": "one"
+    },
+    {
+      "id": "p_6j8eh8m",
+      "dir": "in",
+      "label": "混凝土",
+      "capacity": "one"
+    },
+    {
+      "id": "p_50lvnwz",
+      "dir": "in",
+      "label": "管道",
+      "capacity": "one"
+    },
+    {
+      "id": "p_q2rwbfi",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 510
+  }
+}

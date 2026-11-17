@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mach_m_alc",
+  "kind": "机器",
+  "title": "熔配",
+  "props": {
+    "配方": {
+      "value": "熔配",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_cmng0qx",
+      "dir": "in",
+      "label": "铝锭",
+      "capacity": "one"
+    },
+    {
+      "id": "p_mjdjgub",
+      "dir": "in",
+      "label": "铜锭",
+      "capacity": "one"
+    },
+    {
+      "id": "p_dqyzrqt",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 210
+  }
+}

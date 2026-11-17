@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "id": "p_pipe",
+  "kind": "子图",
+  "title": "管道",
+  "props": {},
+  "ports": [
+    {
+      "id": "p_ely38un",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 390
+  },
+  "subgraphMap": {
+    "p_ely38un": {
+      "node": "mach_p_pipe",
+      "port": "p_97ivihl"
+    }
+  }
+}

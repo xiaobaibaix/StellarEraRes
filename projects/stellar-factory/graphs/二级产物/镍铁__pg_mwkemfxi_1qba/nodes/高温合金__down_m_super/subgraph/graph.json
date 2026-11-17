@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "id": "down_m_super",
+  "name": "高温合金",
+  "nodeOrder": [
+    "m_ni",
+    "m_cr",
+    "m_ti",
+    "mach_m_super",
+    "prod_m_super"
+  ],
+  "edges": [
+    {
+      "id": "e_h4jl5pf",
+      "from": {
+        "node": "m_ni",
+        "port": "p_cdeld0b"
+      },
+      "to": {
+        "node": "mach_m_super",
+        "port": "p_opaxyqe"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_m4kaeju",
+      "from": {
+        "node": "m_cr",
+        "port": "p_lkrwf9o"
+      },
+      "to": {
+        "node": "mach_m_super",
+        "port": "p_ta60pld"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_f3mtqic",
+      "from": {
+        "node": "m_ti",
+        "port": "p_hxk3l1w"
+      },
+      "to": {
+        "node": "mach_m_super",
+        "port": "p_hv9v3tb"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_czvm8m9",
+      "from": {
+        "node": "mach_m_super",
+        "port": "p_42u8zcc"
+      },
+      "to": {
+        "node": "prod_m_super",
+        "port": "p_d7eu1e6"
+      },
+      "label": ""
+    }
+  ]
+}

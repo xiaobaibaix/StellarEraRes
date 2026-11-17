@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "id": "mach_mach_r_x_7p8eh0",
+  "kind": "机器",
+  "title": "发射轨道产线",
+  "props": {
+    "配方": {
+      "value": "发射轨道产线",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_03awdk7",
+      "dir": "in",
+      "label": "钢",
+      "capacity": "one"
+    },
+    {
+      "id": "p_nx250kf",
+      "dir": "in",
+      "label": "结构梁",
+      "capacity": "one"
+    },
+    {
+      "id": "p_qqttsl8",
+      "dir": "in",
+      "label": "混凝土",
+      "capacity": "one"
+    },
+    {
+      "id": "p_41czahp",
+      "dir": "in",
+      "label": "铜线",
+      "capacity": "one"
+    },
+    {
+      "id": "p_poq7w2q",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 510
+  }
+}

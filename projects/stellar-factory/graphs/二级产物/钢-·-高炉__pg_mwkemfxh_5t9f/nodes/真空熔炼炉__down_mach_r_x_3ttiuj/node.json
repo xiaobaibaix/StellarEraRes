@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "down_mach_r_x_3ttiuj",
+  "kind": "子图",
+  "title": "真空熔炼炉",
+  "props": {
+    "类别": {
+      "value": "下游",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_n9qjwoi",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 2170,
+    "y": 820
+  },
+  "linkGraph": "pg_mwkemfxs_h7yr",
+  "subgraphMap": {
+    "p_n9qjwoi": {
+      "node": "mach_mach_r_x_3ttiuj",
+      "port": "p_i2ppcvt"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "id": "k_hand",
+  "kind": "机器",
+  "title": "手持钻",
+  "props": {
+    "类别": {
+      "value": "采掘",
+      "type": "string"
+    },
+    "功率": {
+      "value": "0.5",
+      "type": "string"
+    },
+    "阶段": {
+      "value": "S0",
+      "type": "string"
+    },
+    "输入": {
+      "value": "矿脉",
+      "type": "string"
+    },
+    "输出": {
+      "value": "矿石",
+      "type": "string"
+    },
+    "层级": {
+      "value": "采掘",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_58f5d39",
+      "dir": "in",
+      "label": "输入",
+      "capacity": "one"
+    },
+    {
+      "id": "p_ucqsbt3",
+      "dir": "out",
+      "label": "输出",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 80,
+    "y": 1188
+  }
+}

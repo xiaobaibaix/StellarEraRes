@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "id": "pg_mwkemfxm_rwpv",
+  "name": "芯片",
+  "nodeOrder": [
+    "m_wafer",
+    "r_ree",
+    "r_s",
+    "mach_p_chip",
+    "prod_p_chip",
+    "down_p_pc",
+    "down_e_injector",
+    "down_mach_r_x_3ttiuj",
+    "down_mach_r_x_k9rqw0",
+    "down_mach_r_x_n7uy97"
+  ],
+  "edges": [
+    {
+      "id": "e_r4h8i3z",
+      "from": {
+        "node": "m_wafer",
+        "port": "p_xjb1vnx"
+      },
+      "to": {
+        "node": "mach_p_chip",
+        "port": "p_nj18ok0"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_qov3p1t",
+      "from": {
+        "node": "r_ree",
+        "port": "p_mny8dos"
+      },
+      "to": {
+        "node": "mach_p_chip",
+        "port": "p_dnjmyll"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_eawpbf8",
+      "from": {
+        "node": "r_s",
+        "port": "p_xipt5qc"
+      },
+      "to": {
+        "node": "mach_p_chip",
+        "port": "p_l03jgoo"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_8swqca7",
+      "from": {
+        "node": "mach_p_chip",
+        "port": "p_6znzmyo"
+      },
+      "to": {
+        "node": "prod_p_chip",
+        "port": "p_wpkik7l"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_8s8h722",
+      "from": {
+        "node": "prod_p_chip",
+        "port": "p_xpwfj7j"
+      },
+      "to": {
+        "node": "down_p_pc",
+        "port": "p_w3dt1z8"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_pjykhsd",
+      "from": {
+        "node": "prod_p_chip",
+        "port": "p_xpwfj7j"
+      },
+      "to": {
+        "node": "down_e_injector",
+        "port": "p_d8qxf0z"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_irtgbfw",
+      "from": {
+        "node": "prod_p_chip",
+        "port": "p_xpwfj7j"
+      },
+      "to": {
+        "node": "down_mach_r_x_3ttiuj",
+        "port": "p_bpzxyci"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_zog9wfk",
+      "from": {
+        "node": "prod_p_chip",
+        "port": "p_xpwfj7j"
+      },
+      "to": {
+        "node": "down_mach_r_x_k9rqw0",
+        "port": "p_ts9epe3"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_3ku4c9r",
+      "from": {
+        "node": "prod_p_chip",
+        "port": "p_xpwfj7j"
+      },
+      "to": {
+        "node": "down_mach_r_x_n7uy97",
+        "port": "p_7xt5fl0"
+      },
+      "label": ""
+    }
+  ]
+}

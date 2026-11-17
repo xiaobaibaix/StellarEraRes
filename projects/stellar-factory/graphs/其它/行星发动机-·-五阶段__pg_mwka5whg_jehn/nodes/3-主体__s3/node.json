@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "s3",
+  "kind": "阶段",
+  "title": "3 主体",
+  "props": {
+    "目标": {
+      "value": "推力室、磁约束环、注入器",
+      "type": "string"
+    },
+    "关键资源": {
+      "value": "高温合金 30、线圈 24、喷嘴 8、芯片 4",
+      "type": "string"
+    },
+    "验收": {
+      "value": "主体结构封顶，磁约束通电",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_u8i0o6v",
+      "dir": "in",
+      "label": "前置",
+      "capacity": "one"
+    },
+    {
+      "id": "p_hpufbo3",
+      "dir": "out",
+      "label": "完成",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 780,
+    "y": 60
+  }
+}

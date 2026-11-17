@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "down_mach_r_x_7p8eh0",
+  "kind": "子图",
+  "title": "发射轨道",
+  "props": {
+    "类别": {
+      "value": "下游",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_rnovc18",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 1510,
+    "y": 820
+  },
+  "linkGraph": "pg_mwkemfxp_rva6",
+  "subgraphMap": {
+    "p_rnovc18": {
+      "node": "mach_mach_r_x_7p8eh0",
+      "port": "p_w90mp39"
+    }
+  }
+}

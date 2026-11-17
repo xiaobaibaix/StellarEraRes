@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "id": "down_mach_r_x_sxhqeu",
+  "name": "铸造机",
+  "nodeOrder": [
+    "m_steel",
+    "p_motor",
+    "p_gear",
+    "p_beam",
+    "mach_mach_r_x_sxhqeu",
+    "prod_mach_r_x_sxhqeu"
+  ],
+  "edges": [
+    {
+      "id": "e_niilmwb",
+      "from": {
+        "node": "m_steel",
+        "port": "p_nmwu0ii"
+      },
+      "to": {
+        "node": "mach_mach_r_x_sxhqeu",
+        "port": "p_4euaswi"
+      },
+      "label": "6×"
+    },
+    {
+      "id": "e_yi4xig6",
+      "from": {
+        "node": "p_motor",
+        "port": "p_u2och3g"
+      },
+      "to": {
+        "node": "mach_mach_r_x_sxhqeu",
+        "port": "p_by07fhr"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_35swrkc",
+      "from": {
+        "node": "p_gear",
+        "port": "p_omtnv9i"
+      },
+      "to": {
+        "node": "mach_mach_r_x_sxhqeu",
+        "port": "p_4ds7jef"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_lmu01l8",
+      "from": {
+        "node": "p_beam",
+        "port": "p_gud6rxx"
+      },
+      "to": {
+        "node": "mach_mach_r_x_sxhqeu",
+        "port": "p_plcj3xo"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_63vplh3",
+      "from": {
+        "node": "mach_mach_r_x_sxhqeu",
+        "port": "p_e4gnj97"
+      },
+      "to": {
+        "node": "prod_mach_r_x_sxhqeu",
+        "port": "p_jzh4enr"
+      },
+      "label": ""
+    }
+  ]
+}

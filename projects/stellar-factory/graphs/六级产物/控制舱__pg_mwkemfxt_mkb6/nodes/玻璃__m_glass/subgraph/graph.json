@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "id": "m_glass",
+  "name": "玻璃",
+  "nodeOrder": [
+    "r_si",
+    "r_ca",
+    "mach_m_glass",
+    "prod_m_glass"
+  ],
+  "edges": [
+    {
+      "id": "e_7sdo0q2",
+      "from": {
+        "node": "r_si",
+        "port": "p_n5khnf1"
+      },
+      "to": {
+        "node": "mach_m_glass",
+        "port": "p_x5wu4ww"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_2wsu1om",
+      "from": {
+        "node": "r_ca",
+        "port": "p_0ug4j4q"
+      },
+      "to": {
+        "node": "mach_m_glass",
+        "port": "p_ktk9434"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_xo8273q",
+      "from": {
+        "node": "mach_m_glass",
+        "port": "p_jn5x3pu"
+      },
+      "to": {
+        "node": "prod_m_glass",
+        "port": "p_9nythoj"
+      },
+      "label": "2×"
+    }
+  ]
+}

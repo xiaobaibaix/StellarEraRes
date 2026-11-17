@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "id": "pg_mwkemfxp_rva6",
+  "name": "发射轨道",
+  "nodeOrder": [
+    "m_steel",
+    "p_beam",
+    "m_concrete",
+    "m_wire",
+    "mach_mach_r_x_7p8eh0",
+    "prod_mach_r_x_7p8eh0"
+  ],
+  "edges": [
+    {
+      "id": "e_8c8ka6q",
+      "from": {
+        "node": "m_steel",
+        "port": "p_0g167wn"
+      },
+      "to": {
+        "node": "mach_mach_r_x_7p8eh0",
+        "port": "p_lxt7f76"
+      },
+      "label": "12×"
+    },
+    {
+      "id": "e_14ko01w",
+      "from": {
+        "node": "p_beam",
+        "port": "p_jlgzf15"
+      },
+      "to": {
+        "node": "mach_mach_r_x_7p8eh0",
+        "port": "p_1kdj5h5"
+      },
+      "label": "8×"
+    },
+    {
+      "id": "e_pqun6ji",
+      "from": {
+        "node": "m_concrete",
+        "port": "p_iixoylw"
+      },
+      "to": {
+        "node": "mach_mach_r_x_7p8eh0",
+        "port": "p_tuorfl2"
+      },
+      "label": "10×"
+    },
+    {
+      "id": "e_nfw9prn",
+      "from": {
+        "node": "m_wire",
+        "port": "p_cgpnstz"
+      },
+      "to": {
+        "node": "mach_mach_r_x_7p8eh0",
+        "port": "p_nhp9s4v"
+      },
+      "label": "4×"
+    },
+    {
+      "id": "e_804go8s",
+      "from": {
+        "node": "mach_mach_r_x_7p8eh0",
+        "port": "p_j3p4j7k"
+      },
+      "to": {
+        "node": "prod_mach_r_x_7p8eh0",
+        "port": "p_6n9kajt"
+      },
+      "label": ""
+    }
+  ]
+}

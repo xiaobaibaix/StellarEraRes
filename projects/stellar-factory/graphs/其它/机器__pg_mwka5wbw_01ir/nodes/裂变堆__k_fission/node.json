@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "id": "k_fission",
+  "kind": "机器",
+  "title": "裂变堆",
+  "props": {
+    "类别": {
+      "value": "电力",
+      "type": "string"
+    },
+    "功率": {
+      "value": "+5000",
+      "type": "string"
+    },
+    "阶段": {
+      "value": "S3",
+      "type": "string"
+    },
+    "输入": {
+      "value": "铀",
+      "type": "string"
+    },
+    "输出": {
+      "value": "电",
+      "type": "string"
+    },
+    "层级": {
+      "value": "电力",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_es2q2d1",
+      "dir": "in",
+      "label": "输入",
+      "capacity": "one"
+    },
+    {
+      "id": "p_d0e9vy4",
+      "dir": "out",
+      "label": "输出",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 1830,
+    "y": 664
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "id": "n_i3acxnc",
+  "title": "挖掘机",
+  "props": {},
+  "ports": [
+    {
+      "id": "p_2zx8jqi",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 1146.6578128542849,
+    "y": 1940.5246948791737
+  },
+  "linkGraph": "pg_mwkienvu_xuok"
+}

@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "prod_e_control",
+  "kind": "资源",
+  "title": "控制舱",
+  "props": {
+    "类别": {
+      "value": "产物",
+      "type": "string"
+    },
+    "层级": {
+      "value": "L6",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_wenlbxx",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    },
+    {
+      "id": "p_g787mce",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 800,
+    "y": 555
+  }
+}

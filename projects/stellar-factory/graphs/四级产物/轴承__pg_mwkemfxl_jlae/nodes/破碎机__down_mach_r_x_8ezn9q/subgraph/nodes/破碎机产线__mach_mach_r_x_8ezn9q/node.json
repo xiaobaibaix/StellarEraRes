@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "id": "mach_mach_r_x_8ezn9q",
+  "kind": "机器",
+  "title": "破碎机产线",
+  "props": {
+    "配方": {
+      "value": "破碎机产线",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_167gwuz",
+      "dir": "in",
+      "label": "钢",
+      "capacity": "one"
+    },
+    {
+      "id": "p_kalf705",
+      "dir": "in",
+      "label": "电机",
+      "capacity": "one"
+    },
+    {
+      "id": "p_cy15o0k",
+      "dir": "in",
+      "label": "齿轮",
+      "capacity": "one"
+    },
+    {
+      "id": "p_d9zppkh",
+      "dir": "in",
+      "label": "轴承",
+      "capacity": "one"
+    },
+    {
+      "id": "p_427zzy0",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 510
+  }
+}

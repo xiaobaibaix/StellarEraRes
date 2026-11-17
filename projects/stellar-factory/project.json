@@ -1,0 +1,639 @@
+{
+  "version": 1,
+  "active": "pg_mwkienvu_xuok",
+  "kinds": {
+    "资源": {
+      "name": "资源",
+      "color": "#f0a25c",
+      "ports": [
+        {
+          "dir": "out",
+          "label": "产出",
+          "capacity": "many"
+        }
+      ]
+    },
+    "配方": {
+      "name": "配方",
+      "color": "#7aa2f7",
+      "ports": [
+        {
+          "dir": "in",
+          "label": "原料1",
+          "capacity": "one"
+        },
+        {
+          "dir": "in",
+          "label": "原料2",
+          "capacity": "one"
+        },
+        {
+          "dir": "in",
+          "label": "原料3",
+          "capacity": "one"
+        },
+        {
+          "dir": "out",
+          "label": "产物",
+          "capacity": "many"
+        }
+      ]
+    },
+    "机器": {
+      "name": "机器",
+      "color": "#4ade80",
+      "ports": [
+        {
+          "dir": "in",
+          "label": "输入",
+          "capacity": "one"
+        },
+        {
+          "dir": "out",
+          "label": "输出",
+          "capacity": "many"
+        }
+      ]
+    },
+    "阶段": {
+      "name": "阶段",
+      "color": "#c084fc",
+      "ports": [
+        {
+          "dir": "in",
+          "label": "前置",
+          "capacity": "one"
+        },
+        {
+          "dir": "out",
+          "label": "完成",
+          "capacity": "one"
+        }
+      ]
+    },
+    "子图": {
+      "name": "子图",
+      "color": "#8b5cf6"
+    }
+  },
+  "graphs": [
+    {
+      "id": "pg_mwkemfy3_r1fu",
+      "name": "原矿",
+      "dir": "一级矿/原矿__pg_mwkemfy3_r1fu",
+      "level": 1,
+      "folderId": "f_lv_1"
+    },
+    {
+      "id": "pg_mwkemfxi_n60d",
+      "name": "玻璃",
+      "dir": "二级产物/玻璃__pg_mwkemfxi_n60d",
+      "level": 2,
+      "folderId": "f_lv_2"
+    },
+    {
+      "id": "pg_mwkemfxi_cnd4",
+      "name": "磁体",
+      "dir": "二级产物/磁体__pg_mwkemfxi_cnd4",
+      "level": 2,
+      "folderId": "f_lv_2"
+    },
+    {
+      "id": "pg_mwkemfxj_twk8",
+      "name": "钢 · 电弧炉",
+      "dir": "二级产物/钢-·-电弧炉__pg_mwkemfxj_twk8",
+      "level": 2,
+      "folderId": "f_lv_2"
+    },
+    {
+      "id": "pg_mwkemfxh_5t9f",
+      "name": "钢 · 高炉",
+      "dir": "二级产物/钢-·-高炉__pg_mwkemfxh_5t9f",
+      "level": 2,
+      "folderId": "f_lv_2"
+    },
+    {
+      "id": "pg_mwkemfxi_rkvp",
+      "name": "铬铁",
+      "dir": "二级产物/铬铁__pg_mwkemfxi_rkvp",
+      "level": 2,
+      "folderId": "f_lv_2"
+    },
+    {
+      "id": "pg_mwkemfxi_2mov",
+      "name": "硅锭",
+      "dir": "二级产物/硅锭__pg_mwkemfxi_2mov",
+      "level": 2,
+      "folderId": "f_lv_2"
+    },
+    {
+      "id": "pg_mwkemfxi_79ug",
+      "name": "混凝土",
+      "dir": "二级产物/混凝土__pg_mwkemfxi_79ug",
+      "level": 2,
+      "folderId": "f_lv_2"
+    },
+    {
+      "id": "pg_mwkemfxh_s27d",
+      "name": "铝锭",
+      "dir": "二级产物/铝锭__pg_mwkemfxh_s27d",
+      "level": 2,
+      "folderId": "f_lv_2"
+    },
+    {
+      "id": "pg_mwkemfxi_1qba",
+      "name": "镍铁",
+      "dir": "二级产物/镍铁__pg_mwkemfxi_1qba",
+      "level": 2,
+      "folderId": "f_lv_2"
+    },
+    {
+      "id": "pg_mwkemfxh_a0vl",
+      "name": "钛锭",
+      "dir": "二级产物/钛锭__pg_mwkemfxh_a0vl",
+      "level": 2,
+      "folderId": "f_lv_2"
+    },
+    {
+      "id": "pg_mwkemfxh_4gc2",
+      "name": "铜锭",
+      "dir": "二级产物/铜锭__pg_mwkemfxh_4gc2",
+      "level": 2,
+      "folderId": "f_lv_2"
+    },
+    {
+      "id": "pg_mwkh3hew_18yq",
+      "name": "图 71",
+      "dir": "二级产物/图-71__pg_mwkh3hew_18yq",
+      "level": 2,
+      "folderId": "f_mwkh3b08_x5ao"
+    },
+    {
+      "id": "pg_mwkemfxj_fgwc",
+      "name": "推进剂",
+      "dir": "二级产物/推进剂__pg_mwkemfxj_fgwc",
+      "level": 2,
+      "folderId": "f_lv_2"
+    },
+    {
+      "id": "pg_mwkemfxj_st6l",
+      "name": "不锈钢",
+      "dir": "三级产物/不锈钢__pg_mwkemfxj_st6l",
+      "level": 3,
+      "folderId": "f_lv_3"
+    },
+    {
+      "id": "pg_mwkemfxl_7zn1",
+      "name": "齿轮",
+      "dir": "三级产物/齿轮__pg_mwkemfxl_7zn1",
+      "level": 3,
+      "folderId": "f_lv_3"
+    },
+    {
+      "id": "pg_mwkemfxl_748i",
+      "name": "反应堆核心",
+      "dir": "三级产物/反应堆核心__pg_mwkemfxl_748i",
+      "level": 3,
+      "folderId": "f_lv_3"
+    },
+    {
+      "id": "pg_mwkemfxj_q7sr",
+      "name": "高温合金",
+      "dir": "三级产物/高温合金__pg_mwkemfxj_q7sr",
+      "level": 3,
+      "folderId": "f_lv_3"
+    },
+    {
+      "id": "pg_mwkemfxl_2mhi",
+      "name": "管道",
+      "dir": "三级产物/管道__pg_mwkemfxl_2mhi",
+      "level": 3,
+      "folderId": "f_lv_3"
+    },
+    {
+      "id": "pg_mwkemfxk_gujl",
+      "name": "硅片",
+      "dir": "三级产物/硅片__pg_mwkemfxk_gujl",
+      "level": 3,
+      "folderId": "f_lv_3"
+    },
+    {
+      "id": "pg_mwkemfxk_k44h",
+      "name": "结构梁",
+      "dir": "三级产物/结构梁__pg_mwkemfxk_k44h",
+      "level": 3,
+      "folderId": "f_lv_3"
+    },
+    {
+      "id": "pg_mwkemfxj_tzzb",
+      "name": "铝合金",
+      "dir": "三级产物/铝合金__pg_mwkemfxj_tzzb",
+      "level": 3,
+      "folderId": "f_lv_3"
+    },
+    {
+      "id": "pg_mwkemfxk_6rt4",
+      "name": "铜线",
+      "dir": "三级产物/铜线__pg_mwkemfxk_6rt4",
+      "level": 3,
+      "folderId": "f_lv_3"
+    },
+    {
+      "id": "pg_mwkemfxp_5rt9",
+      "name": "地基浇筑",
+      "dir": "四级产物/地基浇筑__pg_mwkemfxp_5rt9",
+      "level": 4,
+      "folderId": "f_lv_4"
+    },
+    {
+      "id": "pg_mwkemfxn_f2j4",
+      "name": "电池组",
+      "dir": "四级产物/电池组__pg_mwkemfxn_f2j4",
+      "level": 4,
+      "folderId": "f_lv_4"
+    },
+    {
+      "id": "pg_mwkemfxm_o4np",
+      "name": "电路板",
+      "dir": "四级产物/电路板__pg_mwkemfxm_o4np",
+      "level": 4,
+      "folderId": "f_lv_4"
+    },
+    {
+      "id": "pg_mwkemfxp_rva6",
+      "name": "发射轨道",
+      "dir": "四级产物/发射轨道__pg_mwkemfxp_rva6",
+      "level": 4,
+      "folderId": "f_lv_4"
+    },
+    {
+      "id": "pg_mwkemfxo_acq5",
+      "name": "高炉",
+      "dir": "四级产物/高炉__pg_mwkemfxo_acq5",
+      "level": 4,
+      "folderId": "f_lv_4"
+    },
+    {
+      "id": "pg_mwkemfxp_wjwy",
+      "name": "管道铺设",
+      "dir": "四级产物/管道铺设__pg_mwkemfxp_wjwy",
+      "level": 4,
+      "folderId": "f_lv_4"
+    },
+    {
+      "id": "pg_mwkemfxp_hcyl",
+      "name": "轨道运输",
+      "dir": "四级产物/轨道运输__pg_mwkemfxp_hcyl",
+      "level": 4,
+      "folderId": "f_lv_4"
+    },
+    {
+      "id": "pg_mwkemfxn_q02h",
+      "name": "基座环",
+      "dir": "四级产物/基座环__pg_mwkemfxn_q02h",
+      "level": 4,
+      "folderId": "f_lv_4"
+    },
+    {
+      "id": "pg_mwkemfxo_tj4n",
+      "name": "焦炉",
+      "dir": "四级产物/焦炉__pg_mwkemfxo_tj4n",
+      "level": 4,
+      "folderId": "f_lv_4"
+    },
+    {
+      "id": "pg_mwkemfxm_l1qo",
+      "name": "喷嘴",
+      "dir": "四级产物/喷嘴__pg_mwkemfxm_l1qo",
+      "level": 4,
+      "folderId": "f_lv_4"
+    },
+    {
+      "id": "pg_mwkemfxn_8yn0",
+      "name": "燃料舱",
+      "dir": "四级产物/燃料舱__pg_mwkemfxn_8yn0",
+      "level": 4,
+      "folderId": "f_lv_4"
+    },
+    {
+      "id": "pg_mwkemfxm_os23",
+      "name": "散热板",
+      "dir": "四级产物/散热板__pg_mwkemfxm_os23",
+      "level": 4,
+      "folderId": "f_lv_4"
+    },
+    {
+      "id": "pg_mwkemfxn_e3qk",
+      "name": "推力室",
+      "dir": "四级产物/推力室__pg_mwkemfxn_e3qk",
+      "level": 4,
+      "folderId": "f_lv_4"
+    },
+    {
+      "id": "pg_mwkemfxm_13nj",
+      "name": "线圈",
+      "dir": "四级产物/线圈__pg_mwkemfxm_13nj",
+      "level": 4,
+      "folderId": "f_lv_4"
+    },
+    {
+      "id": "pg_mwkemfxm_rwpv",
+      "name": "芯片",
+      "dir": "四级产物/芯片__pg_mwkemfxm_rwpv",
+      "level": 4,
+      "folderId": "f_lv_4"
+    },
+    {
+      "id": "pg_mwkemfxl_jlae",
+      "name": "轴承",
+      "dir": "四级产物/轴承__pg_mwkemfxl_jlae",
+      "level": 4,
+      "folderId": "f_lv_4"
+    },
+    {
+      "id": "pg_mwkemfxo_rl05",
+      "name": "转炉",
+      "dir": "四级产物/转炉__pg_mwkemfxo_rl05",
+      "level": 4,
+      "folderId": "f_lv_4"
+    },
+    {
+      "id": "pg_mwkemfxr_ts3z",
+      "name": "磁约束环",
+      "dir": "五级产物/磁约束环__pg_mwkemfxr_ts3z",
+      "level": 5,
+      "folderId": "f_lv_5"
+    },
+    {
+      "id": "pg_mwkemfxq_9lq7",
+      "name": "电机",
+      "dir": "五级产物/电机__pg_mwkemfxq_9lq7",
+      "level": 5,
+      "folderId": "f_lv_5"
+    },
+    {
+      "id": "pg_mwkemfxr_527j",
+      "name": "电解槽",
+      "dir": "五级产物/电解槽__pg_mwkemfxr_527j",
+      "level": 5,
+      "folderId": "f_lv_5"
+    },
+    {
+      "id": "pg_mwkemfxs_7p95",
+      "name": "电子装配",
+      "dir": "五级产物/电子装配__pg_mwkemfxs_7p95",
+      "level": 5,
+      "folderId": "f_lv_5"
+    },
+    {
+      "id": "pg_mwkemfxq_03h0",
+      "name": "控制计算机",
+      "dir": "五级产物/控制计算机__pg_mwkemfxq_03h0",
+      "level": 5,
+      "folderId": "f_lv_5"
+    },
+    {
+      "id": "pg_mwkemfxt_5e40",
+      "name": "裂变堆",
+      "dir": "五级产物/裂变堆__pg_mwkemfxt_5e40",
+      "level": 5,
+      "folderId": "f_lv_5"
+    },
+    {
+      "id": "pg_mwkemfxs_pt8z",
+      "name": "硫酸厂",
+      "dir": "五级产物/硫酸厂__pg_mwkemfxs_pt8z",
+      "level": 5,
+      "folderId": "f_lv_5"
+    },
+    {
+      "id": "pg_mwkemfxr_q0r9",
+      "name": "散热阵列",
+      "dir": "五级产物/散热阵列__pg_mwkemfxr_q0r9",
+      "level": 5,
+      "folderId": "f_lv_5"
+    },
+    {
+      "id": "pg_mwkemfxs_d429",
+      "name": "太阳能阵列",
+      "dir": "五级产物/太阳能阵列__pg_mwkemfxs_d429",
+      "level": 5,
+      "folderId": "f_lv_5"
+    },
+    {
+      "id": "pg_mwkemfxs_h7yr",
+      "name": "真空熔炼炉",
+      "dir": "五级产物/真空熔炼炉__pg_mwkemfxs_h7yr",
+      "level": 5,
+      "folderId": "f_lv_5"
+    },
+    {
+      "id": "pg_mwkemfxr_c656",
+      "name": "注入器",
+      "dir": "五级产物/注入器__pg_mwkemfxr_c656",
+      "level": 5,
+      "folderId": "f_lv_5"
+    },
+    {
+      "id": "pg_mwkemfxv_pj6c",
+      "name": "冰 / 水抽取",
+      "dir": "六级产物/冰-水抽取__pg_mwkemfxv_pj6c",
+      "level": 6,
+      "folderId": "f_lv_6"
+    },
+    {
+      "id": "pg_mwkemfy0_qpoe",
+      "name": "传送带",
+      "dir": "六级产物/传送带__pg_mwkemfy0_qpoe",
+      "level": 6,
+      "folderId": "f_lv_6"
+    },
+    {
+      "id": "pg_mwkemfy0_ibst",
+      "name": "地热井",
+      "dir": "六级产物/地热井__pg_mwkemfy0_ibst",
+      "level": 6,
+      "folderId": "f_lv_6"
+    },
+    {
+      "id": "pg_mwkemfy1_xd00",
+      "name": "发动机装配塔",
+      "dir": "六级产物/发动机装配塔__pg_mwkemfy1_xd00",
+      "level": 6,
+      "folderId": "f_lv_6"
+    },
+    {
+      "id": "pg_mwkemfxt_wg37",
+      "name": "反应堆",
+      "dir": "六级产物/反应堆__pg_mwkemfxt_wg37",
+      "level": 6,
+      "folderId": "f_lv_6"
+    },
+    {
+      "id": "pg_mwkemfxx_zxw4",
+      "name": "浮选机",
+      "dir": "六级产物/浮选机__pg_mwkemfxx_zxw4",
+      "level": 6,
+      "folderId": "f_lv_6"
+    },
+    {
+      "id": "pg_mwkemfxz_di70",
+      "name": "机加工中心",
+      "dir": "六级产物/机加工中心__pg_mwkemfxz_di70",
+      "level": 6,
+      "folderId": "f_lv_6"
+    },
+    {
+      "id": "pg_mwkemfxz_q2d1",
+      "name": "聚变堆",
+      "dir": "六级产物/聚变堆__pg_mwkemfxz_q2d1",
+      "level": 6,
+      "folderId": "f_lv_6"
+    },
+    {
+      "id": "pg_mwkemfy0_177b",
+      "name": "卡车",
+      "dir": "六级产物/卡车__pg_mwkemfy0_177b",
+      "level": 6,
+      "folderId": "f_lv_6"
+    },
+    {
+      "id": "pg_mwkemfxt_mkb6",
+      "name": "控制舱",
+      "dir": "六级产物/控制舱__pg_mwkemfxt_mkb6",
+      "level": 6,
+      "folderId": "f_lv_6"
+    },
+    {
+      "id": "pg_mwkemfxu_oiw3",
+      "name": "矿机",
+      "dir": "六级产物/矿机__pg_mwkemfxu_oiw3",
+      "level": 6,
+      "folderId": "f_lv_6"
+    },
+    {
+      "id": "pg_mwkemfxw_pt34",
+      "name": "破碎机",
+      "dir": "六级产物/破碎机__pg_mwkemfxw_pt34",
+      "level": 6,
+      "folderId": "f_lv_6"
+    },
+    {
+      "id": "pg_mwkemfxw_8o67",
+      "name": "气体井",
+      "dir": "六级产物/气体井__pg_mwkemfxw_8o67",
+      "level": 6,
+      "folderId": "f_lv_6"
+    },
+    {
+      "id": "pg_mwkemfxv_em9k",
+      "name": "深井钻",
+      "dir": "六级产物/深井钻__pg_mwkemfxv_em9k",
+      "level": 6,
+      "folderId": "f_lv_6"
+    },
+    {
+      "id": "pg_mwkemfxu_8n9v",
+      "name": "手持钻",
+      "dir": "六级产物/手持钻__pg_mwkemfxu_8n9v",
+      "level": 6,
+      "folderId": "f_lv_6"
+    },
+    {
+      "id": "pg_mwkemfxy_3q9u",
+      "name": "轧机",
+      "dir": "六级产物/轧机__pg_mwkemfxy_3q9u",
+      "level": 6,
+      "folderId": "f_lv_6"
+    },
+    {
+      "id": "pg_mwkemfxx_jyoy",
+      "name": "铸造机",
+      "dir": "六级产物/铸造机__pg_mwkemfxx_jyoy",
+      "level": 6,
+      "folderId": "f_lv_6"
+    },
+    {
+      "id": "pg_mwkemfy3_y9v1",
+      "name": "行星发动机",
+      "dir": "七级产物/行星发动机__pg_mwkemfy3_y9v1",
+      "level": 7,
+      "folderId": "f_lv_7"
+    },
+    {
+      "id": "pg_mwka5wbw_01ir",
+      "name": "机器",
+      "dir": "其它/机器__pg_mwka5wbw_01ir",
+      "level": 0,
+      "folderId": "f_lv_0"
+    },
+    {
+      "id": "pg_mwka5whg_jehn",
+      "name": "行星发动机 · 五阶段",
+      "dir": "其它/行星发动机-·-五阶段__pg_mwka5whg_jehn",
+      "level": 0,
+      "folderId": "f_lv_0"
+    },
+    {
+      "id": "pg_mwkienvu_xuok",
+      "name": "挖掘机",
+      "dir": "七级产物/挖掘机__pg_mwkienvu_xuok",
+      "level": 7,
+      "folderId": "f_lv_0"
+    }
+  ],
+  "folders": [
+    {
+      "id": "f_lv_1",
+      "name": "一级矿",
+      "parentId": null
+    },
+    {
+      "id": "f_lv_2",
+      "name": "二级产物",
+      "parentId": null
+    },
+    {
+      "id": "f_lv_3",
+      "name": "三级产物",
+      "parentId": null
+    },
+    {
+      "id": "f_lv_4",
+      "name": "四级产物",
+      "parentId": null
+    },
+    {
+      "id": "f_lv_5",
+      "name": "五级产物",
+      "parentId": null
+    },
+    {
+      "id": "f_lv_6",
+      "name": "六级产物",
+      "parentId": null
+    },
+    {
+      "id": "f_lv_7",
+      "name": "七级产物",
+      "parentId": null
+    },
+    {
+      "id": "f_lv_0",
+      "name": "其它",
+      "parentId": null
+    },
+    {
+      "id": "f_mwkh3b08_x5ao",
+      "name": "新分组",
+      "parentId": "f_lv_2"
+    }
+  ],
+  "grouped": false,
+  "style": {
+    "name": "",
+    "description": "",
+    "rules": "",
+    "avoid": ""
+  }
+}

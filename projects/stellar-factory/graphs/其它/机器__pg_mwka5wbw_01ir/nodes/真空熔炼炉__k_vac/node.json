@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "id": "k_vac",
+  "kind": "机器",
+  "title": "真空熔炼炉",
+  "props": {
+    "类别": {
+      "value": "冶炼",
+      "type": "string"
+    },
+    "功率": {
+      "value": "300",
+      "type": "string"
+    },
+    "阶段": {
+      "value": "S2",
+      "type": "string"
+    },
+    "输入": {
+      "value": "钛 / 高温合金",
+      "type": "string"
+    },
+    "输出": {
+      "value": "钛锭 / 合金",
+      "type": "string"
+    },
+    "层级": {
+      "value": "冶炼",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_q23tebi",
+      "dir": "in",
+      "label": "输入",
+      "capacity": "one"
+    },
+    {
+      "id": "p_qq4t09l",
+      "dir": "out",
+      "label": "输出",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 780,
+    "y": 664
+  }
+}

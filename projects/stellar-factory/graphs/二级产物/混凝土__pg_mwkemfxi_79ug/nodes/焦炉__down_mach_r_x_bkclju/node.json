@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "down_mach_r_x_bkclju",
+  "kind": "子图",
+  "title": "焦炉",
+  "props": {
+    "类别": {
+      "value": "下游",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_3jbyexd",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 1180,
+    "y": 820
+  },
+  "linkGraph": "pg_mwkemfxo_tj4n",
+  "subgraphMap": {
+    "p_3jbyexd": {
+      "node": "mach_mach_r_x_bkclju",
+      "port": "p_zlv8y3n"
+    }
+  }
+}

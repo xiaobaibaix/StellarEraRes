@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "id": "p_beam",
+  "kind": "资源",
+  "title": "结构梁",
+  "props": {
+    "类别": {
+      "value": "部件",
+      "type": "string"
+    },
+    "配方": {
+      "value": "轧制",
+      "type": "string"
+    },
+    "层级": {
+      "value": "部件",
+      "type": "string"
+    },
+    "输入数": {
+      "value": 1,
+      "type": "number"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_fh8tq6n",
+      "dir": "in",
+      "label": "原料1",
+      "capacity": "one"
+    },
+    {
+      "id": "p_57sxzgb",
+      "dir": "in",
+      "label": "原料2",
+      "capacity": "one"
+    },
+    {
+      "id": "p_s2r2a6x",
+      "dir": "in",
+      "label": "原料3",
+      "capacity": "one"
+    },
+    {
+      "id": "p_gud6rxx",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 660
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "prod_mach_r_x_cu4ay8",
+  "kind": "资源",
+  "title": "机加工中心",
+  "props": {
+    "类别": {
+      "value": "产物",
+      "type": "string"
+    },
+    "层级": {
+      "value": "L6",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_ufnc4yk",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 800,
+    "y": 555
+  }
+}

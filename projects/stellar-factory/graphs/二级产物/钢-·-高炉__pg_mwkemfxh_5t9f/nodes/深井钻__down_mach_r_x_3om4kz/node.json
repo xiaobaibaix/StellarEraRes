@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "down_mach_r_x_3om4kz",
+  "kind": "子图",
+  "title": "深井钻",
+  "props": {
+    "类别": {
+      "value": "下游",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_wv9m0ah",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 2830,
+    "y": 300
+  },
+  "linkGraph": "pg_mwkemfxv_em9k",
+  "subgraphMap": {
+    "p_wv9m0ah": {
+      "node": "mach_mach_r_x_3om4kz",
+      "port": "p_9gcv3rq"
+    }
+  }
+}

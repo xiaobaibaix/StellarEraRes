@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "id": "m_new_wpuxvb",
+  "name": "推进剂",
+  "nodeOrder": [
+    "r_h2",
+    "r_o2",
+    "mach_m_new_wpuxvb",
+    "prod_m_new_wpuxvb"
+  ],
+  "edges": [
+    {
+      "id": "e_pmcg8fj",
+      "from": {
+        "node": "r_h2",
+        "port": "p_qbhdkxq"
+      },
+      "to": {
+        "node": "mach_m_new_wpuxvb",
+        "port": "p_huoiie2"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_q1zuip2",
+      "from": {
+        "node": "r_o2",
+        "port": "p_wq626rl"
+      },
+      "to": {
+        "node": "mach_m_new_wpuxvb",
+        "port": "p_bk1jpy1"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_5a9v4wk",
+      "from": {
+        "node": "mach_m_new_wpuxvb",
+        "port": "p_thmvbvl"
+      },
+      "to": {
+        "node": "prod_m_new_wpuxvb",
+        "port": "p_yigmewv"
+      },
+      "label": "4×"
+    }
+  ]
+}

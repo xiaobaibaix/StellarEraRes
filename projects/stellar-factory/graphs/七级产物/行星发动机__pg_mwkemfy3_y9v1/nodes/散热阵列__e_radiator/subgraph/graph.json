@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "id": "e_radiator",
+  "name": "散热阵列",
+  "nodeOrder": [
+    "p_heat",
+    "p_pipe",
+    "mach_e_radiator",
+    "prod_e_radiator"
+  ],
+  "edges": [
+    {
+      "id": "e_hmcyw6c",
+      "from": {
+        "node": "p_heat",
+        "port": "p_5sfeft4"
+      },
+      "to": {
+        "node": "mach_e_radiator",
+        "port": "p_fkutmje"
+      },
+      "label": "60×"
+    },
+    {
+      "id": "e_5nqhle3",
+      "from": {
+        "node": "p_pipe",
+        "port": "p_ee5f4jx"
+      },
+      "to": {
+        "node": "mach_e_radiator",
+        "port": "p_huyor6v"
+      },
+      "label": "30×"
+    },
+    {
+      "id": "e_01y6ecz",
+      "from": {
+        "node": "mach_e_radiator",
+        "port": "p_xecr6ar"
+      },
+      "to": {
+        "node": "prod_e_radiator",
+        "port": "p_62maurl"
+      },
+      "label": "1×"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "down_mach_r_x_mlj5kx",
+  "kind": "子图",
+  "title": "轧机",
+  "props": {
+    "类别": {
+      "value": "下游",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_ocltlc8",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 3160,
+    "y": 820
+  },
+  "linkGraph": "pg_mwkemfxy_3q9u",
+  "subgraphMap": {
+    "p_ocltlc8": {
+      "node": "mach_mach_r_x_mlj5kx",
+      "port": "p_4m3hwaj"
+    }
+  }
+}

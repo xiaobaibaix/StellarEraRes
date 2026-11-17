@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "id": "mach_mach_r_x_k9rqw0",
+  "kind": "机器",
+  "title": "电子装配产线",
+  "props": {
+    "配方": {
+      "value": "电子装配产线",
+      "type": "string"
+    },
+    "层级": {
+      "value": "L5",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_cd946t5",
+      "dir": "in",
+      "label": "钢",
+      "capacity": "one"
+    },
+    {
+      "id": "p_v6zcubq",
+      "dir": "in",
+      "label": "电路板",
+      "capacity": "one"
+    },
+    {
+      "id": "p_z1rse02",
+      "dir": "in",
+      "label": "芯片",
+      "capacity": "one"
+    },
+    {
+      "id": "p_ovrfm9e",
+      "dir": "in",
+      "label": "铜线",
+      "capacity": "one"
+    },
+    {
+      "id": "p_x9ejlgs",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 555
+  }
+}

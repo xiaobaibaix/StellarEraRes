@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "id": "down_p_heat",
+  "name": "散热板",
+  "nodeOrder": [
+    "m_alc",
+    "m_wire",
+    "mach_p_heat",
+    "prod_p_heat"
+  ],
+  "edges": [
+    {
+      "id": "e_rx339kk",
+      "from": {
+        "node": "m_alc",
+        "port": "p_yjvqgcl"
+      },
+      "to": {
+        "node": "mach_p_heat",
+        "port": "p_b391005"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_v57tp4g",
+      "from": {
+        "node": "m_wire",
+        "port": "p_agyk41s"
+      },
+      "to": {
+        "node": "mach_p_heat",
+        "port": "p_exj3bfc"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_m8j785s",
+      "from": {
+        "node": "mach_p_heat",
+        "port": "p_2736c13"
+      },
+      "to": {
+        "node": "prod_p_heat",
+        "port": "p_0h30s82"
+      },
+      "label": ""
+    }
+  ]
+}

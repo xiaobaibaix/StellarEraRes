@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "id": "mach_mach_r_x_n7uy97",
+  "kind": "机器",
+  "title": "聚变堆产线",
+  "props": {
+    "配方": {
+      "value": "聚变堆产线",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_zgqn6cq",
+      "dir": "in",
+      "label": "钢",
+      "capacity": "one"
+    },
+    {
+      "id": "p_qdlket0",
+      "dir": "in",
+      "label": "磁约束环",
+      "capacity": "one"
+    },
+    {
+      "id": "p_g8h9h44",
+      "dir": "in",
+      "label": "线圈",
+      "capacity": "one"
+    },
+    {
+      "id": "p_j2b5i83",
+      "dir": "in",
+      "label": "芯片",
+      "capacity": "one"
+    },
+    {
+      "id": "p_gvi2373",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 510
+  }
+}

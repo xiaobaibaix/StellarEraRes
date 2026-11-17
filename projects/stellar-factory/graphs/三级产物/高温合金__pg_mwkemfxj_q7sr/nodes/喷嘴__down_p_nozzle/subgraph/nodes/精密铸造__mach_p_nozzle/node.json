@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mach_p_nozzle",
+  "kind": "机器",
+  "title": "精密铸造",
+  "props": {
+    "配方": {
+      "value": "精密铸造",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_bojon1s",
+      "dir": "in",
+      "label": "高温合金",
+      "capacity": "one"
+    },
+    {
+      "id": "p_ldkv3t2",
+      "dir": "in",
+      "label": "钛锭",
+      "capacity": "one"
+    },
+    {
+      "id": "p_w19odf5",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 210
+  }
+}

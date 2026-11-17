@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "down_m_super",
+  "kind": "子图",
+  "title": "高温合金",
+  "props": {
+    "类别": {
+      "value": "下游",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_dbr9edg",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 1180,
+    "y": 300
+  },
+  "linkGraph": "pg_mwkemfxj_q7sr",
+  "subgraphMap": {
+    "p_dbr9edg": {
+      "node": "mach_m_super",
+      "port": "p_w5n2fn7"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "id": "mach_e_chamber",
+  "kind": "机器",
+  "title": "制造",
+  "props": {
+    "配方": {
+      "value": "制造"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_747qu4m",
+      "dir": "in",
+      "label": "高温合金",
+      "capacity": "one"
+    },
+    {
+      "id": "p_62gx0h1",
+      "dir": "in",
+      "label": "结构梁",
+      "capacity": "one"
+    },
+    {
+      "id": "p_lnyslia",
+      "dir": "in",
+      "label": "不锈钢",
+      "capacity": "one"
+    },
+    {
+      "id": "p_083oenw",
+      "dir": "in",
+      "label": "推进剂",
+      "capacity": "one"
+    },
+    {
+      "id": "p_nhi8kp2",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 510
+  }
+}

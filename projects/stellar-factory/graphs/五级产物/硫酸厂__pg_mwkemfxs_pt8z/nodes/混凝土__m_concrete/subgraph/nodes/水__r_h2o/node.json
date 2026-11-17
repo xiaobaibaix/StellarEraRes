@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "id": "r_h2o",
+  "kind": "资源",
+  "title": "水",
+  "props": {
+    "符号": {
+      "value": "H2O",
+      "type": "string"
+    },
+    "类别": {
+      "value": "挥发",
+      "type": "string"
+    },
+    "深度": {
+      "value": "0–8 格",
+      "type": "string"
+    },
+    "星球": {
+      "value": "冰盖 / 地下冰",
+      "type": "string"
+    },
+    "用途": {
+      "value": "冷却、电解氢氧、推进剂",
+      "type": "string"
+    },
+    "层级": {
+      "value": "原矿",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_ybdwewy",
+      "dir": "out",
+      "label": "产出",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 390
+  }
+}

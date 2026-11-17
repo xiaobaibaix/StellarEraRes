@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "id": "e_chamber",
+  "kind": "子图",
+  "title": "推力室",
+  "props": {},
+  "ports": [
+    {
+      "id": "p_gx42tvv",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 390
+  },
+  "subgraphMap": {
+    "p_gx42tvv": {
+      "node": "mach_e_chamber",
+      "port": "p_cznuczk"
+    }
+  }
+}

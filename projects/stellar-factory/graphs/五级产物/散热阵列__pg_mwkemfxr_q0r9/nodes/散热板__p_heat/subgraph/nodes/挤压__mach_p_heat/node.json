@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "id": "mach_p_heat",
+  "kind": "机器",
+  "title": "挤压",
+  "props": {
+    "配方": {
+      "value": "挤压 / 焊接",
+      "type": "string"
+    },
+    "层级": {
+      "value": "L4",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_qtwtabj",
+      "dir": "in",
+      "label": "铝合金",
+      "capacity": "one"
+    },
+    {
+      "id": "p_j3nhsid",
+      "dir": "in",
+      "label": "铜线",
+      "capacity": "one"
+    },
+    {
+      "id": "p_15wmyv6",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 225
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "id": "mach_mach_r_x_cu4ay8",
+  "kind": "机器",
+  "title": "机加工中心产线",
+  "props": {
+    "配方": {
+      "value": "机加工中心产线",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_09v6ei7",
+      "dir": "in",
+      "label": "钢",
+      "capacity": "one"
+    },
+    {
+      "id": "p_zakh9sz",
+      "dir": "in",
+      "label": "电机",
+      "capacity": "one"
+    },
+    {
+      "id": "p_fglbzrh",
+      "dir": "in",
+      "label": "齿轮",
+      "capacity": "one"
+    },
+    {
+      "id": "p_okz6me1",
+      "dir": "in",
+      "label": "轴承",
+      "capacity": "one"
+    },
+    {
+      "id": "p_7slevj6",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 510
+  }
+}

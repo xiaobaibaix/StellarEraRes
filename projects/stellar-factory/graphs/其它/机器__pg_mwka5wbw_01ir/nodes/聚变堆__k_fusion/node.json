@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "id": "k_fusion",
+  "kind": "机器",
+  "title": "聚变堆",
+  "props": {
+    "类别": {
+      "value": "电力",
+      "type": "string"
+    },
+    "功率": {
+      "value": "+50000",
+      "type": "string"
+    },
+    "阶段": {
+      "value": "S4",
+      "type": "string"
+    },
+    "输入": {
+      "value": "He-3 / 氘",
+      "type": "string"
+    },
+    "输出": {
+      "value": "电",
+      "type": "string"
+    },
+    "层级": {
+      "value": "电力",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_21yb16l",
+      "dir": "in",
+      "label": "输入",
+      "capacity": "one"
+    },
+    {
+      "id": "p_wadt76i",
+      "dir": "out",
+      "label": "输出",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 1830,
+    "y": 402
+  }
+}

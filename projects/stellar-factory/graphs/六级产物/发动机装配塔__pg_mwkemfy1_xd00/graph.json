@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "id": "pg_mwkemfy1_xd00",
+  "name": "发动机装配塔",
+  "nodeOrder": [
+    "m_steel",
+    "p_beam",
+    "m_concrete",
+    "p_motor",
+    "mach_mach_r_x_wn85ds",
+    "prod_mach_r_x_wn85ds"
+  ],
+  "edges": [
+    {
+      "id": "e_fp8f8iy",
+      "from": {
+        "node": "m_steel",
+        "port": "p_7s9h9fm"
+      },
+      "to": {
+        "node": "mach_mach_r_x_wn85ds",
+        "port": "p_8rg7wt8"
+      },
+      "label": "16×"
+    },
+    {
+      "id": "e_4rkkzn4",
+      "from": {
+        "node": "p_beam",
+        "port": "p_gqs85i2"
+      },
+      "to": {
+        "node": "mach_mach_r_x_wn85ds",
+        "port": "p_lgmqhns"
+      },
+      "label": "10×"
+    },
+    {
+      "id": "e_rmbgwl0",
+      "from": {
+        "node": "m_concrete",
+        "port": "p_1dgkzwx"
+      },
+      "to": {
+        "node": "mach_mach_r_x_wn85ds",
+        "port": "p_pnzc5x9"
+      },
+      "label": "10×"
+    },
+    {
+      "id": "e_4gj4ipb",
+      "from": {
+        "node": "p_motor",
+        "port": "p_lny3v9v"
+      },
+      "to": {
+        "node": "mach_mach_r_x_wn85ds",
+        "port": "p_xvqyziz"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_vdk2s8q",
+      "from": {
+        "node": "mach_mach_r_x_wn85ds",
+        "port": "p_lxpxo6n"
+      },
+      "to": {
+        "node": "prod_mach_r_x_wn85ds",
+        "port": "p_la7xuim"
+      },
+      "label": ""
+    }
+  ]
+}

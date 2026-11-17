@@ -1,0 +1,218 @@
+{
+  "version": 1,
+  "id": "pg_mwkemfxl_2mhi",
+  "name": "管道",
+  "nodeOrder": [
+    "m_steel",
+    "mach_p_pipe",
+    "prod_p_pipe",
+    "down_e_tank",
+    "down_mach_r_x_qfouqe",
+    "down_mach_r_x_9jxjlo",
+    "down_mach_r_x_bkclju",
+    "down_mach_r_x_9awu7f",
+    "down_e_radiator",
+    "down_mach_r_x_cd6rm2",
+    "down_mach_r_x_3ttiuj",
+    "down_mach_r_x_te49iq",
+    "down_mach_r_x_endkna",
+    "down_mach_r_x_eq5cvl",
+    "down_mach_r_x_vwf6tm",
+    "down_mach_r_x_dp0dim",
+    "down_mach_r_x_uz72d6"
+  ],
+  "edges": [
+    {
+      "id": "e_vvujgna",
+      "from": {
+        "node": "m_steel",
+        "port": "p_cc148uv"
+      },
+      "to": {
+        "node": "mach_p_pipe",
+        "port": "p_2nud1au"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_8nsr4h7",
+      "from": {
+        "node": "mach_p_pipe",
+        "port": "p_97ivihl"
+      },
+      "to": {
+        "node": "prod_p_pipe",
+        "port": "p_p6myhpv"
+      },
+      "label": "30×"
+    },
+    {
+      "id": "e_w1i8bii",
+      "from": {
+        "node": "prod_p_pipe",
+        "port": "p_s0u39wz"
+      },
+      "to": {
+        "node": "down_e_tank",
+        "port": "p_zd4ffs5"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_n242ihu",
+      "from": {
+        "node": "prod_p_pipe",
+        "port": "p_s0u39wz"
+      },
+      "to": {
+        "node": "down_mach_r_x_qfouqe",
+        "port": "p_yjubh3g"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_jo8wkkd",
+      "from": {
+        "node": "prod_p_pipe",
+        "port": "p_s0u39wz"
+      },
+      "to": {
+        "node": "down_mach_r_x_9jxjlo",
+        "port": "p_225m697"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_id8xp6i",
+      "from": {
+        "node": "prod_p_pipe",
+        "port": "p_s0u39wz"
+      },
+      "to": {
+        "node": "down_mach_r_x_bkclju",
+        "port": "p_gszveya"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_1s7ly6i",
+      "from": {
+        "node": "prod_p_pipe",
+        "port": "p_s0u39wz"
+      },
+      "to": {
+        "node": "down_mach_r_x_9awu7f",
+        "port": "p_5r42d3g"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_0lfy89y",
+      "from": {
+        "node": "prod_p_pipe",
+        "port": "p_s0u39wz"
+      },
+      "to": {
+        "node": "down_e_radiator",
+        "port": "p_d90k007"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_wglo7a4",
+      "from": {
+        "node": "prod_p_pipe",
+        "port": "p_s0u39wz"
+      },
+      "to": {
+        "node": "down_mach_r_x_cd6rm2",
+        "port": "p_wv22i3b"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_9fyt4ty",
+      "from": {
+        "node": "prod_p_pipe",
+        "port": "p_s0u39wz"
+      },
+      "to": {
+        "node": "down_mach_r_x_3ttiuj",
+        "port": "p_05riqcb"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_rngh19h",
+      "from": {
+        "node": "prod_p_pipe",
+        "port": "p_s0u39wz"
+      },
+      "to": {
+        "node": "down_mach_r_x_te49iq",
+        "port": "p_e5h19h8"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_3j5pqjz",
+      "from": {
+        "node": "prod_p_pipe",
+        "port": "p_s0u39wz"
+      },
+      "to": {
+        "node": "down_mach_r_x_endkna",
+        "port": "p_r6aprki"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_bmi8uvv",
+      "from": {
+        "node": "prod_p_pipe",
+        "port": "p_s0u39wz"
+      },
+      "to": {
+        "node": "down_mach_r_x_eq5cvl",
+        "port": "p_gbjfix8"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_nbke465",
+      "from": {
+        "node": "prod_p_pipe",
+        "port": "p_s0u39wz"
+      },
+      "to": {
+        "node": "down_mach_r_x_vwf6tm",
+        "port": "p_2dgmnpl"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_xqt5ubw",
+      "from": {
+        "node": "prod_p_pipe",
+        "port": "p_s0u39wz"
+      },
+      "to": {
+        "node": "down_mach_r_x_dp0dim",
+        "port": "p_2yrf0mb"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_j65h2bw",
+      "from": {
+        "node": "prod_p_pipe",
+        "port": "p_s0u39wz"
+      },
+      "to": {
+        "node": "down_mach_r_x_uz72d6",
+        "port": "p_quictef"
+      },
+      "label": ""
+    }
+  ]
+}

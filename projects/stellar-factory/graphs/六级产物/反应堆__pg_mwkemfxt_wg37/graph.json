@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "id": "pg_mwkemfxt_wg37",
+  "name": "反应堆",
+  "nodeOrder": [
+    "p_core",
+    "p_pc",
+    "mach_e_reactor",
+    "prod_e_reactor",
+    "down_m_new_zcu45c"
+  ],
+  "edges": [
+    {
+      "id": "e_wz71cdg",
+      "from": {
+        "node": "p_core",
+        "port": "p_53k96yp"
+      },
+      "to": {
+        "node": "mach_e_reactor",
+        "port": "p_3zg2dc9"
+      },
+      "label": "3×"
+    },
+    {
+      "id": "e_mbtj009",
+      "from": {
+        "node": "p_pc",
+        "port": "p_5ex7o1k"
+      },
+      "to": {
+        "node": "mach_e_reactor",
+        "port": "p_29jpxuv"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_hq1zy74",
+      "from": {
+        "node": "mach_e_reactor",
+        "port": "p_9f8uht4"
+      },
+      "to": {
+        "node": "prod_e_reactor",
+        "port": "p_bmv7xk6"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_y67yxda",
+      "from": {
+        "node": "prod_e_reactor",
+        "port": "p_a86y3iu"
+      },
+      "to": {
+        "node": "down_m_new_zcu45c",
+        "port": "p_dvelfqi"
+      },
+      "label": ""
+    }
+  ]
+}

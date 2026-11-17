@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "id": "down_mach_r_x_qzs98u",
+  "name": "太阳能阵列",
+  "nodeOrder": [
+    "m_wafer",
+    "m_wire",
+    "m_al",
+    "p_board",
+    "mach_mach_r_x_qzs98u",
+    "prod_mach_r_x_qzs98u"
+  ],
+  "edges": [
+    {
+      "id": "e_bdiuaqw",
+      "from": {
+        "node": "m_wafer",
+        "port": "p_hlkgkin"
+      },
+      "to": {
+        "node": "mach_mach_r_x_qzs98u",
+        "port": "p_rsqqcjl"
+      },
+      "label": "4×"
+    },
+    {
+      "id": "e_tv0l8mg",
+      "from": {
+        "node": "m_wire",
+        "port": "p_agyk41s"
+      },
+      "to": {
+        "node": "mach_mach_r_x_qzs98u",
+        "port": "p_tprr9b1"
+      },
+      "label": "3×"
+    },
+    {
+      "id": "e_phfhwdy",
+      "from": {
+        "node": "m_al",
+        "port": "p_qbfycqb"
+      },
+      "to": {
+        "node": "mach_mach_r_x_qzs98u",
+        "port": "p_6n97iii"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_8kbr3ew",
+      "from": {
+        "node": "p_board",
+        "port": "p_sb8pgyj"
+      },
+      "to": {
+        "node": "mach_mach_r_x_qzs98u",
+        "port": "p_zam0kw6"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_l78eiaa",
+      "from": {
+        "node": "mach_mach_r_x_qzs98u",
+        "port": "p_4pt1mz8"
+      },
+      "to": {
+        "node": "prod_mach_r_x_qzs98u",
+        "port": "p_zmu16qy"
+      },
+      "label": ""
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "id": "down_p_chip",
+  "name": "芯片",
+  "nodeOrder": [
+    "m_wafer",
+    "r_ree",
+    "r_s",
+    "mach_p_chip",
+    "prod_p_chip"
+  ],
+  "edges": [
+    {
+      "id": "e_v7p6ujq",
+      "from": {
+        "node": "m_wafer",
+        "port": "p_hlkgkin"
+      },
+      "to": {
+        "node": "mach_p_chip",
+        "port": "p_uxtyr2p"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_2jw4cgl",
+      "from": {
+        "node": "r_ree",
+        "port": "p_mny8dos"
+      },
+      "to": {
+        "node": "mach_p_chip",
+        "port": "p_tc87b5n"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_2sjwr8p",
+      "from": {
+        "node": "r_s",
+        "port": "p_xipt5qc"
+      },
+      "to": {
+        "node": "mach_p_chip",
+        "port": "p_0w9hen5"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_6at2ael",
+      "from": {
+        "node": "mach_p_chip",
+        "port": "p_jg0ks4b"
+      },
+      "to": {
+        "node": "prod_p_chip",
+        "port": "p_hw31shs"
+      },
+      "label": ""
+    }
+  ]
+}

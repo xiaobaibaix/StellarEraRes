@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "down_mach_r_x_9awu7f",
+  "kind": "子图",
+  "title": "管道铺设",
+  "props": {
+    "类别": {
+      "value": "下游",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_vhb74z8",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 1510,
+    "y": 40
+  },
+  "linkGraph": "pg_mwkemfxp_wjwy",
+  "subgraphMap": {
+    "p_vhb74z8": {
+      "node": "mach_mach_r_x_9awu7f",
+      "port": "p_xy24uvt"
+    }
+  }
+}

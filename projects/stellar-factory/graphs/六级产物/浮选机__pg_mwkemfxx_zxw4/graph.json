@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "id": "pg_mwkemfxx_zxw4",
+  "name": "浮选机",
+  "nodeOrder": [
+    "m_steel",
+    "p_pipe",
+    "p_motor",
+    "p_board",
+    "mach_mach_r_x_dp0dim",
+    "prod_mach_r_x_dp0dim"
+  ],
+  "edges": [
+    {
+      "id": "e_wmpo7ir",
+      "from": {
+        "node": "m_steel",
+        "port": "p_5pohhi7"
+      },
+      "to": {
+        "node": "mach_mach_r_x_dp0dim",
+        "port": "p_ky93v3j"
+      },
+      "label": "5×"
+    },
+    {
+      "id": "e_chwssmz",
+      "from": {
+        "node": "p_pipe",
+        "port": "p_s8up4sa"
+      },
+      "to": {
+        "node": "mach_mach_r_x_dp0dim",
+        "port": "p_rnx171k"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_cbou2l3",
+      "from": {
+        "node": "p_motor",
+        "port": "p_g8ofpv5"
+      },
+      "to": {
+        "node": "mach_mach_r_x_dp0dim",
+        "port": "p_mt7nvt0"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_t33qqkw",
+      "from": {
+        "node": "p_board",
+        "port": "p_bdl6knn"
+      },
+      "to": {
+        "node": "mach_mach_r_x_dp0dim",
+        "port": "p_5jrts0b"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_atdc2qo",
+      "from": {
+        "node": "mach_mach_r_x_dp0dim",
+        "port": "p_2v3rbjr"
+      },
+      "to": {
+        "node": "prod_mach_r_x_dp0dim",
+        "port": "p_zpmy31d"
+      },
+      "label": ""
+    }
+  ]
+}

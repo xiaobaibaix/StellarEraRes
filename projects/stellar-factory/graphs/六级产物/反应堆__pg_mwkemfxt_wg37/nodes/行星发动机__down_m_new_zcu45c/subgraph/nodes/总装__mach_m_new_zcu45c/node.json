@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "id": "mach_m_new_zcu45c",
+  "kind": "机器",
+  "title": "总装",
+  "props": {
+    "配方": {
+      "value": "总装",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_bxm0u5u",
+      "dir": "in",
+      "label": "基座环",
+      "capacity": "one"
+    },
+    {
+      "id": "p_ousooqe",
+      "dir": "in",
+      "label": "推力室",
+      "capacity": "one"
+    },
+    {
+      "id": "p_9gj86xc",
+      "dir": "in",
+      "label": "磁约束环",
+      "capacity": "one"
+    },
+    {
+      "id": "p_mbfmtmg",
+      "dir": "in",
+      "label": "注入器",
+      "capacity": "one"
+    },
+    {
+      "id": "p_morg82w",
+      "dir": "in",
+      "label": "反应堆",
+      "capacity": "one"
+    },
+    {
+      "id": "p_j7s8x1y",
+      "dir": "in",
+      "label": "散热阵列",
+      "capacity": "one"
+    },
+    {
+      "id": "p_8uq53vr",
+      "dir": "in",
+      "label": "燃料舱",
+      "capacity": "one"
+    },
+    {
+      "id": "p_ca2bi13",
+      "dir": "in",
+      "label": "控制舱",
+      "capacity": "one"
+    },
+    {
+      "id": "p_b5nrodv",
+      "dir": "in",
+      "label": "结构梁",
+      "capacity": "one"
+    },
+    {
+      "id": "p_j6go2jd",
+      "dir": "in",
+      "label": "电机",
+      "capacity": "one"
+    },
+    {
+      "id": "p_duu0roe",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 1410
+  }
+}

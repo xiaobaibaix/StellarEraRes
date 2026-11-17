@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "id": "pg_mwkemfxl_jlae",
+  "name": "轴承",
+  "nodeOrder": [
+    "m_steel",
+    "m_wire",
+    "mach_p_bearing",
+    "prod_p_bearing",
+    "down_p_motor",
+    "down_mach_r_x_3om4kz",
+    "down_mach_r_x_8ezn9q",
+    "down_mach_r_x_mlj5kx",
+    "down_mach_r_x_cu4ay8",
+    "down_mach_r_x_c68riu"
+  ],
+  "edges": [
+    {
+      "id": "e_wgrjfju",
+      "from": {
+        "node": "m_steel",
+        "port": "p_51w3w1q"
+      },
+      "to": {
+        "node": "mach_p_bearing",
+        "port": "p_vs4i45v"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_18q8f2o",
+      "from": {
+        "node": "m_wire",
+        "port": "p_fi2rt8c"
+      },
+      "to": {
+        "node": "mach_p_bearing",
+        "port": "p_j030ce3"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_epu307q",
+      "from": {
+        "node": "mach_p_bearing",
+        "port": "p_oan5hcg"
+      },
+      "to": {
+        "node": "prod_p_bearing",
+        "port": "p_gn29ja3"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_ho5hi93",
+      "from": {
+        "node": "prod_p_bearing",
+        "port": "p_h4powkz"
+      },
+      "to": {
+        "node": "down_p_motor",
+        "port": "p_rmdxhez"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_03ccrs1",
+      "from": {
+        "node": "prod_p_bearing",
+        "port": "p_h4powkz"
+      },
+      "to": {
+        "node": "down_mach_r_x_3om4kz",
+        "port": "p_vul7ywr"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_xjd66w2",
+      "from": {
+        "node": "prod_p_bearing",
+        "port": "p_h4powkz"
+      },
+      "to": {
+        "node": "down_mach_r_x_8ezn9q",
+        "port": "p_t2b6sqy"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_lxzvzjx",
+      "from": {
+        "node": "prod_p_bearing",
+        "port": "p_h4powkz"
+      },
+      "to": {
+        "node": "down_mach_r_x_mlj5kx",
+        "port": "p_s9ofy4w"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_mbueqv1",
+      "from": {
+        "node": "prod_p_bearing",
+        "port": "p_h4powkz"
+      },
+      "to": {
+        "node": "down_mach_r_x_cu4ay8",
+        "port": "p_jtqps0t"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_6bqxfkn",
+      "from": {
+        "node": "prod_p_bearing",
+        "port": "p_h4powkz"
+      },
+      "to": {
+        "node": "down_mach_r_x_c68riu",
+        "port": "p_4qi9r4h"
+      },
+      "label": ""
+    }
+  ]
+}

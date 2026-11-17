@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "id": "pg_mwkemfxi_rkvp",
+  "name": "铬铁",
+  "nodeOrder": [
+    "r_cr",
+    "r_c",
+    "mach_m_cr",
+    "prod_m_cr",
+    "down_m_ss",
+    "down_m_super"
+  ],
+  "edges": [
+    {
+      "id": "e_xax8jq1",
+      "from": {
+        "node": "r_cr",
+        "port": "p_iwroo68"
+      },
+      "to": {
+        "node": "mach_m_cr",
+        "port": "p_rglip0u"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_v6lsluy",
+      "from": {
+        "node": "r_c",
+        "port": "p_lr3ul9g"
+      },
+      "to": {
+        "node": "mach_m_cr",
+        "port": "p_lwhdhin"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_4ejc9cz",
+      "from": {
+        "node": "mach_m_cr",
+        "port": "p_stbcpia"
+      },
+      "to": {
+        "node": "prod_m_cr",
+        "port": "p_gt6hxgo"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_wr06sbw",
+      "from": {
+        "node": "prod_m_cr",
+        "port": "p_hn0hvuz"
+      },
+      "to": {
+        "node": "down_m_ss",
+        "port": "p_cthi9ym"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_o4u6gjf",
+      "from": {
+        "node": "prod_m_cr",
+        "port": "p_hn0hvuz"
+      },
+      "to": {
+        "node": "down_m_super",
+        "port": "p_dbr9edg"
+      },
+      "label": ""
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "id": "r_al",
+  "kind": "资源",
+  "title": "铝土",
+  "props": {
+    "符号": {
+      "value": "Al",
+      "type": "string"
+    },
+    "类别": {
+      "value": "元素",
+      "type": "string"
+    },
+    "深度": {
+      "value": "0–8 格",
+      "type": "string"
+    },
+    "星球": {
+      "value": "湿热行星",
+      "type": "string"
+    },
+    "用途": {
+      "value": "轻结构、散热",
+      "type": "string"
+    },
+    "层级": {
+      "value": "原矿",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_zyrn0xs",
+      "dir": "out",
+      "label": "产出",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 60
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "id": "k_furnace",
+  "kind": "机器",
+  "title": "高炉",
+  "props": {
+    "类别": {
+      "value": "冶炼",
+      "type": "string"
+    },
+    "功率": {
+      "value": "120",
+      "type": "string"
+    },
+    "阶段": {
+      "value": "S1",
+      "type": "string"
+    },
+    "输入": {
+      "value": "铁精矿 + 焦炭",
+      "type": "string"
+    },
+    "输出": {
+      "value": "铁水 / 钢",
+      "type": "string"
+    },
+    "层级": {
+      "value": "冶炼",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_95vcnsm",
+      "dir": "in",
+      "label": "输入",
+      "capacity": "one"
+    },
+    {
+      "id": "p_l1qf8cz",
+      "dir": "out",
+      "label": "输出",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 780,
+    "y": 402
+  }
+}

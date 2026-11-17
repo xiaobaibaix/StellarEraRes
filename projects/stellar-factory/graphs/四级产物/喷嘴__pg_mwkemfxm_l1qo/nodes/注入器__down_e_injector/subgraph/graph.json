@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "id": "down_e_injector",
+  "name": "注入器",
+  "nodeOrder": [
+    "p_nozzle",
+    "p_chip",
+    "mach_e_injector",
+    "prod_e_injector"
+  ],
+  "edges": [
+    {
+      "id": "e_cb728ne",
+      "from": {
+        "node": "p_nozzle",
+        "port": "p_248m151"
+      },
+      "to": {
+        "node": "mach_e_injector",
+        "port": "p_8lij72k"
+      },
+      "label": "8×"
+    },
+    {
+      "id": "e_wt7dot3",
+      "from": {
+        "node": "p_chip",
+        "port": "p_w3v34d6"
+      },
+      "to": {
+        "node": "mach_e_injector",
+        "port": "p_sxnvz6m"
+      },
+      "label": "4×"
+    },
+    {
+      "id": "e_5zt2fba",
+      "from": {
+        "node": "mach_e_injector",
+        "port": "p_oazigax"
+      },
+      "to": {
+        "node": "prod_e_injector",
+        "port": "p_829szsw"
+      },
+      "label": ""
+    }
+  ]
+}

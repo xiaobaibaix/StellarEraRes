@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "id": "r_si",
+  "kind": "资源",
+  "title": "硅",
+  "props": {
+    "符号": {
+      "value": "Si",
+      "type": "string"
+    },
+    "类别": {
+      "value": "元素",
+      "type": "string"
+    },
+    "深度": {
+      "value": "0–8 格",
+      "type": "string"
+    },
+    "星球": {
+      "value": "岩石 / 硅地",
+      "type": "string"
+    },
+    "用途": {
+      "value": "芯片、玻璃、太阳能",
+      "type": "string"
+    },
+    "层级": {
+      "value": "原矿",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_n5khnf1",
+      "dir": "out",
+      "label": "产出",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 660,
+    "y": 80
+  }
+}

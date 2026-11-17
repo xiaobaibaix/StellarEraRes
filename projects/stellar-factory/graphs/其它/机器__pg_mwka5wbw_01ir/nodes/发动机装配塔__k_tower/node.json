@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "id": "k_tower",
+  "kind": "机器",
+  "title": "发动机装配塔",
+  "props": {
+    "类别": {
+      "value": "巨型",
+      "type": "string"
+    },
+    "功率": {
+      "value": "0",
+      "type": "string"
+    },
+    "阶段": {
+      "value": "S3",
+      "type": "string"
+    },
+    "输入": {
+      "value": "部件",
+      "type": "string"
+    },
+    "输出": {
+      "value": "发动机模块",
+      "type": "string"
+    },
+    "层级": {
+      "value": "巨型",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_rm1f8r0",
+      "dir": "in",
+      "label": "输入",
+      "capacity": "one"
+    },
+    {
+      "id": "p_4bon7y1",
+      "dir": "out",
+      "label": "输出",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 2530,
+    "y": 402
+  }
+}

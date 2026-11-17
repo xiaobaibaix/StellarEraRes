@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "id": "e_radiator",
+  "kind": "资源",
+  "title": "散热阵列",
+  "props": {
+    "类别": {
+      "value": "发动机模块",
+      "type": "string"
+    },
+    "层级": {
+      "value": "模块",
+      "type": "string"
+    },
+    "输入数": {
+      "value": 2,
+      "type": "number"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_pr8p1oq",
+      "dir": "in",
+      "label": "原料1",
+      "capacity": "one"
+    },
+    {
+      "id": "p_9ctzm8b",
+      "dir": "in",
+      "label": "原料2",
+      "capacity": "one"
+    },
+    {
+      "id": "p_ul375f4",
+      "dir": "in",
+      "label": "原料3",
+      "capacity": "one"
+    },
+    {
+      "id": "p_py9locu",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 1560
+  }
+}

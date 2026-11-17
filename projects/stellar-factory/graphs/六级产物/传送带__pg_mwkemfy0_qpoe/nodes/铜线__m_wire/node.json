@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "id": "m_wire",
+  "kind": "子图",
+  "title": "铜线",
+  "props": {},
+  "ports": [
+    {
+      "id": "p_ct6cpyh",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 1050
+  },
+  "subgraphMap": {
+    "p_ct6cpyh": {
+      "node": "mach_m_wire",
+      "port": "p_qyqtxd1"
+    }
+  }
+}

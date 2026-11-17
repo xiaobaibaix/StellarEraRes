@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "id": "m_wire",
+  "kind": "子图",
+  "title": "铜线",
+  "props": {},
+  "ports": [
+    {
+      "id": "p_o4tzn3m",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 390
+  },
+  "subgraphMap": {
+    "p_o4tzn3m": {
+      "node": "mach_m_wire",
+      "port": "p_qyqtxd1"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "id": "pg_mwkemfxv_pj6c",
+  "name": "冰 / 水抽取",
+  "nodeOrder": [
+    "m_steel",
+    "p_pipe",
+    "p_motor",
+    "mach_mach_r_x_eq5cvl",
+    "prod_mach_r_x_eq5cvl"
+  ],
+  "edges": [
+    {
+      "id": "e_6q4ehyj",
+      "from": {
+        "node": "m_steel",
+        "port": "p_nb8skjn"
+      },
+      "to": {
+        "node": "mach_mach_r_x_eq5cvl",
+        "port": "p_qk1s3kr"
+      },
+      "label": "4×"
+    },
+    {
+      "id": "e_4oswtgz",
+      "from": {
+        "node": "p_pipe",
+        "port": "p_wrpdbd7"
+      },
+      "to": {
+        "node": "mach_mach_r_x_eq5cvl",
+        "port": "p_43qcttu"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_c86rsud",
+      "from": {
+        "node": "p_motor",
+        "port": "p_aimx0b1"
+      },
+      "to": {
+        "node": "mach_mach_r_x_eq5cvl",
+        "port": "p_itx55pz"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_ekioxhb",
+      "from": {
+        "node": "mach_mach_r_x_eq5cvl",
+        "port": "p_10ddt2u"
+      },
+      "to": {
+        "node": "prod_mach_r_x_eq5cvl",
+        "port": "p_b07u33l"
+      },
+      "label": ""
+    }
+  ]
+}

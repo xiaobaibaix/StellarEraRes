@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "down_mach_r_x_qfouqe",
+  "kind": "子图",
+  "title": "高炉",
+  "props": {
+    "类别": {
+      "value": "下游",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_5fpj3qs",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 1510,
+    "y": 560
+  },
+  "linkGraph": "pg_mwkemfxo_acq5",
+  "subgraphMap": {
+    "p_5fpj3qs": {
+      "node": "mach_mach_r_x_qfouqe",
+      "port": "p_qwzdu89"
+    }
+  }
+}

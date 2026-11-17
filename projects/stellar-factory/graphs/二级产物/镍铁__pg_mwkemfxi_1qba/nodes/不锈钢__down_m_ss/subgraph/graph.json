@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "id": "down_m_ss",
+  "name": "不锈钢",
+  "nodeOrder": [
+    "m_steel",
+    "m_ni",
+    "m_cr",
+    "mach_m_ss",
+    "prod_m_ss"
+  ],
+  "edges": [
+    {
+      "id": "e_yicsk4t",
+      "from": {
+        "node": "m_steel",
+        "port": "p_nmwu0ii"
+      },
+      "to": {
+        "node": "mach_m_ss",
+        "port": "p_y7615ra"
+      },
+      "label": "3×"
+    },
+    {
+      "id": "e_41deihu",
+      "from": {
+        "node": "m_ni",
+        "port": "p_cdeld0b"
+      },
+      "to": {
+        "node": "mach_m_ss",
+        "port": "p_cum1p37"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_inqnd8e",
+      "from": {
+        "node": "m_cr",
+        "port": "p_lkrwf9o"
+      },
+      "to": {
+        "node": "mach_m_ss",
+        "port": "p_zixn3v7"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_2s6i1e7",
+      "from": {
+        "node": "mach_m_ss",
+        "port": "p_s2bvz7g"
+      },
+      "to": {
+        "node": "prod_m_ss",
+        "port": "p_vro097v"
+      },
+      "label": ""
+    }
+  ]
+}

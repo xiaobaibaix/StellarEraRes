@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "id": "k_conv",
+  "kind": "机器",
+  "title": "转炉",
+  "props": {
+    "类别": {
+      "value": "冶炼",
+      "type": "string"
+    },
+    "功率": {
+      "value": "80",
+      "type": "string"
+    },
+    "阶段": {
+      "value": "S2",
+      "type": "string"
+    },
+    "输入": {
+      "value": "铁水 + 氧",
+      "type": "string"
+    },
+    "输出": {
+      "value": "钢",
+      "type": "string"
+    },
+    "层级": {
+      "value": "冶炼",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_wjmqkcl",
+      "dir": "in",
+      "label": "输入",
+      "capacity": "one"
+    },
+    {
+      "id": "p_g2ef1u0",
+      "dir": "out",
+      "label": "输出",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 780,
+    "y": 926
+  }
+}

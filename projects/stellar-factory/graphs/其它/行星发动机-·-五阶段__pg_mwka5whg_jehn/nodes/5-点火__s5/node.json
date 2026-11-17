@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "s5",
+  "kind": "阶段",
+  "title": "5 点火",
+  "props": {
+    "目标": {
+      "value": "加注推进剂，磁约束充电，点火",
+      "type": "string"
+    },
+    "关键资源": {
+      "value": "推进剂 5000–10000、满功率电力",
+      "type": "string"
+    },
+    "验收": {
+      "value": "推力过质心，Δv ≥ 0.5 m/s",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_u0j62pn",
+      "dir": "in",
+      "label": "前置",
+      "capacity": "one"
+    },
+    {
+      "id": "p_zi4ho8y",
+      "dir": "out",
+      "label": "完成",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 1500,
+    "y": 60
+  }
+}

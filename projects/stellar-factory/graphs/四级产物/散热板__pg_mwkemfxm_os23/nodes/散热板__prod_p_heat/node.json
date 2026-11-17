@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "prod_p_heat",
+  "kind": "资源",
+  "title": "散热板",
+  "props": {
+    "类别": {
+      "value": "产物",
+      "type": "string"
+    },
+    "层级": {
+      "value": "L4",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_eq41dnw",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    },
+    {
+      "id": "p_trenbu9",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 800,
+    "y": 225
+  }
+}

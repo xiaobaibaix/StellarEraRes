@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "id": "down_mach_r_x_nhosx5",
+  "name": "轨道运输",
+  "nodeOrder": [
+    "m_steel",
+    "p_beam",
+    "m_concrete",
+    "mach_mach_r_x_nhosx5",
+    "prod_mach_r_x_nhosx5"
+  ],
+  "edges": [
+    {
+      "id": "e_3lgi5d8",
+      "from": {
+        "node": "m_steel",
+        "port": "p_nmwu0ii"
+      },
+      "to": {
+        "node": "mach_mach_r_x_nhosx5",
+        "port": "p_gk41ufg"
+      },
+      "label": "8×"
+    },
+    {
+      "id": "e_yn1echu",
+      "from": {
+        "node": "p_beam",
+        "port": "p_gud6rxx"
+      },
+      "to": {
+        "node": "mach_mach_r_x_nhosx5",
+        "port": "p_v4o3k5u"
+      },
+      "label": "6×"
+    },
+    {
+      "id": "e_wz8ng16",
+      "from": {
+        "node": "m_concrete",
+        "port": "p_p90h7nf"
+      },
+      "to": {
+        "node": "mach_mach_r_x_nhosx5",
+        "port": "p_tu9pr1x"
+      },
+      "label": "6×"
+    },
+    {
+      "id": "e_rlqkvl1",
+      "from": {
+        "node": "mach_mach_r_x_nhosx5",
+        "port": "p_40fex4c"
+      },
+      "to": {
+        "node": "prod_mach_r_x_nhosx5",
+        "port": "p_d9umapn"
+      },
+      "label": ""
+    }
+  ]
+}

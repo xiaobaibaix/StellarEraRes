@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "id": "r_c",
+  "kind": "资源",
+  "title": "煤",
+  "props": {
+    "符号": {
+      "value": "C",
+      "type": "string"
+    },
+    "类别": {
+      "value": "元素",
+      "type": "string"
+    },
+    "深度": {
+      "value": "0–2 格",
+      "type": "string"
+    },
+    "星球": {
+      "value": "有生物圈",
+      "type": "string"
+    },
+    "用途": {
+      "value": "焦炭、还原剂",
+      "type": "string"
+    },
+    "层级": {
+      "value": "原矿",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_lr3ul9g",
+      "dir": "out",
+      "label": "产出",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 410
+  }
+}

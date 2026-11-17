@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "prod_m_cr",
+  "kind": "资源",
+  "title": "铬铁",
+  "props": {
+    "类别": {
+      "value": "产物",
+      "type": "string"
+    },
+    "层级": {
+      "value": "L2",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_gt6hxgo",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    },
+    {
+      "id": "p_hn0hvuz",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 800,
+    "y": 225
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "id": "n_7geof4c",
+  "name": "玻璃",
+  "nodeOrder": [
+    "r_si",
+    "r_ca",
+    "mach_m_glass",
+    "prod_m_glass",
+    "down_e_control"
+  ],
+  "edges": [
+    {
+      "id": "e_7sdo0q2",
+      "from": {
+        "node": "r_si",
+        "port": "p_n5khnf1"
+      },
+      "to": {
+        "node": "mach_m_glass",
+        "port": "p_x5wu4ww"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_2wsu1om",
+      "from": {
+        "node": "r_ca",
+        "port": "p_0ug4j4q"
+      },
+      "to": {
+        "node": "mach_m_glass",
+        "port": "p_ktk9434"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_xo8273q",
+      "from": {
+        "node": "mach_m_glass",
+        "port": "p_jn5x3pu"
+      },
+      "to": {
+        "node": "prod_m_glass",
+        "port": "p_9nythoj"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_p4t28eo",
+      "from": {
+        "node": "prod_m_glass",
+        "port": "p_l71x6wa"
+      },
+      "to": {
+        "node": "down_e_control",
+        "port": "p_12gs98n"
+      },
+      "label": ""
+    }
+  ]
+}

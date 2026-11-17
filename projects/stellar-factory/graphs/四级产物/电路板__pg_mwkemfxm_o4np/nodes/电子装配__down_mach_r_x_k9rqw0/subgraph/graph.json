@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "id": "down_mach_r_x_k9rqw0",
+  "name": "电子装配",
+  "nodeOrder": [
+    "m_steel",
+    "p_board",
+    "p_chip",
+    "m_wire",
+    "mach_mach_r_x_k9rqw0",
+    "prod_mach_r_x_k9rqw0"
+  ],
+  "edges": [
+    {
+      "id": "e_sew15bs",
+      "from": {
+        "node": "m_steel",
+        "port": "p_nmwu0ii"
+      },
+      "to": {
+        "node": "mach_mach_r_x_k9rqw0",
+        "port": "p_spg7pxe"
+      },
+      "label": "4×"
+    },
+    {
+      "id": "e_b4sdelz",
+      "from": {
+        "node": "p_board",
+        "port": "p_sb8pgyj"
+      },
+      "to": {
+        "node": "mach_mach_r_x_k9rqw0",
+        "port": "p_5thuotf"
+      },
+      "label": "4×"
+    },
+    {
+      "id": "e_r8v06qf",
+      "from": {
+        "node": "p_chip",
+        "port": "p_w3v34d6"
+      },
+      "to": {
+        "node": "mach_mach_r_x_k9rqw0",
+        "port": "p_rntirv1"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_u08mnrc",
+      "from": {
+        "node": "m_wire",
+        "port": "p_agyk41s"
+      },
+      "to": {
+        "node": "mach_mach_r_x_k9rqw0",
+        "port": "p_azvip62"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_qj67b43",
+      "from": {
+        "node": "mach_mach_r_x_k9rqw0",
+        "port": "p_pvb7wqx"
+      },
+      "to": {
+        "node": "prod_mach_r_x_k9rqw0",
+        "port": "p_xa0ylec"
+      },
+      "label": ""
+    }
+  ]
+}

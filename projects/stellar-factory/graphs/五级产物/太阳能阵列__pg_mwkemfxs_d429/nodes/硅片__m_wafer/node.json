@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "id": "m_wafer",
+  "kind": "子图",
+  "title": "硅片",
+  "props": {},
+  "ports": [
+    {
+      "id": "p_4prolci",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 60
+  },
+  "subgraphMap": {
+    "p_4prolci": {
+      "node": "mach_m_wafer",
+      "port": "p_a8lryya"
+    }
+  }
+}

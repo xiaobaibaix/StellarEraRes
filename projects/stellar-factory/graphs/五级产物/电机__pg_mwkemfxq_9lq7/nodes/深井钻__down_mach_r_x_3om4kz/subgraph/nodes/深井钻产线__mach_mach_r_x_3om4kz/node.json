@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "id": "mach_mach_r_x_3om4kz",
+  "kind": "机器",
+  "title": "深井钻产线",
+  "props": {
+    "配方": {
+      "value": "深井钻产线",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_7uj91ki",
+      "dir": "in",
+      "label": "钢",
+      "capacity": "one"
+    },
+    {
+      "id": "p_xblfvxl",
+      "dir": "in",
+      "label": "电机",
+      "capacity": "one"
+    },
+    {
+      "id": "p_awo69mv",
+      "dir": "in",
+      "label": "齿轮",
+      "capacity": "one"
+    },
+    {
+      "id": "p_xfzasee",
+      "dir": "in",
+      "label": "轴承",
+      "capacity": "one"
+    },
+    {
+      "id": "p_avpcq1i",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 510
+  }
+}

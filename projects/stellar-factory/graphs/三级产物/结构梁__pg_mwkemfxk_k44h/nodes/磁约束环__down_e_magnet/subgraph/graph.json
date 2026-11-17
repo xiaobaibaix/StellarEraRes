@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "id": "down_e_magnet",
+  "name": "磁约束环",
+  "nodeOrder": [
+    "p_coil",
+    "p_beam",
+    "mach_e_magnet",
+    "prod_e_magnet"
+  ],
+  "edges": [
+    {
+      "id": "e_2ret08t",
+      "from": {
+        "node": "p_coil",
+        "port": "p_me0kcuy"
+      },
+      "to": {
+        "node": "mach_e_magnet",
+        "port": "p_hjtfomb"
+      },
+      "label": "24×"
+    },
+    {
+      "id": "e_wz1keaw",
+      "from": {
+        "node": "p_beam",
+        "port": "p_gud6rxx"
+      },
+      "to": {
+        "node": "mach_e_magnet",
+        "port": "p_ojvyh70"
+      },
+      "label": "12×"
+    },
+    {
+      "id": "e_eitonsq",
+      "from": {
+        "node": "mach_e_magnet",
+        "port": "p_stpzokm"
+      },
+      "to": {
+        "node": "prod_e_magnet",
+        "port": "p_3j0psr5"
+      },
+      "label": ""
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "id": "down_mach_r_x_mfyowd",
+  "name": "矿机",
+  "nodeOrder": [
+    "m_steel",
+    "p_motor",
+    "p_gear",
+    "p_board",
+    "mach_mach_r_x_mfyowd",
+    "prod_mach_r_x_mfyowd"
+  ],
+  "edges": [
+    {
+      "id": "e_sshxk26",
+      "from": {
+        "node": "m_steel",
+        "port": "p_nmwu0ii"
+      },
+      "to": {
+        "node": "mach_mach_r_x_mfyowd",
+        "port": "p_g3dcbub"
+      },
+      "label": "6×"
+    },
+    {
+      "id": "e_ylx4kbz",
+      "from": {
+        "node": "p_motor",
+        "port": "p_u2och3g"
+      },
+      "to": {
+        "node": "mach_mach_r_x_mfyowd",
+        "port": "p_k03bg0h"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_1pv7uo2",
+      "from": {
+        "node": "p_gear",
+        "port": "p_omtnv9i"
+      },
+      "to": {
+        "node": "mach_mach_r_x_mfyowd",
+        "port": "p_wxjg1f2"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_y0mesmh",
+      "from": {
+        "node": "p_board",
+        "port": "p_sb8pgyj"
+      },
+      "to": {
+        "node": "mach_mach_r_x_mfyowd",
+        "port": "p_ktpqtd9"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_8lklz3o",
+      "from": {
+        "node": "mach_mach_r_x_mfyowd",
+        "port": "p_a8fnud0"
+      },
+      "to": {
+        "node": "prod_mach_r_x_mfyowd",
+        "port": "p_5meu8ge"
+      },
+      "label": ""
+    }
+  ]
+}

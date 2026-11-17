@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "id": "pg_mwkemfxo_rl05",
+  "name": "转炉",
+  "nodeOrder": [
+    "m_steel",
+    "p_beam",
+    "m_concrete",
+    "p_pipe",
+    "mach_mach_r_x_9jxjlo",
+    "prod_mach_r_x_9jxjlo"
+  ],
+  "edges": [
+    {
+      "id": "e_p3gfzkh",
+      "from": {
+        "node": "m_steel",
+        "port": "p_g9lj0f5"
+      },
+      "to": {
+        "node": "mach_mach_r_x_9jxjlo",
+        "port": "p_8fnme1r"
+      },
+      "label": "10×"
+    },
+    {
+      "id": "e_djgnezm",
+      "from": {
+        "node": "p_beam",
+        "port": "p_lk18dgx"
+      },
+      "to": {
+        "node": "mach_mach_r_x_9jxjlo",
+        "port": "p_n6wgbdv"
+      },
+      "label": "4×"
+    },
+    {
+      "id": "e_lh7selx",
+      "from": {
+        "node": "m_concrete",
+        "port": "p_jlf3x3b"
+      },
+      "to": {
+        "node": "mach_mach_r_x_9jxjlo",
+        "port": "p_zuh9w9q"
+      },
+      "label": "6×"
+    },
+    {
+      "id": "e_z1zxcov",
+      "from": {
+        "node": "p_pipe",
+        "port": "p_ys8g3qm"
+      },
+      "to": {
+        "node": "mach_mach_r_x_9jxjlo",
+        "port": "p_nx8tu3d"
+      },
+      "label": "3×"
+    },
+    {
+      "id": "e_mznoe5i",
+      "from": {
+        "node": "mach_mach_r_x_9jxjlo",
+        "port": "p_ctz0212"
+      },
+      "to": {
+        "node": "prod_mach_r_x_9jxjlo",
+        "port": "p_yulh731"
+      },
+      "label": ""
+    }
+  ]
+}

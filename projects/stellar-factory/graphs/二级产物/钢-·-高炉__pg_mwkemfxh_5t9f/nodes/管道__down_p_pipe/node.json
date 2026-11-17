@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "down_p_pipe",
+  "kind": "子图",
+  "title": "管道",
+  "props": {
+    "类别": {
+      "value": "下游",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_aq00bu7",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 1180,
+    "y": 560
+  },
+  "linkGraph": "pg_mwkemfxl_2mhi",
+  "subgraphMap": {
+    "p_aq00bu7": {
+      "node": "mach_p_pipe",
+      "port": "p_o2m6u7n"
+    }
+  }
+}

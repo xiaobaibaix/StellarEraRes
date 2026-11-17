@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "id": "k_solar",
+  "kind": "机器",
+  "title": "太阳能阵列",
+  "props": {
+    "类别": {
+      "value": "电力",
+      "type": "string"
+    },
+    "功率": {
+      "value": "+50",
+      "type": "string"
+    },
+    "阶段": {
+      "value": "S0",
+      "type": "string"
+    },
+    "输入": {
+      "value": "阳光",
+      "type": "string"
+    },
+    "输出": {
+      "value": "电",
+      "type": "string"
+    },
+    "层级": {
+      "value": "电力",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_57uelbs",
+      "dir": "in",
+      "label": "输入",
+      "capacity": "one"
+    },
+    {
+      "id": "p_1tkbkvm",
+      "dir": "out",
+      "label": "输出",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 1830,
+    "y": 926
+  }
+}

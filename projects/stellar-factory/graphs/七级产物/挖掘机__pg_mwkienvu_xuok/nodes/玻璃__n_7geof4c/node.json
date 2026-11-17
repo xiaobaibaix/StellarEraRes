@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "id": "n_7geof4c",
+  "title": "玻璃",
+  "props": {},
+  "ports": [
+    {
+      "id": "p_xnvxpvg",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 472.2183130110721,
+    "y": 1568.2528724093365
+  },
+  "linkGraph": "pg_mwkemfxi_n60d"
+}

@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "id": "p_board",
+  "kind": "子图",
+  "title": "电路板",
+  "props": {},
+  "ports": [
+    {
+      "id": "p_adnq3h2",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 1050
+  },
+  "subgraphMap": {
+    "p_adnq3h2": {
+      "node": "mach_p_board",
+      "port": "p_nui5aq4"
+    }
+  }
+}

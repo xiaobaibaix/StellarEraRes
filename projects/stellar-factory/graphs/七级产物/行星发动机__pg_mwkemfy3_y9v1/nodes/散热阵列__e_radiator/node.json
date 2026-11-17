@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "id": "e_radiator",
+  "kind": "子图",
+  "title": "散热阵列",
+  "props": {},
+  "ports": [
+    {
+      "id": "p_w0i72k9",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 1710
+  },
+  "subgraphMap": {
+    "p_w0i72k9": {
+      "node": "mach_e_radiator",
+      "port": "p_xecr6ar"
+    }
+  }
+}

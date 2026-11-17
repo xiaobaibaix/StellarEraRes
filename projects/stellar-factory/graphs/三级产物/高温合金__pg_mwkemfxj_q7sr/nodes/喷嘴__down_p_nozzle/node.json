@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "down_p_nozzle",
+  "kind": "子图",
+  "title": "喷嘴",
+  "props": {
+    "类别": {
+      "value": "下游",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_ra6o87l",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 1180,
+    "y": 40
+  },
+  "linkGraph": "pg_mwkemfxm_l1qo",
+  "subgraphMap": {
+    "p_ra6o87l": {
+      "node": "mach_p_nozzle",
+      "port": "p_bojon1s"
+    }
+  }
+}

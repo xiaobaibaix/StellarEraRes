@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "down_p_gear",
+  "kind": "子图",
+  "title": "齿轮",
+  "props": {
+    "类别": {
+      "value": "下游",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_x2r5rj5",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 1180,
+    "y": 820
+  },
+  "linkGraph": "pg_mwkemfxl_7zn1",
+  "subgraphMap": {
+    "p_x2r5rj5": {
+      "node": "mach_p_gear",
+      "port": "p_z1yqfli"
+    }
+  }
+}

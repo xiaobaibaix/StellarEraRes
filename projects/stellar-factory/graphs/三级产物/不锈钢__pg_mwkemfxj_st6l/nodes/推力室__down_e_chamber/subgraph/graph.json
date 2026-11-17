@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "id": "down_e_chamber",
+  "name": "推力室",
+  "nodeOrder": [
+    "m_super",
+    "p_beam",
+    "m_ss",
+    "m_new_wpuxvb",
+    "mach_e_chamber",
+    "prod_e_chamber"
+  ],
+  "edges": [
+    {
+      "id": "e_kzy1atr",
+      "from": {
+        "node": "m_super",
+        "port": "p_emxpuml"
+      },
+      "to": {
+        "node": "mach_e_chamber",
+        "port": "p_z9cut7x"
+      },
+      "label": "30×"
+    },
+    {
+      "id": "e_0lln18k",
+      "from": {
+        "node": "p_beam",
+        "port": "p_gud6rxx"
+      },
+      "to": {
+        "node": "mach_e_chamber",
+        "port": "p_0sr6on8"
+      },
+      "label": "20×"
+    },
+    {
+      "id": "e_foekneh",
+      "from": {
+        "node": "m_ss",
+        "port": "p_e9venyb"
+      },
+      "to": {
+        "node": "mach_e_chamber",
+        "port": "p_8ipih5e"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_72dkoi8",
+      "from": {
+        "node": "m_new_wpuxvb",
+        "port": "p_r53bdl"
+      },
+      "to": {
+        "node": "mach_e_chamber",
+        "port": "p_vxansmu"
+      },
+      "label": "4×"
+    },
+    {
+      "id": "e_e9b8p59",
+      "from": {
+        "node": "mach_e_chamber",
+        "port": "p_quldlyj"
+      },
+      "to": {
+        "node": "prod_e_chamber",
+        "port": "p_0ofumrb"
+      },
+      "label": ""
+    }
+  ]
+}

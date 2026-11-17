@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "id": "r_cu",
+  "kind": "资源",
+  "title": "铜",
+  "props": {
+    "符号": {
+      "value": "Cu",
+      "type": "string"
+    },
+    "类别": {
+      "value": "元素",
+      "type": "string"
+    },
+    "深度": {
+      "value": "2–8 格",
+      "type": "string"
+    },
+    "星球": {
+      "value": "岩石 / 火山",
+      "type": "string"
+    },
+    "用途": {
+      "value": "导线、电机、线圈",
+      "type": "string"
+    },
+    "层级": {
+      "value": "原矿",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_i1718u3",
+      "dir": "out",
+      "label": "产出",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 360,
+    "y": 80
+  }
+}

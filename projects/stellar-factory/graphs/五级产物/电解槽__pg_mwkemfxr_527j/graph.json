@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "id": "pg_mwkemfxr_527j",
+  "name": "电解槽",
+  "nodeOrder": [
+    "m_steel",
+    "m_wire",
+    "p_pipe",
+    "p_board",
+    "mach_mach_r_x_cd6rm2",
+    "prod_mach_r_x_cd6rm2"
+  ],
+  "edges": [
+    {
+      "id": "e_gpm1616",
+      "from": {
+        "node": "m_steel",
+        "port": "p_mxbkmur"
+      },
+      "to": {
+        "node": "mach_mach_r_x_cd6rm2",
+        "port": "p_y5ifass"
+      },
+      "label": "6×"
+    },
+    {
+      "id": "e_tkft1xf",
+      "from": {
+        "node": "m_wire",
+        "port": "p_pcyhu1j"
+      },
+      "to": {
+        "node": "mach_mach_r_x_cd6rm2",
+        "port": "p_bbk5798"
+      },
+      "label": "4×"
+    },
+    {
+      "id": "e_9geanwr",
+      "from": {
+        "node": "p_pipe",
+        "port": "p_jd4x7wh"
+      },
+      "to": {
+        "node": "mach_mach_r_x_cd6rm2",
+        "port": "p_ae1s8xs"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_to8s117",
+      "from": {
+        "node": "p_board",
+        "port": "p_547jf7s"
+      },
+      "to": {
+        "node": "mach_mach_r_x_cd6rm2",
+        "port": "p_7c9bj78"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_z73x8te",
+      "from": {
+        "node": "mach_mach_r_x_cd6rm2",
+        "port": "p_h9yxmg7"
+      },
+      "to": {
+        "node": "prod_mach_r_x_cd6rm2",
+        "port": "p_34fkflj"
+      },
+      "label": ""
+    }
+  ]
+}

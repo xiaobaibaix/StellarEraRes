@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "down_p_gear",
+  "name": "齿轮",
+  "nodeOrder": [
+    "m_steel",
+    "mach_p_gear",
+    "prod_p_gear"
+  ],
+  "edges": [
+    {
+      "id": "e_65cwoyy",
+      "from": {
+        "node": "m_steel",
+        "port": "p_nmwu0ii"
+      },
+      "to": {
+        "node": "mach_p_gear",
+        "port": "p_z1yqfli"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_x3bab1r",
+      "from": {
+        "node": "mach_p_gear",
+        "port": "p_f4rjnbz"
+      },
+      "to": {
+        "node": "prod_p_gear",
+        "port": "p_xthmzta"
+      },
+      "label": ""
+    }
+  ]
+}

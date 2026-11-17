@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "id": "down_mach_r_x_rzcki8",
+  "name": "传送带",
+  "nodeOrder": [
+    "m_steel",
+    "p_motor",
+    "p_gear",
+    "m_wire",
+    "mach_mach_r_x_rzcki8",
+    "prod_mach_r_x_rzcki8"
+  ],
+  "edges": [
+    {
+      "id": "e_ss27dip",
+      "from": {
+        "node": "m_steel",
+        "port": "p_nmwu0ii"
+      },
+      "to": {
+        "node": "mach_mach_r_x_rzcki8",
+        "port": "p_p2bzecp"
+      },
+      "label": "4×"
+    },
+    {
+      "id": "e_zeixp1y",
+      "from": {
+        "node": "p_motor",
+        "port": "p_u2och3g"
+      },
+      "to": {
+        "node": "mach_mach_r_x_rzcki8",
+        "port": "p_3uk4xo8"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_sm0q51l",
+      "from": {
+        "node": "p_gear",
+        "port": "p_omtnv9i"
+      },
+      "to": {
+        "node": "mach_mach_r_x_rzcki8",
+        "port": "p_4t54fy2"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_i7amm9k",
+      "from": {
+        "node": "m_wire",
+        "port": "p_agyk41s"
+      },
+      "to": {
+        "node": "mach_mach_r_x_rzcki8",
+        "port": "p_ji6ls3v"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_grb7d5q",
+      "from": {
+        "node": "mach_mach_r_x_rzcki8",
+        "port": "p_h6f19gs"
+      },
+      "to": {
+        "node": "prod_mach_r_x_rzcki8",
+        "port": "p_gmfu1zr"
+      },
+      "label": ""
+    }
+  ]
+}

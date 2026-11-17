@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mach_m_wafer",
+  "kind": "机器",
+  "title": "切片",
+  "props": {
+    "配方": {
+      "value": "切片 / 酸洗",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_ri3smix",
+      "dir": "in",
+      "label": "硅锭",
+      "capacity": "one"
+    },
+    {
+      "id": "p_ghp41h2",
+      "dir": "in",
+      "label": "硫",
+      "capacity": "one"
+    },
+    {
+      "id": "p_dobmesu",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 210
+  }
+}

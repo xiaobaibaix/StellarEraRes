@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "down_mach_r_x_jbww96",
+  "kind": "子图",
+  "title": "地基浇筑",
+  "props": {
+    "类别": {
+      "value": "下游",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_i8e6lkr",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 1840,
+    "y": 40
+  },
+  "linkGraph": "pg_mwkemfxp_5rt9",
+  "subgraphMap": {
+    "p_i8e6lkr": {
+      "node": "mach_mach_r_x_jbww96",
+      "port": "p_ej1sfid"
+    }
+  }
+}

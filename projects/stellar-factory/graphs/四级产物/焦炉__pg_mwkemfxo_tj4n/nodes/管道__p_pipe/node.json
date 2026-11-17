@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "id": "p_pipe",
+  "kind": "子图",
+  "title": "管道",
+  "props": {},
+  "ports": [
+    {
+      "id": "p_ah6oym5",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 1050
+  },
+  "subgraphMap": {
+    "p_ah6oym5": {
+      "node": "mach_p_pipe",
+      "port": "p_97ivihl"
+    }
+  }
+}

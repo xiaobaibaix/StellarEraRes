@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "id": "k_elec",
+  "kind": "机器",
+  "title": "电子装配",
+  "props": {
+    "类别": {
+      "value": "制造",
+      "type": "string"
+    },
+    "功率": {
+      "value": "60",
+      "type": "string"
+    },
+    "阶段": {
+      "value": "S2",
+      "type": "string"
+    },
+    "输入": {
+      "value": "硅片 / 铜线",
+      "type": "string"
+    },
+    "输出": {
+      "value": "电路板 / 芯片",
+      "type": "string"
+    },
+    "层级": {
+      "value": "制造",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_swlmong",
+      "dir": "in",
+      "label": "输入",
+      "capacity": "one"
+    },
+    {
+      "id": "p_pep25je",
+      "dir": "out",
+      "label": "输出",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 1480,
+    "y": 140
+  }
+}

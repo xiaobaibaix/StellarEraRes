@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "id": "mach_mach_r_x_qzs98u",
+  "kind": "机器",
+  "title": "太阳能阵列产线",
+  "props": {
+    "配方": {
+      "value": "太阳能阵列产线",
+      "type": "string"
+    },
+    "层级": {
+      "value": "L5",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_7942jcr",
+      "dir": "in",
+      "label": "硅片",
+      "capacity": "one"
+    },
+    {
+      "id": "p_nokfp7n",
+      "dir": "in",
+      "label": "铜线",
+      "capacity": "one"
+    },
+    {
+      "id": "p_aqej63a",
+      "dir": "in",
+      "label": "铝锭",
+      "capacity": "one"
+    },
+    {
+      "id": "p_wa2a6fh",
+      "dir": "in",
+      "label": "电路板",
+      "capacity": "one"
+    },
+    {
+      "id": "p_kj79c45",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 555
+  }
+}

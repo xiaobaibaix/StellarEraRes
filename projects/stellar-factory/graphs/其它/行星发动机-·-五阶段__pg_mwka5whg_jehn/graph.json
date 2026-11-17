@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "id": "pg_mwka5whg_jehn",
+  "name": "行星发动机 · 五阶段",
+  "nodeOrder": [
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5"
+  ],
+  "edges": [
+    {
+      "id": "e_i1ne5cg",
+      "from": {
+        "node": "s1",
+        "port": "p_pgjwmbl"
+      },
+      "to": {
+        "node": "s2",
+        "port": "p_hc4dtq6"
+      },
+      "label": "完成"
+    },
+    {
+      "id": "e_hws03ea",
+      "from": {
+        "node": "s2",
+        "port": "p_g3lk95d"
+      },
+      "to": {
+        "node": "s3",
+        "port": "p_u8i0o6v"
+      },
+      "label": "完成"
+    },
+    {
+      "id": "e_ahjf04b",
+      "from": {
+        "node": "s3",
+        "port": "p_hpufbo3"
+      },
+      "to": {
+        "node": "s4",
+        "port": "p_5pju6hj"
+      },
+      "label": "完成"
+    },
+    {
+      "id": "e_hjapbho",
+      "from": {
+        "node": "s4",
+        "port": "p_wktasx7"
+      },
+      "to": {
+        "node": "s5",
+        "port": "p_u0j62pn"
+      },
+      "label": "完成"
+    }
+  ]
+}

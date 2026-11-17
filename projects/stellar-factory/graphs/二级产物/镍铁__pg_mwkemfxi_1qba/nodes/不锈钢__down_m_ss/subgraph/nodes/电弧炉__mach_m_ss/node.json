@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "id": "mach_m_ss",
+  "kind": "机器",
+  "title": "电弧炉",
+  "props": {
+    "配方": {
+      "value": "电弧炉",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_y7615ra",
+      "dir": "in",
+      "label": "钢",
+      "capacity": "one"
+    },
+    {
+      "id": "p_cum1p37",
+      "dir": "in",
+      "label": "镍铁",
+      "capacity": "one"
+    },
+    {
+      "id": "p_zixn3v7",
+      "dir": "in",
+      "label": "铬铁",
+      "capacity": "one"
+    },
+    {
+      "id": "p_s2bvz7g",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 360
+  }
+}

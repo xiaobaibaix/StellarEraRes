@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mach_e_injector",
+  "kind": "机器",
+  "title": "制造",
+  "props": {
+    "配方": {
+      "value": "制造"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_8lij72k",
+      "dir": "in",
+      "label": "喷嘴",
+      "capacity": "one"
+    },
+    {
+      "id": "p_sxnvz6m",
+      "dir": "in",
+      "label": "芯片",
+      "capacity": "one"
+    },
+    {
+      "id": "p_oazigax",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 210
+  }
+}

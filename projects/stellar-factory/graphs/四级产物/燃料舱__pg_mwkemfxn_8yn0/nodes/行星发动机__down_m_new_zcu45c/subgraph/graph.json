@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "id": "down_m_new_zcu45c",
+  "name": "行星发动机",
+  "nodeOrder": [
+    "e_base",
+    "e_chamber",
+    "e_magnet",
+    "e_injector",
+    "e_reactor",
+    "e_radiator",
+    "e_tank",
+    "e_control",
+    "p_beam",
+    "p_motor",
+    "mach_m_new_zcu45c",
+    "prod_m_new_zcu45c"
+  ],
+  "edges": [
+    {
+      "id": "e_89xmdxz",
+      "from": {
+        "node": "e_base",
+        "port": "p_wms3gj0"
+      },
+      "to": {
+        "node": "mach_m_new_zcu45c",
+        "port": "p_j1o834r"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_5e3evzy",
+      "from": {
+        "node": "e_chamber",
+        "port": "p_deg2ahb"
+      },
+      "to": {
+        "node": "mach_m_new_zcu45c",
+        "port": "p_r6zoewy"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_39kzg5v",
+      "from": {
+        "node": "e_magnet",
+        "port": "p_mgt5hbr"
+      },
+      "to": {
+        "node": "mach_m_new_zcu45c",
+        "port": "p_d3qy6a2"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_zedjgnv",
+      "from": {
+        "node": "e_injector",
+        "port": "p_9w856oq"
+      },
+      "to": {
+        "node": "mach_m_new_zcu45c",
+        "port": "p_fgm3z7j"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_cr89lx6",
+      "from": {
+        "node": "e_reactor",
+        "port": "p_blk88ys"
+      },
+      "to": {
+        "node": "mach_m_new_zcu45c",
+        "port": "p_lvb7ldq"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_n97tcsg",
+      "from": {
+        "node": "e_radiator",
+        "port": "p_py9locu"
+      },
+      "to": {
+        "node": "mach_m_new_zcu45c",
+        "port": "p_agb3rng"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_mzn5wmb",
+      "from": {
+        "node": "e_tank",
+        "port": "p_niekn0v"
+      },
+      "to": {
+        "node": "mach_m_new_zcu45c",
+        "port": "p_p1w27mh"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_ix782js",
+      "from": {
+        "node": "e_control",
+        "port": "p_gltvjkc"
+      },
+      "to": {
+        "node": "mach_m_new_zcu45c",
+        "port": "p_ylxceq4"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_nx6tgow",
+      "from": {
+        "node": "p_beam",
+        "port": "p_gud6rxx"
+      },
+      "to": {
+        "node": "mach_m_new_zcu45c",
+        "port": "p_vdvhi6o"
+      },
+      "label": "12×"
+    },
+    {
+      "id": "e_m7ex1nj",
+      "from": {
+        "node": "p_motor",
+        "port": "p_u2och3g"
+      },
+      "to": {
+        "node": "mach_m_new_zcu45c",
+        "port": "p_mcd48f6"
+      },
+      "label": "4×"
+    },
+    {
+      "id": "e_e8a3xl8",
+      "from": {
+        "node": "mach_m_new_zcu45c",
+        "port": "p_k052qla"
+      },
+      "to": {
+        "node": "prod_m_new_zcu45c",
+        "port": "p_ewglgmf"
+      },
+      "label": ""
+    }
+  ]
+}

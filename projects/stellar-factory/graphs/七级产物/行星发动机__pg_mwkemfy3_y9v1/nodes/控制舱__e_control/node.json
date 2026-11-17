@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "id": "e_control",
+  "kind": "子图",
+  "title": "控制舱",
+  "props": {},
+  "ports": [
+    {
+      "id": "p_mnphs8o",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 2370
+  },
+  "subgraphMap": {
+    "p_mnphs8o": {
+      "node": "mach_e_control",
+      "port": "p_uoti5ey"
+    }
+  }
+}

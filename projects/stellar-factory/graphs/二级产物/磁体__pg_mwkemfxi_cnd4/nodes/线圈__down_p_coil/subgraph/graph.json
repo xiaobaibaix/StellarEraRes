@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "id": "down_p_coil",
+  "name": "线圈",
+  "nodeOrder": [
+    "m_wire",
+    "m_magnet",
+    "mach_p_coil",
+    "prod_p_coil"
+  ],
+  "edges": [
+    {
+      "id": "e_opn9mc0",
+      "from": {
+        "node": "m_wire",
+        "port": "p_agyk41s"
+      },
+      "to": {
+        "node": "mach_p_coil",
+        "port": "p_n0vbtw3"
+      },
+      "label": "4×"
+    },
+    {
+      "id": "e_us25svy",
+      "from": {
+        "node": "m_magnet",
+        "port": "p_cepc0fk"
+      },
+      "to": {
+        "node": "mach_p_coil",
+        "port": "p_w0xjxgo"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_gyoaats",
+      "from": {
+        "node": "mach_p_coil",
+        "port": "p_bm3hm76"
+      },
+      "to": {
+        "node": "prod_p_coil",
+        "port": "p_3df5er6"
+      },
+      "label": ""
+    }
+  ]
+}

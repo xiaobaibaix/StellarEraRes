@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "down_e_magnet",
+  "kind": "子图",
+  "title": "磁约束环",
+  "props": {
+    "类别": {
+      "value": "下游",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_yvucyvi",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 1840,
+    "y": 300
+  },
+  "linkGraph": "pg_mwkemfxr_ts3z",
+  "subgraphMap": {
+    "p_yvucyvi": {
+      "node": "mach_e_magnet",
+      "port": "p_ojvyh70"
+    }
+  }
+}

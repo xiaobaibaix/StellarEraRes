@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mach_m_new_18ampt",
+  "kind": "机器",
+  "title": "电池组装",
+  "props": {
+    "配方": {
+      "value": "电池组装",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_sem4271",
+      "dir": "in",
+      "label": "锂",
+      "capacity": "one"
+    },
+    {
+      "id": "p_5mh0pkc",
+      "dir": "in",
+      "label": "铜线",
+      "capacity": "one"
+    },
+    {
+      "id": "p_11lb44i",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 210
+  }
+}

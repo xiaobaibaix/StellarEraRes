@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "s1",
+  "kind": "阶段",
+  "title": "1 勘探",
+  "props": {
+    "目标": {
+      "value": "确定地基、取水点、运输线",
+      "type": "string"
+    },
+    "关键资源": {
+      "value": "勘探设备、地质数据",
+      "type": "string"
+    },
+    "验收": {
+      "value": "钻探取样完成，地基坐标锁定",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_jawi8oc",
+      "dir": "in",
+      "label": "前置",
+      "capacity": "one"
+    },
+    {
+      "id": "p_pgjwmbl",
+      "dir": "out",
+      "label": "完成",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 60
+  }
+}

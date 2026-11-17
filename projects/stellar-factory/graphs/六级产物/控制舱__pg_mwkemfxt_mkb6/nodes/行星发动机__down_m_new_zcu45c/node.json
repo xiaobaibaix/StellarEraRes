@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "down_m_new_zcu45c",
+  "kind": "子图",
+  "title": "行星发动机",
+  "props": {
+    "类别": {
+      "value": "下游",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_2yk1f33",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 1125.0603217158175,
+    "y": 517.1903485254693
+  },
+  "linkGraph": "pg_mwkemfy3_y9v1",
+  "subgraphMap": {
+    "p_2yk1f33": {
+      "node": "mach_m_new_zcu45c",
+      "port": "p_0bw38z3"
+    }
+  }
+}

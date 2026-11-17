@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "down_mach_r_x_vwf6tm",
+  "kind": "子图",
+  "title": "气体井",
+  "props": {
+    "类别": {
+      "value": "下游",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_2dgmnpl",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 1840,
+    "y": 820
+  },
+  "linkGraph": "pg_mwkemfxw_8o67",
+  "subgraphMap": {
+    "p_2dgmnpl": {
+      "node": "mach_mach_r_x_vwf6tm",
+      "port": "p_90q03wt"
+    }
+  }
+}

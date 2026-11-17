@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "id": "mach_p_chip",
+  "kind": "机器",
+  "title": "光刻",
+  "props": {
+    "配方": {
+      "value": "光刻",
+      "type": "string"
+    },
+    "层级": {
+      "value": "L4",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_nj18ok0",
+      "dir": "in",
+      "label": "硅片",
+      "capacity": "one"
+    },
+    {
+      "id": "p_dnjmyll",
+      "dir": "in",
+      "label": "稀土",
+      "capacity": "one"
+    },
+    {
+      "id": "p_l03jgoo",
+      "dir": "in",
+      "label": "硫",
+      "capacity": "one"
+    },
+    {
+      "id": "p_6znzmyo",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 390
+  }
+}

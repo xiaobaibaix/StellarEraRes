@@ -1,0 +1,192 @@
+{
+  "version": 1,
+  "id": "pg_mwkemfxi_79ug",
+  "name": "混凝土",
+  "nodeOrder": [
+    "r_ca",
+    "r_h2o",
+    "mach_m_concrete",
+    "prod_m_concrete",
+    "down_e_base",
+    "down_mach_r_x_qfouqe",
+    "down_mach_r_x_9jxjlo",
+    "down_mach_r_x_bkclju",
+    "down_mach_r_x_9awu7f",
+    "down_mach_r_x_nhosx5",
+    "down_mach_r_x_7p8eh0",
+    "down_mach_r_x_jbww96",
+    "down_mach_r_x_te49iq",
+    "down_mach_r_x_uz72d6",
+    "down_mach_r_x_wn85ds"
+  ],
+  "edges": [
+    {
+      "id": "e_42sbf0z",
+      "from": {
+        "node": "r_ca",
+        "port": "p_0ug4j4q"
+      },
+      "to": {
+        "node": "mach_m_concrete",
+        "port": "p_yxjz9lt"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_v2subj0",
+      "from": {
+        "node": "r_h2o",
+        "port": "p_ybdwewy"
+      },
+      "to": {
+        "node": "mach_m_concrete",
+        "port": "p_jjen2ld"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_sqw3mhv",
+      "from": {
+        "node": "mach_m_concrete",
+        "port": "p_xifpr7i"
+      },
+      "to": {
+        "node": "prod_m_concrete",
+        "port": "p_73lln6b"
+      },
+      "label": "80×"
+    },
+    {
+      "id": "e_72yd87l",
+      "from": {
+        "node": "prod_m_concrete",
+        "port": "p_6d9a5j2"
+      },
+      "to": {
+        "node": "down_e_base",
+        "port": "p_dsm8iwl"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_lh6dlsj",
+      "from": {
+        "node": "prod_m_concrete",
+        "port": "p_6d9a5j2"
+      },
+      "to": {
+        "node": "down_mach_r_x_qfouqe",
+        "port": "p_olrwtbp"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_bs3z6d1",
+      "from": {
+        "node": "prod_m_concrete",
+        "port": "p_6d9a5j2"
+      },
+      "to": {
+        "node": "down_mach_r_x_9jxjlo",
+        "port": "p_ubvzyo9"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_r18tck4",
+      "from": {
+        "node": "prod_m_concrete",
+        "port": "p_6d9a5j2"
+      },
+      "to": {
+        "node": "down_mach_r_x_bkclju",
+        "port": "p_3jbyexd"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_d6nles1",
+      "from": {
+        "node": "prod_m_concrete",
+        "port": "p_6d9a5j2"
+      },
+      "to": {
+        "node": "down_mach_r_x_9awu7f",
+        "port": "p_vhb74z8"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_tv5uhi0",
+      "from": {
+        "node": "prod_m_concrete",
+        "port": "p_6d9a5j2"
+      },
+      "to": {
+        "node": "down_mach_r_x_nhosx5",
+        "port": "p_vvnqloq"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_hyt9lbu",
+      "from": {
+        "node": "prod_m_concrete",
+        "port": "p_6d9a5j2"
+      },
+      "to": {
+        "node": "down_mach_r_x_7p8eh0",
+        "port": "p_hbhm22y"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_6y7udra",
+      "from": {
+        "node": "prod_m_concrete",
+        "port": "p_6d9a5j2"
+      },
+      "to": {
+        "node": "down_mach_r_x_jbww96",
+        "port": "p_9fy1pee"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_tzplr6l",
+      "from": {
+        "node": "prod_m_concrete",
+        "port": "p_6d9a5j2"
+      },
+      "to": {
+        "node": "down_mach_r_x_te49iq",
+        "port": "p_vx5r0ro"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_65viv16",
+      "from": {
+        "node": "prod_m_concrete",
+        "port": "p_6d9a5j2"
+      },
+      "to": {
+        "node": "down_mach_r_x_uz72d6",
+        "port": "p_h34t2y1"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_kivynbf",
+      "from": {
+        "node": "prod_m_concrete",
+        "port": "p_6d9a5j2"
+      },
+      "to": {
+        "node": "down_mach_r_x_wn85ds",
+        "port": "p_8rf8pdr"
+      },
+      "label": ""
+    }
+  ]
+}

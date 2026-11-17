@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "down_e_injector",
+  "kind": "子图",
+  "title": "注入器",
+  "props": {
+    "类别": {
+      "value": "下游",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_d8n5eoy",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 1180,
+    "y": 40
+  },
+  "linkGraph": "pg_mwkemfxr_c656",
+  "subgraphMap": {
+    "p_d8n5eoy": {
+      "node": "mach_e_injector",
+      "port": "p_8lij72k"
+    }
+  }
+}

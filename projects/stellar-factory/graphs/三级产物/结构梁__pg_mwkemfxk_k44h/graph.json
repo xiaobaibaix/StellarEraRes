@@ -1,0 +1,205 @@
+{
+  "version": 1,
+  "id": "pg_mwkemfxk_k44h",
+  "name": "结构梁",
+  "nodeOrder": [
+    "m_steel",
+    "mach_p_beam",
+    "prod_p_beam",
+    "down_e_base",
+    "down_e_chamber",
+    "down_e_tank",
+    "down_mach_r_x_qfouqe",
+    "down_mach_r_x_9jxjlo",
+    "down_mach_r_x_bkclju",
+    "down_mach_r_x_nhosx5",
+    "down_mach_r_x_7p8eh0",
+    "down_mach_r_x_jbww96",
+    "down_e_magnet",
+    "down_mach_r_x_sxhqeu",
+    "down_mach_r_x_wn85ds",
+    "down_m_new_zcu45c"
+  ],
+  "edges": [
+    {
+      "id": "e_4jvyqlg",
+      "from": {
+        "node": "m_steel",
+        "port": "p_jxow4mr"
+      },
+      "to": {
+        "node": "mach_p_beam",
+        "port": "p_jl8jjpp"
+      },
+      "label": "3×"
+    },
+    {
+      "id": "e_y5n132h",
+      "from": {
+        "node": "mach_p_beam",
+        "port": "p_1deeyrl"
+      },
+      "to": {
+        "node": "prod_p_beam",
+        "port": "p_klwcd9v"
+      },
+      "label": "40×"
+    },
+    {
+      "id": "e_ysruv26",
+      "from": {
+        "node": "prod_p_beam",
+        "port": "p_m93si97"
+      },
+      "to": {
+        "node": "down_e_base",
+        "port": "p_sd8wnzj"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_kyvg5pb",
+      "from": {
+        "node": "prod_p_beam",
+        "port": "p_m93si97"
+      },
+      "to": {
+        "node": "down_e_chamber",
+        "port": "p_ze5ti0n"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_6orebbm",
+      "from": {
+        "node": "prod_p_beam",
+        "port": "p_m93si97"
+      },
+      "to": {
+        "node": "down_e_tank",
+        "port": "p_waotzqu"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_28hlnf3",
+      "from": {
+        "node": "prod_p_beam",
+        "port": "p_m93si97"
+      },
+      "to": {
+        "node": "down_mach_r_x_qfouqe",
+        "port": "p_f6uxsz4"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_8e7ti7y",
+      "from": {
+        "node": "prod_p_beam",
+        "port": "p_m93si97"
+      },
+      "to": {
+        "node": "down_mach_r_x_9jxjlo",
+        "port": "p_u4rkaz5"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_t7e5nz5",
+      "from": {
+        "node": "prod_p_beam",
+        "port": "p_m93si97"
+      },
+      "to": {
+        "node": "down_mach_r_x_bkclju",
+        "port": "p_ru0m1ue"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_oa97y21",
+      "from": {
+        "node": "prod_p_beam",
+        "port": "p_m93si97"
+      },
+      "to": {
+        "node": "down_mach_r_x_nhosx5",
+        "port": "p_ikuwh03"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_esb8z8a",
+      "from": {
+        "node": "prod_p_beam",
+        "port": "p_m93si97"
+      },
+      "to": {
+        "node": "down_mach_r_x_7p8eh0",
+        "port": "p_rnovc18"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_6fffx87",
+      "from": {
+        "node": "prod_p_beam",
+        "port": "p_m93si97"
+      },
+      "to": {
+        "node": "down_mach_r_x_jbww96",
+        "port": "p_i8e6lkr"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_3972ter",
+      "from": {
+        "node": "prod_p_beam",
+        "port": "p_m93si97"
+      },
+      "to": {
+        "node": "down_e_magnet",
+        "port": "p_yvucyvi"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_55rl994",
+      "from": {
+        "node": "prod_p_beam",
+        "port": "p_m93si97"
+      },
+      "to": {
+        "node": "down_mach_r_x_sxhqeu",
+        "port": "p_ncbzuu5"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_rf854th",
+      "from": {
+        "node": "prod_p_beam",
+        "port": "p_m93si97"
+      },
+      "to": {
+        "node": "down_mach_r_x_wn85ds",
+        "port": "p_oavdzvx"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_k6znvi0",
+      "from": {
+        "node": "prod_p_beam",
+        "port": "p_m93si97"
+      },
+      "to": {
+        "node": "down_m_new_zcu45c",
+        "port": "p_jb7jc17"
+      },
+      "label": ""
+    }
+  ]
+}

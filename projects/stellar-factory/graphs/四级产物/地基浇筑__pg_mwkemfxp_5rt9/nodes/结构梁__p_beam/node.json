@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "id": "p_beam",
+  "kind": "子图",
+  "title": "结构梁",
+  "props": {},
+  "ports": [
+    {
+      "id": "p_l2h7hlr",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 720
+  },
+  "subgraphMap": {
+    "p_l2h7hlr": {
+      "node": "mach_p_beam",
+      "port": "p_1deeyrl"
+    }
+  }
+}

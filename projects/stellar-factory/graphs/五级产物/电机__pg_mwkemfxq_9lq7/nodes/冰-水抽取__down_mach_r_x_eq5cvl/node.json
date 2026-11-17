@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "down_mach_r_x_eq5cvl",
+  "kind": "子图",
+  "title": "冰 / 水抽取",
+  "props": {
+    "类别": {
+      "value": "下游",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_1nrkifh",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 1180,
+    "y": 820
+  },
+  "linkGraph": "pg_mwkemfxv_pj6c",
+  "subgraphMap": {
+    "p_1nrkifh": {
+      "node": "mach_mach_r_x_eq5cvl",
+      "port": "p_wtpf50m"
+    }
+  }
+}

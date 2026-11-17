@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "id": "pg_mwkemfxv_em9k",
+  "name": "深井钻",
+  "nodeOrder": [
+    "m_steel",
+    "p_motor",
+    "p_gear",
+    "p_bearing",
+    "mach_mach_r_x_3om4kz",
+    "prod_mach_r_x_3om4kz"
+  ],
+  "edges": [
+    {
+      "id": "e_7wsp8zv",
+      "from": {
+        "node": "m_steel",
+        "port": "p_sl5jt90"
+      },
+      "to": {
+        "node": "mach_mach_r_x_3om4kz",
+        "port": "p_a3puof6"
+      },
+      "label": "10×"
+    },
+    {
+      "id": "e_6n8cs7p",
+      "from": {
+        "node": "p_motor",
+        "port": "p_jzlcxop"
+      },
+      "to": {
+        "node": "mach_mach_r_x_3om4kz",
+        "port": "p_aghypxb"
+      },
+      "label": "3×"
+    },
+    {
+      "id": "e_n0za5t2",
+      "from": {
+        "node": "p_gear",
+        "port": "p_6ngv2vu"
+      },
+      "to": {
+        "node": "mach_mach_r_x_3om4kz",
+        "port": "p_zclidap"
+      },
+      "label": "3×"
+    },
+    {
+      "id": "e_3qvkdv7",
+      "from": {
+        "node": "p_bearing",
+        "port": "p_72spxyg"
+      },
+      "to": {
+        "node": "mach_mach_r_x_3om4kz",
+        "port": "p_77m5m58"
+      },
+      "label": "4×"
+    },
+    {
+      "id": "e_zfwrshs",
+      "from": {
+        "node": "mach_mach_r_x_3om4kz",
+        "port": "p_0e6c46o"
+      },
+      "to": {
+        "node": "prod_mach_r_x_3om4kz",
+        "port": "p_7wdw8df"
+      },
+      "label": ""
+    }
+  ]
+}

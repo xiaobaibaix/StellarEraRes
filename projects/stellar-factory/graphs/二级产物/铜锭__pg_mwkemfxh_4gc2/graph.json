@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "id": "pg_mwkemfxh_4gc2",
+  "name": "铜锭",
+  "nodeOrder": [
+    "r_cu",
+    "mach_m_cu",
+    "prod_m_cu",
+    "down_m_alc",
+    "down_m_wire"
+  ],
+  "edges": [
+    {
+      "id": "e_kgexhp9",
+      "from": {
+        "node": "r_cu",
+        "port": "p_i1718u3"
+      },
+      "to": {
+        "node": "mach_m_cu",
+        "port": "p_dxkebgt"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_zxrm951",
+      "from": {
+        "node": "mach_m_cu",
+        "port": "p_zssfsrx"
+      },
+      "to": {
+        "node": "prod_m_cu",
+        "port": "p_esuvp2j"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_qsldyz8",
+      "from": {
+        "node": "prod_m_cu",
+        "port": "p_55b6hc4"
+      },
+      "to": {
+        "node": "down_m_alc",
+        "port": "p_dmmp3mn"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_yitndaj",
+      "from": {
+        "node": "prod_m_cu",
+        "port": "p_55b6hc4"
+      },
+      "to": {
+        "node": "down_m_wire",
+        "port": "p_7pd4dzj"
+      },
+      "label": ""
+    }
+  ]
+}

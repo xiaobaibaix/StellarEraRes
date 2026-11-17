@@ -1,0 +1,179 @@
+{
+  "version": 1,
+  "id": "pg_mwkemfxm_o4np",
+  "name": "电路板",
+  "nodeOrder": [
+    "m_wire",
+    "m_wafer",
+    "mach_p_board",
+    "prod_p_board",
+    "down_p_pc",
+    "down_mach_r_x_cd6rm2",
+    "down_mach_r_x_te49iq",
+    "down_mach_r_x_k9rqw0",
+    "down_mach_r_x_qzs98u",
+    "down_mach_r_x_endkna",
+    "down_e_control",
+    "down_mach_r_x_4q2hqm",
+    "down_mach_r_x_mfyowd",
+    "down_mach_r_x_dp0dim"
+  ],
+  "edges": [
+    {
+      "id": "e_0mnjm9u",
+      "from": {
+        "node": "m_wire",
+        "port": "p_io8mbw2"
+      },
+      "to": {
+        "node": "mach_p_board",
+        "port": "p_0gkrgq5"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_vyhsd9r",
+      "from": {
+        "node": "m_wafer",
+        "port": "p_hibrnwq"
+      },
+      "to": {
+        "node": "mach_p_board",
+        "port": "p_7gmap07"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_ia728xd",
+      "from": {
+        "node": "mach_p_board",
+        "port": "p_nui5aq4"
+      },
+      "to": {
+        "node": "prod_p_board",
+        "port": "p_yaf910w"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_bl3d2zt",
+      "from": {
+        "node": "prod_p_board",
+        "port": "p_iizg68b"
+      },
+      "to": {
+        "node": "down_p_pc",
+        "port": "p_175xkk0"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_yj5y6pr",
+      "from": {
+        "node": "prod_p_board",
+        "port": "p_iizg68b"
+      },
+      "to": {
+        "node": "down_mach_r_x_cd6rm2",
+        "port": "p_lz7747e"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_ktk3qlc",
+      "from": {
+        "node": "prod_p_board",
+        "port": "p_iizg68b"
+      },
+      "to": {
+        "node": "down_mach_r_x_te49iq",
+        "port": "p_9mwlt3r"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_haxgkkg",
+      "from": {
+        "node": "prod_p_board",
+        "port": "p_iizg68b"
+      },
+      "to": {
+        "node": "down_mach_r_x_k9rqw0",
+        "port": "p_2et0c49"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_a4i8aap",
+      "from": {
+        "node": "prod_p_board",
+        "port": "p_iizg68b"
+      },
+      "to": {
+        "node": "down_mach_r_x_qzs98u",
+        "port": "p_92x5ifj"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_g5wcnf3",
+      "from": {
+        "node": "prod_p_board",
+        "port": "p_iizg68b"
+      },
+      "to": {
+        "node": "down_mach_r_x_endkna",
+        "port": "p_4b8170p"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_z0ry0b0",
+      "from": {
+        "node": "prod_p_board",
+        "port": "p_iizg68b"
+      },
+      "to": {
+        "node": "down_e_control",
+        "port": "p_3bat7ru"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_jg5il01",
+      "from": {
+        "node": "prod_p_board",
+        "port": "p_iizg68b"
+      },
+      "to": {
+        "node": "down_mach_r_x_4q2hqm",
+        "port": "p_2accrab"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_dgo1gbn",
+      "from": {
+        "node": "prod_p_board",
+        "port": "p_iizg68b"
+      },
+      "to": {
+        "node": "down_mach_r_x_mfyowd",
+        "port": "p_mrox1s7"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_fxksh7i",
+      "from": {
+        "node": "prod_p_board",
+        "port": "p_iizg68b"
+      },
+      "to": {
+        "node": "down_mach_r_x_dp0dim",
+        "port": "p_2idkztn"
+      },
+      "label": ""
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "id": "p_core",
+  "kind": "子图",
+  "title": "反应堆核心",
+  "props": {},
+  "ports": [
+    {
+      "id": "p_49p0ehd",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 390
+  },
+  "subgraphMap": {
+    "p_49p0ehd": {
+      "node": "mach_p_core",
+      "port": "p_woxr8kr"
+    }
+  }
+}

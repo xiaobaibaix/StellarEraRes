@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "id": "pg_mwkemfxp_5rt9",
+  "name": "地基浇筑",
+  "nodeOrder": [
+    "m_concrete",
+    "m_steel",
+    "p_beam",
+    "mach_mach_r_x_jbww96",
+    "prod_mach_r_x_jbww96"
+  ],
+  "edges": [
+    {
+      "id": "e_hs2weib",
+      "from": {
+        "node": "m_concrete",
+        "port": "p_awe3tf5"
+      },
+      "to": {
+        "node": "mach_mach_r_x_jbww96",
+        "port": "p_omwtk20"
+      },
+      "label": "20×"
+    },
+    {
+      "id": "e_hhsb8bz",
+      "from": {
+        "node": "m_steel",
+        "port": "p_pgc41ve"
+      },
+      "to": {
+        "node": "mach_mach_r_x_jbww96",
+        "port": "p_wj37ulj"
+      },
+      "label": "6×"
+    },
+    {
+      "id": "e_w7e4m21",
+      "from": {
+        "node": "p_beam",
+        "port": "p_l2h7hlr"
+      },
+      "to": {
+        "node": "mach_mach_r_x_jbww96",
+        "port": "p_xzljiyc"
+      },
+      "label": "4×"
+    },
+    {
+      "id": "e_al7ic9c",
+      "from": {
+        "node": "mach_mach_r_x_jbww96",
+        "port": "p_469kpef"
+      },
+      "to": {
+        "node": "prod_mach_r_x_jbww96",
+        "port": "p_zvp3r3u"
+      },
+      "label": ""
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mach_p_pipe",
+  "kind": "机器",
+  "title": "焊管",
+  "props": {
+    "配方": {
+      "value": "焊管",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_7uy1sg1",
+      "dir": "in",
+      "label": "钢",
+      "capacity": "one"
+    },
+    {
+      "id": "p_ysb6omq",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 60
+  }
+}

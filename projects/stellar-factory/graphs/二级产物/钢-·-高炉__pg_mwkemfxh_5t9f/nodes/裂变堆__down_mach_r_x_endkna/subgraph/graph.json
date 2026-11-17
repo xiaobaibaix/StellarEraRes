@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "id": "down_mach_r_x_endkna",
+  "name": "裂变堆",
+  "nodeOrder": [
+    "m_steel",
+    "p_core",
+    "p_pipe",
+    "p_board",
+    "mach_mach_r_x_endkna",
+    "prod_mach_r_x_endkna"
+  ],
+  "edges": [
+    {
+      "id": "e_y5e1lpg",
+      "from": {
+        "node": "m_steel",
+        "port": "p_nmwu0ii"
+      },
+      "to": {
+        "node": "mach_mach_r_x_endkna",
+        "port": "p_v4r4ya3"
+      },
+      "label": "8×"
+    },
+    {
+      "id": "e_5gzzmbd",
+      "from": {
+        "node": "p_core",
+        "port": "p_03y9cst"
+      },
+      "to": {
+        "node": "mach_mach_r_x_endkna",
+        "port": "p_u4diwvp"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_s0u24bx",
+      "from": {
+        "node": "p_pipe",
+        "port": "p_wvd0958"
+      },
+      "to": {
+        "node": "mach_mach_r_x_endkna",
+        "port": "p_g0drqns"
+      },
+      "label": "3×"
+    },
+    {
+      "id": "e_op6wre8",
+      "from": {
+        "node": "p_board",
+        "port": "p_sb8pgyj"
+      },
+      "to": {
+        "node": "mach_mach_r_x_endkna",
+        "port": "p_jojxv9i"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_9k0uwud",
+      "from": {
+        "node": "mach_mach_r_x_endkna",
+        "port": "p_nvpu63c"
+      },
+      "to": {
+        "node": "prod_mach_r_x_endkna",
+        "port": "p_4xwj9vh"
+      },
+      "label": ""
+    }
+  ]
+}

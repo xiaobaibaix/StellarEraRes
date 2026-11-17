@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "id": "p_chip",
+  "kind": "子图",
+  "title": "芯片",
+  "props": {},
+  "ports": [
+    {
+      "id": "p_8bl6tl4",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 720
+  },
+  "subgraphMap": {
+    "p_8bl6tl4": {
+      "node": "mach_p_chip",
+      "port": "p_6znzmyo"
+    }
+  }
+}

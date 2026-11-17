@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "down_m_wire",
+  "name": "铜线",
+  "nodeOrder": [
+    "m_cu",
+    "mach_m_wire",
+    "prod_m_wire"
+  ],
+  "edges": [
+    {
+      "id": "e_5t0mcrd",
+      "from": {
+        "node": "m_cu",
+        "port": "p_k45uic3"
+      },
+      "to": {
+        "node": "mach_m_wire",
+        "port": "p_0hdsl0r"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_rjfyhxq",
+      "from": {
+        "node": "mach_m_wire",
+        "port": "p_n74cf27"
+      },
+      "to": {
+        "node": "prod_m_wire",
+        "port": "p_9jyq4js"
+      },
+      "label": ""
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mach_m_wire",
+  "kind": "机器",
+  "title": "拉丝",
+  "props": {
+    "配方": {
+      "value": "拉丝",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_0hdsl0r",
+      "dir": "in",
+      "label": "铜锭",
+      "capacity": "one"
+    },
+    {
+      "id": "p_n74cf27",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 60
+  }
+}

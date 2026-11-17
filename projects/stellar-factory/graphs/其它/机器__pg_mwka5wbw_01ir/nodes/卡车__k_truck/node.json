@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "id": "k_truck",
+  "kind": "机器",
+  "title": "卡车",
+  "props": {
+    "类别": {
+      "value": "物流",
+      "type": "string"
+    },
+    "功率": {
+      "value": "0",
+      "type": "string"
+    },
+    "阶段": {
+      "value": "S2",
+      "type": "string"
+    },
+    "输入": {
+      "value": "物品",
+      "type": "string"
+    },
+    "输出": {
+      "value": "运输",
+      "type": "string"
+    },
+    "层级": {
+      "value": "物流",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_2n0k3hg",
+      "dir": "in",
+      "label": "输入",
+      "capacity": "one"
+    },
+    {
+      "id": "p_e3tde8g",
+      "dir": "out",
+      "label": "输出",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 2180,
+    "y": 1188
+  }
+}
