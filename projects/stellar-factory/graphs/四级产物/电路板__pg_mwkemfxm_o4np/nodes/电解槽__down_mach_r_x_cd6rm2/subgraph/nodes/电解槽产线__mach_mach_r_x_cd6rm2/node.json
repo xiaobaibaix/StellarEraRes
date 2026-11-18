@@ -14,25 +14,25 @@
       "id": "p_wdx0bql",
       "dir": "in",
       "label": "钢",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_le3b6xs",
       "dir": "in",
       "label": "铜线",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_sxkp8bx",
       "dir": "in",
       "label": "管道",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_9lkv3ur",
       "dir": "in",
       "label": "电路板",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_htna5e4",

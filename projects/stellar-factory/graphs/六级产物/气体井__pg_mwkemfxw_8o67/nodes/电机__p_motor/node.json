@@ -16,6 +16,7 @@
     "x": 60,
     "y": 720
   },
+  "linkGraph": "g_ndkg8fe",
   "subgraphMap": {
     "p_r3k595m": {
       "node": "mach_p_motor",

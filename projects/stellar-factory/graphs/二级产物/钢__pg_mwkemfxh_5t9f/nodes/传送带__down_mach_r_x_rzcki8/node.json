@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "down_mach_r_x_rzcki8",
+  "kind": "子图",
+  "title": "传送带",
+  "props": {
+    "类别": {
+      "value": "下游",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_kj204t7",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 3490,
+    "y": 820
+  },
+  "linkGraph": "pg_mwkemfy0_qpoe",
+  "subgraphMap": {
+    "p_kj204t7": {
+      "node": "mach_mach_r_x_rzcki8",
+      "port": "p_a2gykm4"
+    }
+  }
+}

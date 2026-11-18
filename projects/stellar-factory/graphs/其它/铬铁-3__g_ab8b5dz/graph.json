@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "id": "g_ab8b5dz",
+  "name": "铬铁 3",
+  "nodeOrder": [
+    "r_cr",
+    "r_c",
+    "mach_m_cr",
+    "prod_m_cr"
+  ],
+  "edges": [
+    {
+      "id": "e_xax8jq1",
+      "from": {
+        "node": "r_cr",
+        "port": "p_iwroo68"
+      },
+      "to": {
+        "node": "mach_m_cr",
+        "port": "p_rglip0u"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_v6lsluy",
+      "from": {
+        "node": "r_c",
+        "port": "p_lr3ul9g"
+      },
+      "to": {
+        "node": "mach_m_cr",
+        "port": "p_lwhdhin"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_4ejc9cz",
+      "from": {
+        "node": "mach_m_cr",
+        "port": "p_stbcpia"
+      },
+      "to": {
+        "node": "prod_m_cr",
+        "port": "p_gt6hxgo"
+      },
+      "label": "1×"
+    }
+  ]
+}

@@ -13,13 +13,13 @@
       "id": "p_mw36rb5",
       "dir": "in",
       "label": "结构梁",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_y8xp9hu",
       "dir": "in",
       "label": "混凝土",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_3pal8lh",

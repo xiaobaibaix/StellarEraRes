@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "id": "prod_mach_r_x_mlj5kx",
+  "kind": "资源",
+  "title": "轧机",
+  "props": {
+    "类别": {
+      "value": "产物",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_50wd6q0",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 800,
+    "y": 510
+  }
+}

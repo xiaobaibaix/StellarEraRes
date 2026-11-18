@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "id": "g_aspb5h4",
+  "name": "镍铁 3",
+  "nodeOrder": [
+    "r_ni",
+    "r_c",
+    "mach_m_ni",
+    "prod_m_ni"
+  ],
+  "edges": [
+    {
+      "id": "e_y30hbgw",
+      "from": {
+        "node": "r_ni",
+        "port": "p_p9klrtu"
+      },
+      "to": {
+        "node": "mach_m_ni",
+        "port": "p_fk8mm2w"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_6x5fwf1",
+      "from": {
+        "node": "r_c",
+        "port": "p_lr3ul9g"
+      },
+      "to": {
+        "node": "mach_m_ni",
+        "port": "p_pzsh0lq"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_25zub2t",
+      "from": {
+        "node": "mach_m_ni",
+        "port": "p_fmu7qid"
+      },
+      "to": {
+        "node": "prod_m_ni",
+        "port": "p_zw80y92"
+      },
+      "label": "1×"
+    }
+  ]
+}

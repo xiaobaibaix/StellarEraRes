@@ -26,19 +26,19 @@
       "id": "p_wty07v6",
       "dir": "in",
       "label": "原料1",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_vosddb8",
       "dir": "in",
       "label": "原料2",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_7xfq6h8",
       "dir": "in",
       "label": "原料3",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_03y9cst",
@@ -50,7 +50,7 @@
       "id": "p_dd1zl3",
       "dir": "in",
       "label": "氦-3",
-      "capacity": "one"
+      "capacity": "many"
     }
   ],
   "pos": {

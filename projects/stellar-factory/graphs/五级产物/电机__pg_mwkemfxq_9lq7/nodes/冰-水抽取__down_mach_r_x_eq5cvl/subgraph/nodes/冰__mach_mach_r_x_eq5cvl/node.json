@@ -14,19 +14,19 @@
       "id": "p_ss1fnb5",
       "dir": "in",
       "label": "钢",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_lm554u0",
       "dir": "in",
       "label": "管道",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_wtpf50m",
       "dir": "in",
       "label": "电机",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_9r6z3mq",

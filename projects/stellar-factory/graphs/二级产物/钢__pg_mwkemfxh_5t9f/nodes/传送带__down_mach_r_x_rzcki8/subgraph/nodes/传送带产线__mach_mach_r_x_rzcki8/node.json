@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "id": "mach_mach_r_x_rzcki8",
+  "kind": "机器",
+  "title": "传送带产线",
+  "props": {
+    "配方": {
+      "value": "传送带产线",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_a2gykm4",
+      "dir": "in",
+      "label": "钢",
+      "capacity": "many"
+    },
+    {
+      "id": "p_aztqj7s",
+      "dir": "in",
+      "label": "电机",
+      "capacity": "many"
+    },
+    {
+      "id": "p_7g1xg3c",
+      "dir": "in",
+      "label": "齿轮",
+      "capacity": "many"
+    },
+    {
+      "id": "p_zsp8l2e",
+      "dir": "in",
+      "label": "铜线",
+      "capacity": "many"
+    },
+    {
+      "id": "p_x69d966",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 510
+  }
+}

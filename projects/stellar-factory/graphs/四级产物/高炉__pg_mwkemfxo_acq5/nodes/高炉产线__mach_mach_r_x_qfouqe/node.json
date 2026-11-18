@@ -18,25 +18,25 @@
       "id": "p_jwlfnhc",
       "dir": "in",
       "label": "钢",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_ke6iyv1",
       "dir": "in",
       "label": "结构梁",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_if3etx4",
       "dir": "in",
       "label": "混凝土",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_1dvgo3y",
       "dir": "in",
       "label": "管道",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_j92tu6w",

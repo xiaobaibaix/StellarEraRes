@@ -14,19 +14,19 @@
       "id": "p_f2nw9rm",
       "dir": "in",
       "label": "钢",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_phfsa8p",
       "dir": "in",
       "label": "电机",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_kai4n1d",
       "dir": "in",
       "label": "电路板",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_daitq3b",

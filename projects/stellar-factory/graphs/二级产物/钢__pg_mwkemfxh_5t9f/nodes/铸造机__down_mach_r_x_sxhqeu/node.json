@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "down_mach_r_x_sxhqeu",
+  "kind": "子图",
+  "title": "铸造机",
+  "props": {
+    "类别": {
+      "value": "下游",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_l6ofm0q",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 3160,
+    "y": 560
+  },
+  "linkGraph": "pg_mwkemfxx_jyoy",
+  "subgraphMap": {
+    "p_l6ofm0q": {
+      "node": "mach_mach_r_x_sxhqeu",
+      "port": "p_4euaswi"
+    }
+  }
+}

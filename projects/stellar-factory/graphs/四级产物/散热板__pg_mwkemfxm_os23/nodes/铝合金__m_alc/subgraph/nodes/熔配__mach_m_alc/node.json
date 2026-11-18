@@ -18,13 +18,13 @@
       "id": "p_q4kza3e",
       "dir": "in",
       "label": "铝锭",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_hon44m7",
       "dir": "in",
       "label": "铜锭",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_xpy19qg",

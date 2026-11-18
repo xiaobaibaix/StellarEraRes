@@ -14,25 +14,25 @@
       "id": "p_yfcb8y2",
       "dir": "in",
       "label": "钢",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_3kkyd0n",
       "dir": "in",
       "label": "电机",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_noukh57",
       "dir": "in",
       "label": "齿轮",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_tf1ku4w",
       "dir": "in",
       "label": "轴承",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_i2j8lb1",

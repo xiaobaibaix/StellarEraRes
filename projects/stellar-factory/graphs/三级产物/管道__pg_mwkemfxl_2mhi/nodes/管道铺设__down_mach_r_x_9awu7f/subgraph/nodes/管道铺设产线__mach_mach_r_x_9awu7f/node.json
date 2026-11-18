@@ -14,19 +14,19 @@
       "id": "p_kqr81j5",
       "dir": "in",
       "label": "钢",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_9u8jp2h",
       "dir": "in",
       "label": "管道",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_2he0eh7",
       "dir": "in",
       "label": "混凝土",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_rewp7g3",

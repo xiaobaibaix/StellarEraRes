@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "id": "p_bearing",
+  "kind": "子图",
+  "title": "轴承",
+  "props": {},
+  "ports": [
+    {
+      "id": "p_o25vz3s",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 1380
+  },
+  "linkGraph": "g_wtuk71v",
+  "subgraphMap": {
+    "p_o25vz3s": {
+      "node": "mach_p_bearing",
+      "port": "p_oan5hcg"
+    }
+  }
+}

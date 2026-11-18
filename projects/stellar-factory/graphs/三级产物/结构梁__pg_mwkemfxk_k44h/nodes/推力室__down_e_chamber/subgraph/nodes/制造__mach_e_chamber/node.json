@@ -13,25 +13,25 @@
       "id": "p_4s1jw9w",
       "dir": "in",
       "label": "高温合金",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_r3exluw",
       "dir": "in",
       "label": "结构梁",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_a4vnoy6",
       "dir": "in",
       "label": "不锈钢",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_kboxam7",
       "dir": "in",
       "label": "推进剂",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_hbhcm29",

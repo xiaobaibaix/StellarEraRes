@@ -14,19 +14,19 @@
       "id": "p_h8u0hdp",
       "dir": "in",
       "label": "铀",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_lnphhs9",
       "dir": "in",
       "label": "钢",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_jlk64fy",
       "dir": "in",
       "label": "氦-3",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_1jmrmfh",

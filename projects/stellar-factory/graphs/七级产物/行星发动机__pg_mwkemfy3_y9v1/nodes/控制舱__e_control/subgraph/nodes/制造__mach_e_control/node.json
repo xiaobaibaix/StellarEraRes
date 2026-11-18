@@ -17,25 +17,25 @@
       "id": "p_1jfhpna",
       "dir": "in",
       "label": "控制计算机",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_yf07pf9",
       "dir": "in",
       "label": "电路板",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_wemx0v1",
       "dir": "in",
       "label": "玻璃",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_uba221d",
       "dir": "in",
       "label": "电池组",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_uoti5ey",

@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "id": "p_motor",
+  "kind": "资源",
+  "title": "电机",
+  "props": {
+    "类别": {
+      "value": "部件",
+      "type": "string"
+    },
+    "配方": {
+      "value": "绕线 / 装配",
+      "type": "string"
+    },
+    "层级": {
+      "value": "部件",
+      "type": "string"
+    },
+    "输入数": {
+      "value": 3,
+      "type": "number"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_m0b9qpz",
+      "dir": "in",
+      "label": "原料1",
+      "capacity": "many"
+    },
+    {
+      "id": "p_sxebxc3",
+      "dir": "in",
+      "label": "原料2",
+      "capacity": "many"
+    },
+    {
+      "id": "p_4k4h39i",
+      "dir": "in",
+      "label": "原料3",
+      "capacity": "many"
+    },
+    {
+      "id": "p_u2och3g",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "many"
+    },
+    {
+      "id": "p_h9voq9",
+      "dir": "in",
+      "label": "齿轮",
+      "capacity": "many"
+    },
+    {
+      "id": "p_7uvi94",
+      "dir": "in",
+      "label": "轴承",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 660
+  }
+}

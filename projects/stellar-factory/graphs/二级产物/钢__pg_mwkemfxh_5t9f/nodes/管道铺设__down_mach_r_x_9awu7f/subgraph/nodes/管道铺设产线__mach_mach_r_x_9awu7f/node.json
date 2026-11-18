@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "id": "mach_mach_r_x_9awu7f",
+  "kind": "机器",
+  "title": "管道铺设产线",
+  "props": {
+    "配方": {
+      "value": "管道铺设产线",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_ll8md9j",
+      "dir": "in",
+      "label": "钢",
+      "capacity": "many"
+    },
+    {
+      "id": "p_7rgf2t4",
+      "dir": "in",
+      "label": "管道",
+      "capacity": "many"
+    },
+    {
+      "id": "p_4liwfj5",
+      "dir": "in",
+      "label": "混凝土",
+      "capacity": "many"
+    },
+    {
+      "id": "p_jxd8h9y",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 360
+  }
+}

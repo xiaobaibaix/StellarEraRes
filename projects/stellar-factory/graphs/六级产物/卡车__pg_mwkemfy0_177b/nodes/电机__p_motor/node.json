@@ -16,6 +16,7 @@
     "x": 60,
     "y": 390
   },
+  "linkGraph": "g_cjrkjwn",
   "subgraphMap": {
     "p_jg4telc": {
       "node": "mach_p_motor",

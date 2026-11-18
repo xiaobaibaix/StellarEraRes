@@ -34,7 +34,7 @@
       "id": "p_rm1f8r0",
       "dir": "in",
       "label": "输入",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_4bon7y1",

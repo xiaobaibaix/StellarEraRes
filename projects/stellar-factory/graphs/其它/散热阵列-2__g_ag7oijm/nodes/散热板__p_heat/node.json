@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "id": "p_heat",
+  "kind": "子图",
+  "title": "散热板",
+  "props": {},
+  "ports": [
+    {
+      "id": "p_5sfeft4",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 60
+  },
+  "linkGraph": "g_b938ykz",
+  "subgraphMap": {
+    "p_5sfeft4": {
+      "node": "mach_p_heat",
+      "port": "p_15wmyv6"
+    }
+  }
+}

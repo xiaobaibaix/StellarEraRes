@@ -14,13 +14,13 @@
       "id": "p_n0vbtw3",
       "dir": "in",
       "label": "铜线",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_w0xjxgo",
       "dir": "in",
       "label": "磁体",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_bm3hm76",

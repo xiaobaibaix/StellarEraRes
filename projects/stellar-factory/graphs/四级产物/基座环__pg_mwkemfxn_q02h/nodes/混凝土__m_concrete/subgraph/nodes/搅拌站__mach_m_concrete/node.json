@@ -18,13 +18,13 @@
       "id": "p_yxjz9lt",
       "dir": "in",
       "label": "石灰岩",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_jjen2ld",
       "dir": "in",
       "label": "水",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_xifpr7i",

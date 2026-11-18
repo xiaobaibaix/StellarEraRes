@@ -14,13 +14,13 @@
       "id": "p_lsx8a8g",
       "dir": "in",
       "label": "铜线",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_0k1ag6p",
       "dir": "in",
       "label": "硅片",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_es13g5b",

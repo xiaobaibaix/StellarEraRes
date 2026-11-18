@@ -16,6 +16,7 @@
     "x": 60,
     "y": 720
   },
+  "linkGraph": "g_r570dx3",
   "subgraphMap": {
     "p_jfe8deo": {
       "node": "mach_m_magnet",

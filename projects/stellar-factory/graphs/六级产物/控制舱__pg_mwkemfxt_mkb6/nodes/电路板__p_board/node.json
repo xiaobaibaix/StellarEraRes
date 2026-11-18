@@ -16,6 +16,7 @@
     "x": 60,
     "y": 390
   },
+  "linkGraph": "g_n5600s9",
   "subgraphMap": {
     "p_mqtic1u": {
       "node": "mach_p_board",

@@ -18,13 +18,13 @@
       "id": "p_on8jv1o",
       "dir": "in",
       "label": "稀土",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_52i1pr9",
       "dir": "in",
       "label": "铁",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_9jv9zhv",

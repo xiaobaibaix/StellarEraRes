@@ -14,7 +14,7 @@
       "id": "p_lpb4asn",
       "dir": "in",
       "label": "产物",
-      "capacity": "one"
+      "capacity": "many"
     }
   ],
   "pos": {

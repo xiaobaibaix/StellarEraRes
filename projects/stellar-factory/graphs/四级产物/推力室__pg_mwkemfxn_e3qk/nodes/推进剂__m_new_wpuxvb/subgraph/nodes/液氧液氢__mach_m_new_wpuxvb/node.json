@@ -18,13 +18,13 @@
       "id": "p_huoiie2",
       "dir": "in",
       "label": "氢",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_bk1jpy1",
       "dir": "in",
       "label": "氧",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_thmvbvl",

@@ -22,19 +22,19 @@
       "id": "p_25c2vrq",
       "dir": "in",
       "label": "原料1",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_1i1e9x2",
       "dir": "in",
       "label": "原料2",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_v46h7zy",
       "dir": "in",
       "label": "原料3",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_deg2ahb",
@@ -46,13 +46,13 @@
       "id": "p_89yh28",
       "dir": "in",
       "label": "不锈钢",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_3m1p5q",
       "dir": "in",
       "label": "推进剂",
-      "capacity": "one"
+      "capacity": "many"
     }
   ],
   "pos": {

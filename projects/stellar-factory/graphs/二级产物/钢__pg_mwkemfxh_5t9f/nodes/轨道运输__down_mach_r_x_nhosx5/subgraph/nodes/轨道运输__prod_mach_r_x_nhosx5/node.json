@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "id": "prod_mach_r_x_nhosx5",
+  "kind": "资源",
+  "title": "轨道运输",
+  "props": {
+    "类别": {
+      "value": "产物",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_4afw393",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 800,
+    "y": 360
+  }
+}

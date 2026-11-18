@@ -16,6 +16,7 @@
     "x": 60,
     "y": 1050
   },
+  "linkGraph": "g_8rot0dc",
   "subgraphMap": {
     "p_72spxyg": {
       "node": "mach_p_bearing",

@@ -18,13 +18,13 @@
       "id": "p_h1c13wa",
       "dir": "in",
       "label": "芯片",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_2pmpz9d",
       "dir": "in",
       "label": "电路板",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_a5r9of0",

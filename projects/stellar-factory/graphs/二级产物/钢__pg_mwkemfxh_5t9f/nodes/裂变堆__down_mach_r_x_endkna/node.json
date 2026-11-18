@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "down_mach_r_x_endkna",
+  "kind": "子图",
+  "title": "裂变堆",
+  "props": {
+    "类别": {
+      "value": "下游",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_431dc77",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 2500,
+    "y": 560
+  },
+  "linkGraph": "pg_mwkemfxt_5e40",
+  "subgraphMap": {
+    "p_431dc77": {
+      "node": "mach_mach_r_x_endkna",
+      "port": "p_v4r4ya3"
+    }
+  }
+}

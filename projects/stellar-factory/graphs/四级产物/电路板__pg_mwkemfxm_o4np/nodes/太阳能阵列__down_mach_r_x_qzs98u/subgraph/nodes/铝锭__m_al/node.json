@@ -26,19 +26,19 @@
       "id": "p_wqvcgun",
       "dir": "in",
       "label": "原料1",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_xp3hyfp",
       "dir": "in",
       "label": "原料2",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_f4htz5v",
       "dir": "in",
       "label": "原料3",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_qbfycqb",

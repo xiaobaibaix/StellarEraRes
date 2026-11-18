@@ -14,19 +14,19 @@
       "id": "p_y7615ra",
       "dir": "in",
       "label": "钢",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_cum1p37",
       "dir": "in",
       "label": "镍铁",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_zixn3v7",
       "dir": "in",
       "label": "铬铁",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_s2bvz7g",

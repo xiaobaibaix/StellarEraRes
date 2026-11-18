@@ -14,25 +14,25 @@
       "id": "p_o1jti9i",
       "dir": "in",
       "label": "钢",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_s1nqvbk",
       "dir": "in",
       "label": "反应堆核心",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_dcr6q0n",
       "dir": "in",
       "label": "管道",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_8grqq6g",
       "dir": "in",
       "label": "电路板",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_n8f3rux",

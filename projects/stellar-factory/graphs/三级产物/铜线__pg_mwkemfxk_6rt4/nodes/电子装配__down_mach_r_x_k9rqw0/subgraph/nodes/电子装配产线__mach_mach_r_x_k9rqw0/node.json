@@ -14,25 +14,25 @@
       "id": "p_ncisebn",
       "dir": "in",
       "label": "钢",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_gm2qem7",
       "dir": "in",
       "label": "电路板",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_shyfl5f",
       "dir": "in",
       "label": "芯片",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_66so6oc",
       "dir": "in",
       "label": "铜线",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_3mx11mq",

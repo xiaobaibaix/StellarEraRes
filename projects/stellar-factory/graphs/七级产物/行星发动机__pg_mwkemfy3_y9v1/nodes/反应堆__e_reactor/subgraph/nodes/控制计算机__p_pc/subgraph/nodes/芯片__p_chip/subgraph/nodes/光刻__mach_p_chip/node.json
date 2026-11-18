@@ -18,19 +18,19 @@
       "id": "p_nj18ok0",
       "dir": "in",
       "label": "硅片",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_dnjmyll",
       "dir": "in",
       "label": "稀土",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_l03jgoo",
       "dir": "in",
       "label": "硫",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_6znzmyo",

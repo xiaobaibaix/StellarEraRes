@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "id": "mach_mach_r_x_9jxjlo",
+  "kind": "机器",
+  "title": "转炉产线",
+  "props": {
+    "配方": {
+      "value": "转炉产线",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_4gelz6q",
+      "dir": "in",
+      "label": "钢",
+      "capacity": "many"
+    },
+    {
+      "id": "p_h9yrkh1",
+      "dir": "in",
+      "label": "结构梁",
+      "capacity": "many"
+    },
+    {
+      "id": "p_s3rgh4m",
+      "dir": "in",
+      "label": "混凝土",
+      "capacity": "many"
+    },
+    {
+      "id": "p_1jtpkv4",
+      "dir": "in",
+      "label": "管道",
+      "capacity": "many"
+    },
+    {
+      "id": "p_td03962",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 510
+  }
+}

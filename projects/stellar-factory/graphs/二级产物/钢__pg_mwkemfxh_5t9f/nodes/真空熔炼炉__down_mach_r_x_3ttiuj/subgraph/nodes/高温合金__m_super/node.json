@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "id": "m_super",
+  "kind": "资源",
+  "title": "高温合金",
+  "props": {
+    "类别": {
+      "value": "材料",
+      "type": "string"
+    },
+    "配方": {
+      "value": "真空熔炼",
+      "type": "string"
+    },
+    "层级": {
+      "value": "材料",
+      "type": "string"
+    },
+    "输入数": {
+      "value": 3,
+      "type": "number"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_81jgn0g",
+      "dir": "in",
+      "label": "原料1",
+      "capacity": "many"
+    },
+    {
+      "id": "p_2s4b0mp",
+      "dir": "in",
+      "label": "原料2",
+      "capacity": "many"
+    },
+    {
+      "id": "p_f5sqamv",
+      "dir": "in",
+      "label": "原料3",
+      "capacity": "many"
+    },
+    {
+      "id": "p_emxpuml",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 360
+  }
+}

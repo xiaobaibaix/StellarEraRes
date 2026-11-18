@@ -13,19 +13,19 @@
       "id": "p_n3p7q68",
       "dir": "in",
       "label": "结构梁",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_8vo9cgi",
       "dir": "in",
       "label": "管道",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_4w26q78",
       "dir": "in",
       "label": "不锈钢",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_rif2ozn",

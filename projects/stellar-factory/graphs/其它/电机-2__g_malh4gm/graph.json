@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "id": "g_malh4gm",
+  "name": "电机 2",
+  "nodeOrder": [
+    "m_wire",
+    "m_steel",
+    "m_magnet",
+    "p_gear",
+    "p_bearing",
+    "mach_p_motor",
+    "prod_p_motor"
+  ],
+  "edges": [
+    {
+      "id": "e_b2woj0j",
+      "from": {
+        "node": "m_wire",
+        "port": "p_4ugn4pd"
+      },
+      "to": {
+        "node": "mach_p_motor",
+        "port": "p_ikud2sr"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_v18e0pt",
+      "from": {
+        "node": "m_steel",
+        "port": "p_2wg7y1e"
+      },
+      "to": {
+        "node": "mach_p_motor",
+        "port": "p_jyxukb8"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_ou0jcri",
+      "from": {
+        "node": "m_magnet",
+        "port": "p_jfe8deo"
+      },
+      "to": {
+        "node": "mach_p_motor",
+        "port": "p_ykuhzg0"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_l3l9dqf",
+      "from": {
+        "node": "p_gear",
+        "port": "p_kbi1ftx"
+      },
+      "to": {
+        "node": "mach_p_motor",
+        "port": "p_fyt3at7"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_474q6jg",
+      "from": {
+        "node": "p_bearing",
+        "port": "p_o25vz3s"
+      },
+      "to": {
+        "node": "mach_p_motor",
+        "port": "p_dmtxis5"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_s1ab23v",
+      "from": {
+        "node": "mach_p_motor",
+        "port": "p_a25wohz"
+      },
+      "to": {
+        "node": "prod_p_motor",
+        "port": "p_a0lc5xl"
+      },
+      "label": "4×"
+    }
+  ]
+}

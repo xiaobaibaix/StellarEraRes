@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "mach_p_beam",
+  "kind": "机器",
+  "title": "轧制",
+  "props": {
+    "配方": {
+      "value": "轧制",
+      "type": "string"
+    },
+    "层级": {
+      "value": "L3",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_jl8jjpp",
+      "dir": "in",
+      "label": "钢",
+      "capacity": "many"
+    },
+    {
+      "id": "p_1deeyrl",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 60
+  }
+}

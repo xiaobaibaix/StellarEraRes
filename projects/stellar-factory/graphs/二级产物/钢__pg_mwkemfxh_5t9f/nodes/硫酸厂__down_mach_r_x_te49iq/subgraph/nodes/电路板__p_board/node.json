@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "id": "p_board",
+  "kind": "资源",
+  "title": "电路板",
+  "props": {
+    "类别": {
+      "value": "部件",
+      "type": "string"
+    },
+    "配方": {
+      "value": "蚀刻",
+      "type": "string"
+    },
+    "层级": {
+      "value": "部件",
+      "type": "string"
+    },
+    "输入数": {
+      "value": 2,
+      "type": "number"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_396sz4c",
+      "dir": "in",
+      "label": "原料1",
+      "capacity": "many"
+    },
+    {
+      "id": "p_8uqav96",
+      "dir": "in",
+      "label": "原料2",
+      "capacity": "many"
+    },
+    {
+      "id": "p_y86hur2",
+      "dir": "in",
+      "label": "原料3",
+      "capacity": "many"
+    },
+    {
+      "id": "p_sb8pgyj",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 960
+  }
+}

@@ -18,13 +18,13 @@
       "id": "p_qtwtabj",
       "dir": "in",
       "label": "铝合金",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_j3nhsid",
       "dir": "in",
       "label": "铜线",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_15wmyv6",

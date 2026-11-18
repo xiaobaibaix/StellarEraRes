@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "g_jy18pfo",
+  "name": "铜锭 3",
+  "nodeOrder": [
+    "r_cu",
+    "mach_m_cu",
+    "prod_m_cu"
+  ],
+  "edges": [
+    {
+      "id": "e_kgexhp9",
+      "from": {
+        "node": "r_cu",
+        "port": "p_i1718u3"
+      },
+      "to": {
+        "node": "mach_m_cu",
+        "port": "p_dxkebgt"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_zxrm951",
+      "from": {
+        "node": "mach_m_cu",
+        "port": "p_zssfsrx"
+      },
+      "to": {
+        "node": "prod_m_cu",
+        "port": "p_esuvp2j"
+      },
+      "label": "1×"
+    }
+  ]
+}

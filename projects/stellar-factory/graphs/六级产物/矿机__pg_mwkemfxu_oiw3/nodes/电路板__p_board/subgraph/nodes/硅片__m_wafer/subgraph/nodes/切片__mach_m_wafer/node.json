@@ -18,13 +18,13 @@
       "id": "p_o89y1ds",
       "dir": "in",
       "label": "硅锭",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_qmpgj01",
       "dir": "in",
       "label": "硫",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_a8lryya",

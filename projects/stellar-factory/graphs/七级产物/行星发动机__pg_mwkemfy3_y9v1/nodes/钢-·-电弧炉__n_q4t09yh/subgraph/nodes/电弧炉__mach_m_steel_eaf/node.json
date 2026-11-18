@@ -18,13 +18,13 @@
       "id": "p_a7t4zyh",
       "dir": "in",
       "label": "废钢",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_fpvn64s",
       "dir": "in",
       "label": "石灰岩",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_h3yer6w",

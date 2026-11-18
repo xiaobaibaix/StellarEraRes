@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "prod_e_chamber",
+  "kind": "资源",
+  "title": "推力室",
+  "props": {
+    "类别": {
+      "value": "产物",
+      "type": "string"
+    },
+    "层级": {
+      "value": "L4",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_r3td5vk",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 800,
+    "y": 555
+  }
+}

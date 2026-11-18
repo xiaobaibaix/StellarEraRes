@@ -34,7 +34,7 @@
       "id": "p_57uelbs",
       "dir": "in",
       "label": "输入",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_1tkbkvm",

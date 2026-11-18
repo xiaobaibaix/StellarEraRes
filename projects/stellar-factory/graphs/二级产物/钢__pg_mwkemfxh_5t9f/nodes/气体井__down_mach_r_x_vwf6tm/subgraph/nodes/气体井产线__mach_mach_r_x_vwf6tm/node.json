@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "id": "mach_mach_r_x_vwf6tm",
+  "kind": "机器",
+  "title": "气体井产线",
+  "props": {
+    "配方": {
+      "value": "气体井产线",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_a0u9drd",
+      "dir": "in",
+      "label": "钢",
+      "capacity": "many"
+    },
+    {
+      "id": "p_i7ebj6o",
+      "dir": "in",
+      "label": "管道",
+      "capacity": "many"
+    },
+    {
+      "id": "p_whz4esc",
+      "dir": "in",
+      "label": "电机",
+      "capacity": "many"
+    },
+    {
+      "id": "p_zbv2jga",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 360
+  }
+}

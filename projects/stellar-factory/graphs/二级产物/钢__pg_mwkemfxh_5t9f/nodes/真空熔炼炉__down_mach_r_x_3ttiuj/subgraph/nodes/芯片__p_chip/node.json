@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "id": "p_chip",
+  "kind": "资源",
+  "title": "芯片",
+  "props": {
+    "类别": {
+      "value": "部件",
+      "type": "string"
+    },
+    "配方": {
+      "value": "光刻",
+      "type": "string"
+    },
+    "层级": {
+      "value": "部件",
+      "type": "string"
+    },
+    "输入数": {
+      "value": 3,
+      "type": "number"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_vkxvjph",
+      "dir": "in",
+      "label": "原料1",
+      "capacity": "many"
+    },
+    {
+      "id": "p_l3wy0ig",
+      "dir": "in",
+      "label": "原料2",
+      "capacity": "many"
+    },
+    {
+      "id": "p_nxrivyw",
+      "dir": "in",
+      "label": "原料3",
+      "capacity": "many"
+    },
+    {
+      "id": "p_w3v34d6",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 960
+  }
+}

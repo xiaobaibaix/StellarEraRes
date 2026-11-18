@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "id": "mach_p_motor",
+  "kind": "机器",
+  "title": "绕线",
+  "props": {
+    "配方": {
+      "value": "绕线 / 装配",
+      "type": "string"
+    },
+    "层级": {
+      "value": "L5",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_ikud2sr",
+      "dir": "in",
+      "label": "铜线",
+      "capacity": "many"
+    },
+    {
+      "id": "p_jyxukb8",
+      "dir": "in",
+      "label": "钢",
+      "capacity": "many"
+    },
+    {
+      "id": "p_ykuhzg0",
+      "dir": "in",
+      "label": "磁体",
+      "capacity": "many"
+    },
+    {
+      "id": "p_fyt3at7",
+      "dir": "in",
+      "label": "齿轮",
+      "capacity": "many"
+    },
+    {
+      "id": "p_dmtxis5",
+      "dir": "in",
+      "label": "轴承",
+      "capacity": "many"
+    },
+    {
+      "id": "p_a25wohz",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 720
+  }
+}

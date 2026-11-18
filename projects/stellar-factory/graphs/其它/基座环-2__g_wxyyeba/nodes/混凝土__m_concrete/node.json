@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "id": "m_concrete",
+  "kind": "子图",
+  "title": "混凝土",
+  "props": {},
+  "ports": [
+    {
+      "id": "p_vj1p38p",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 390
+  },
+  "linkGraph": "g_sb7kd7p",
+  "subgraphMap": {
+    "p_vj1p38p": {
+      "node": "mach_m_concrete",
+      "port": "p_xifpr7i"
+    }
+  }
+}

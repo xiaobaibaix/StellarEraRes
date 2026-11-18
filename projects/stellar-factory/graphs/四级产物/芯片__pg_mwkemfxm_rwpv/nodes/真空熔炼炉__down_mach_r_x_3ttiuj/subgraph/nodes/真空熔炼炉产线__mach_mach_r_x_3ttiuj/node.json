@@ -14,25 +14,25 @@
       "id": "p_ubs5sdz",
       "dir": "in",
       "label": "钢",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_es4y98u",
       "dir": "in",
       "label": "高温合金",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_1gaylc8",
       "dir": "in",
       "label": "管道",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_4ohvl06",
       "dir": "in",
       "label": "芯片",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_uj8xbjc",

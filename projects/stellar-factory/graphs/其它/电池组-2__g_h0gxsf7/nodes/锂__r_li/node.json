@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "id": "r_li",
+  "kind": "资源",
+  "title": "锂",
+  "props": {
+    "符号": {
+      "value": "Li",
+      "type": "string"
+    },
+    "类别": {
+      "value": "元素",
+      "type": "string"
+    },
+    "深度": {
+      "value": "8–20 格",
+      "type": "string"
+    },
+    "星球": {
+      "value": "古老克拉通",
+      "type": "string"
+    },
+    "用途": {
+      "value": "电池、储能",
+      "type": "string"
+    },
+    "层级": {
+      "value": "原矿",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_8g0kcxl",
+      "dir": "out",
+      "label": "产出",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 60
+  }
+}

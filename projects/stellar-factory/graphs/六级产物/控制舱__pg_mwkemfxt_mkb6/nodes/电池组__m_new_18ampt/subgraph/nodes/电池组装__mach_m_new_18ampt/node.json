@@ -18,13 +18,13 @@
       "id": "p_0helhiv",
       "dir": "in",
       "label": "锂",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_nxbgum3",
       "dir": "in",
       "label": "铜线",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_gjwba08",

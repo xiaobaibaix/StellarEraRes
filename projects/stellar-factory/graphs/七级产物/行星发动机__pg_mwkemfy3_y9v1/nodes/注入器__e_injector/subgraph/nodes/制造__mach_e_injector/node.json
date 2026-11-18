@@ -17,13 +17,13 @@
       "id": "p_vc3l29u",
       "dir": "in",
       "label": "喷嘴",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_7r2w1r3",
       "dir": "in",
       "label": "芯片",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_vi9ht1l",

@@ -14,13 +14,13 @@
       "id": "p_sem4271",
       "dir": "in",
       "label": "锂",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_5mh0pkc",
       "dir": "in",
       "label": "铜线",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_11lb44i",

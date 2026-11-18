@@ -14,61 +14,61 @@
       "id": "p_b72s9g7",
       "dir": "in",
       "label": "基座环",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_tpqxwq6",
       "dir": "in",
       "label": "推力室",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_tcldyxn",
       "dir": "in",
       "label": "磁约束环",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_b02i2xz",
       "dir": "in",
       "label": "注入器",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_7jyemug",
       "dir": "in",
       "label": "反应堆",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_r3rjo4e",
       "dir": "in",
       "label": "散热阵列",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_kqgyw6k",
       "dir": "in",
       "label": "燃料舱",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_5xpi14q",
       "dir": "in",
       "label": "控制舱",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_a1x222j",
       "dir": "in",
       "label": "结构梁",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_kksmd0k",
       "dir": "in",
       "label": "电机",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_kk0uj55",

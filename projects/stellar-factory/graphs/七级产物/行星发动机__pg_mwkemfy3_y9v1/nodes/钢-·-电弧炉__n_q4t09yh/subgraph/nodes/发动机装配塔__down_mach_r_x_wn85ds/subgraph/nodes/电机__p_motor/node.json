@@ -26,19 +26,19 @@
       "id": "p_m0b9qpz",
       "dir": "in",
       "label": "原料1",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_sxebxc3",
       "dir": "in",
       "label": "原料2",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_4k4h39i",
       "dir": "in",
       "label": "原料3",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_u2och3g",
@@ -50,13 +50,13 @@
       "id": "p_h9voq9",
       "dir": "in",
       "label": "齿轮",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_7uvi94",
       "dir": "in",
       "label": "轴承",
-      "capacity": "one"
+      "capacity": "many"
     }
   ],
   "pos": {

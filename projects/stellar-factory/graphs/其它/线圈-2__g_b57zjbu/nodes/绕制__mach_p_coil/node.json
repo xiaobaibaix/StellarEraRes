@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "id": "mach_p_coil",
+  "kind": "机器",
+  "title": "绕制",
+  "props": {
+    "配方": {
+      "value": "绕制",
+      "type": "string"
+    },
+    "层级": {
+      "value": "L4",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_gd7qmcy",
+      "dir": "in",
+      "label": "铜线",
+      "capacity": "many"
+    },
+    {
+      "id": "p_4uxu0kv",
+      "dir": "in",
+      "label": "磁体",
+      "capacity": "many"
+    },
+    {
+      "id": "p_mujf9pq",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 225
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "id": "g_eqphyyj",
+  "name": "混凝土 2",
+  "nodeOrder": [
+    "r_ca",
+    "r_h2o",
+    "mach_m_concrete",
+    "prod_m_concrete"
+  ],
+  "edges": [
+    {
+      "id": "e_42sbf0z",
+      "from": {
+        "node": "r_ca",
+        "port": "p_0ug4j4q"
+      },
+      "to": {
+        "node": "mach_m_concrete",
+        "port": "p_yxjz9lt"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_v2subj0",
+      "from": {
+        "node": "r_h2o",
+        "port": "p_ybdwewy"
+      },
+      "to": {
+        "node": "mach_m_concrete",
+        "port": "p_jjen2ld"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_sqw3mhv",
+      "from": {
+        "node": "mach_m_concrete",
+        "port": "p_xifpr7i"
+      },
+      "to": {
+        "node": "prod_m_concrete",
+        "port": "p_73lln6b"
+      },
+      "label": "80×"
+    }
+  ]
+}

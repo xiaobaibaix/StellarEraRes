@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "id": "m_si",
+  "kind": "子图",
+  "title": "硅锭",
+  "props": {},
+  "ports": [
+    {
+      "id": "p_hd5telt",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 60
+  },
+  "linkGraph": "g_k0u6ibt",
+  "subgraphMap": {
+    "p_hd5telt": {
+      "node": "mach_m_si",
+      "port": "p_gmjp8u4"
+    }
+  }
+}

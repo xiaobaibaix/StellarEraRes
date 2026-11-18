@@ -14,25 +14,25 @@
       "id": "p_62xt8dd",
       "dir": "in",
       "label": "钢",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_ra6lq6i",
       "dir": "in",
       "label": "磁约束环",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_yif8ni1",
       "dir": "in",
       "label": "线圈",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_a6frynq",
       "dir": "in",
       "label": "芯片",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_8vzy43v",

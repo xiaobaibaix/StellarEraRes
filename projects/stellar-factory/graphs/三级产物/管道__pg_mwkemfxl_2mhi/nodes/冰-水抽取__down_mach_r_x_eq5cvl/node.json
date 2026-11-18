@@ -14,7 +14,7 @@
       "id": "p_gbjfix8",
       "dir": "in",
       "label": "产物",
-      "capacity": "one"
+      "capacity": "many"
     }
   ],
   "pos": {

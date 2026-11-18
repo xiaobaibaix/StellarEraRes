@@ -14,7 +14,7 @@
       "id": "p_j2vozvi",
       "dir": "in",
       "label": "产物",
-      "capacity": "one"
+      "capacity": "many"
     }
   ],
   "pos": {

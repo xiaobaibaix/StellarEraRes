@@ -28,13 +28,13 @@
       "id": "p_3hztf4",
       "dir": "in",
       "label": "氢",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_0cwul0",
       "dir": "in",
       "label": "氧",
-      "capacity": "one"
+      "capacity": "many"
     }
   ],
   "pos": {

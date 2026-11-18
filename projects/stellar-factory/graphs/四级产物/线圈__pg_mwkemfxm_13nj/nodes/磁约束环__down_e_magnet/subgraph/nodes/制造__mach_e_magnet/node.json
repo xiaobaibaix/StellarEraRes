@@ -13,13 +13,13 @@
       "id": "p_1q6v0fg",
       "dir": "in",
       "label": "线圈",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_3wb07wm",
       "dir": "in",
       "label": "结构梁",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_du11l59",

@@ -17,13 +17,13 @@
       "id": "p_3zg2dc9",
       "dir": "in",
       "label": "反应堆核心",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_29jpxuv",
       "dir": "in",
       "label": "控制计算机",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_9f8uht4",

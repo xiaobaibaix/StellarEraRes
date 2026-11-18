@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "id": "p_pc",
+  "kind": "子图",
+  "title": "控制计算机",
+  "props": {},
+  "ports": [
+    {
+      "id": "p_5ex7o1k",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 390
+  },
+  "linkGraph": "g_ijlal5n",
+  "subgraphMap": {
+    "p_5ex7o1k": {
+      "node": "mach_p_pc",
+      "port": "p_a5r9of0"
+    }
+  }
+}

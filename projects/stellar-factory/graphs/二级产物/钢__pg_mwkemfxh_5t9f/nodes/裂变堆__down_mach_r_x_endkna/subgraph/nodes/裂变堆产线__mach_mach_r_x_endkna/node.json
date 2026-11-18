@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "id": "mach_mach_r_x_endkna",
+  "kind": "机器",
+  "title": "裂变堆产线",
+  "props": {
+    "配方": {
+      "value": "裂变堆产线",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_v4r4ya3",
+      "dir": "in",
+      "label": "钢",
+      "capacity": "many"
+    },
+    {
+      "id": "p_u4diwvp",
+      "dir": "in",
+      "label": "反应堆核心",
+      "capacity": "many"
+    },
+    {
+      "id": "p_g0drqns",
+      "dir": "in",
+      "label": "管道",
+      "capacity": "many"
+    },
+    {
+      "id": "p_jojxv9i",
+      "dir": "in",
+      "label": "电路板",
+      "capacity": "many"
+    },
+    {
+      "id": "p_nvpu63c",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 510
+  }
+}

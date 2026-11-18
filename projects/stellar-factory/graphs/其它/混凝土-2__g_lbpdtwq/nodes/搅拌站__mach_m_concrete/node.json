@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "id": "mach_m_concrete",
+  "kind": "机器",
+  "title": "搅拌站",
+  "props": {
+    "配方": {
+      "value": "搅拌站",
+      "type": "string"
+    },
+    "层级": {
+      "value": "L2",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_yxjz9lt",
+      "dir": "in",
+      "label": "石灰岩",
+      "capacity": "many"
+    },
+    {
+      "id": "p_jjen2ld",
+      "dir": "in",
+      "label": "水",
+      "capacity": "many"
+    },
+    {
+      "id": "p_xifpr7i",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 225
+  }
+}

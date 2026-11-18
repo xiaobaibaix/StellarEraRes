@@ -1,0 +1,530 @@
+{
+  "version": 1,
+  "id": "pg_mwkemfxh_5t9f",
+  "name": "钢",
+  "nodeOrder": [
+    "r_fe",
+    "r_c",
+    "mach_m_steel",
+    "prod_m_steel",
+    "down_m_ss",
+    "down_p_beam",
+    "down_p_pipe",
+    "down_p_gear",
+    "down_p_core",
+    "down_p_bearing",
+    "down_mach_r_x_qfouqe",
+    "down_mach_r_x_9jxjlo",
+    "down_mach_r_x_bkclju",
+    "down_mach_r_x_9awu7f",
+    "down_mach_r_x_nhosx5",
+    "down_mach_r_x_7p8eh0",
+    "down_mach_r_x_jbww96",
+    "down_p_motor",
+    "down_mach_r_x_cd6rm2",
+    "down_mach_r_x_3ttiuj",
+    "down_mach_r_x_te49iq",
+    "down_mach_r_x_k9rqw0",
+    "down_mach_r_x_endkna",
+    "down_mach_r_x_4q2hqm",
+    "down_mach_r_x_mfyowd",
+    "down_mach_r_x_3om4kz",
+    "down_mach_r_x_eq5cvl",
+    "down_mach_r_x_vwf6tm",
+    "down_mach_r_x_8ezn9q",
+    "down_mach_r_x_dp0dim",
+    "down_mach_r_x_sxhqeu",
+    "down_mach_r_x_mlj5kx",
+    "down_mach_r_x_cu4ay8",
+    "down_mach_r_x_n7uy97",
+    "down_mach_r_x_uz72d6",
+    "down_mach_r_x_rzcki8",
+    "down_mach_r_x_c68riu",
+    "down_mach_r_x_wn85ds",
+    "r_scrap",
+    "r_ca",
+    "mach_m_steel_eaf"
+  ],
+  "edges": [
+    {
+      "id": "e_lafntqg",
+      "from": {
+        "node": "r_fe",
+        "port": "p_zhy0n3t"
+      },
+      "to": {
+        "node": "mach_m_steel",
+        "port": "p_qxlieq3"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_igk34k4",
+      "from": {
+        "node": "r_c",
+        "port": "p_lr3ul9g"
+      },
+      "to": {
+        "node": "mach_m_steel",
+        "port": "p_gzrhphq"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_30eg2is",
+      "from": {
+        "node": "mach_m_steel",
+        "port": "p_j60kb9q"
+      },
+      "to": {
+        "node": "prod_m_steel",
+        "port": "p_iqjywz5"
+      },
+      "label": "3×"
+    },
+    {
+      "id": "e_2nqdio7",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_m_ss",
+        "port": "p_s3fep10"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_spj4edz",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_p_beam",
+        "port": "p_lh4jee6"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_6v27rnn",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_p_pipe",
+        "port": "p_aq00bu7"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_1qaltlk",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_p_gear",
+        "port": "p_x2r5rj5"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_gdjlwc5",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_p_core",
+        "port": "p_vnl8llw"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_ikixrjv",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_p_bearing",
+        "port": "p_imv7r6j"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_osw9lt0",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_mach_r_x_qfouqe",
+        "port": "p_5fpj3qs"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_kohoo20",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_mach_r_x_9jxjlo",
+        "port": "p_asb92xc"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_xlmhxhd",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_mach_r_x_bkclju",
+        "port": "p_x8dow75"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_2bbykba",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_mach_r_x_9awu7f",
+        "port": "p_f7xuigh"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_x82i3la",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_mach_r_x_nhosx5",
+        "port": "p_odvb4b1"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_52o7ny6",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_mach_r_x_7p8eh0",
+        "port": "p_g7qszbk"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_s5ybu91",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_mach_r_x_jbww96",
+        "port": "p_s7yquyn"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_ssbnuxi",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_p_motor",
+        "port": "p_45v9wkk"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_d78o4s3",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_mach_r_x_cd6rm2",
+        "port": "p_wttkz87"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_sb258r9",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_mach_r_x_3ttiuj",
+        "port": "p_n9qjwoi"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_uy8ub6x",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_mach_r_x_te49iq",
+        "port": "p_05xlvqj"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_bnhbnbc",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_mach_r_x_k9rqw0",
+        "port": "p_rn75d1i"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_qzj6wbu",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_mach_r_x_endkna",
+        "port": "p_431dc77"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_q4o8tpf",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_mach_r_x_4q2hqm",
+        "port": "p_p4ou6df"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_q35pizl",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_mach_r_x_mfyowd",
+        "port": "p_emkh37t"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_1prbdmq",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_mach_r_x_3om4kz",
+        "port": "p_wv9m0ah"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_13ssrza",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_mach_r_x_eq5cvl",
+        "port": "p_worlq99"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_gfuh288",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_mach_r_x_vwf6tm",
+        "port": "p_gpokpfp"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_tye3iv3",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_mach_r_x_8ezn9q",
+        "port": "p_ggrsrh8"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_61gdat7",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_mach_r_x_dp0dim",
+        "port": "p_55kgpq8"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_bl06zbb",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_mach_r_x_sxhqeu",
+        "port": "p_l6ofm0q"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_ja72eeh",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_mach_r_x_mlj5kx",
+        "port": "p_95b2rjt"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_n0wlf9t",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_mach_r_x_cu4ay8",
+        "port": "p_asxreci"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_3zgwbxc",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_mach_r_x_n7uy97",
+        "port": "p_xruy7ap"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_fsfj8yn",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_mach_r_x_uz72d6",
+        "port": "p_lbuy5e9"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_bscdm1i",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_mach_r_x_rzcki8",
+        "port": "p_kj204t7"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_spg5tg0",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_mach_r_x_c68riu",
+        "port": "p_ekyhsog"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_1j63xai",
+      "from": {
+        "node": "prod_m_steel",
+        "port": "p_o4ymvjl"
+      },
+      "to": {
+        "node": "down_mach_r_x_wn85ds",
+        "port": "p_kwpkbit"
+      },
+      "label": ""
+    },
+    {
+      "id": "e_aogsx8p",
+      "from": {
+        "node": "r_scrap",
+        "port": "p_scrap_out"
+      },
+      "to": {
+        "node": "mach_m_steel_eaf",
+        "port": "p_a7t4zyh"
+      },
+      "label": "3×"
+    },
+    {
+      "id": "e_tsig24u",
+      "from": {
+        "node": "r_ca",
+        "port": "p_0ug4j4q"
+      },
+      "to": {
+        "node": "mach_m_steel_eaf",
+        "port": "p_fpvn64s"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_phxvv6c",
+      "from": {
+        "node": "mach_m_steel_eaf",
+        "port": "p_h3yer6w"
+      },
+      "to": {
+        "node": "prod_m_steel",
+        "port": "p_iqjywz5"
+      },
+      "label": "3×"
+    }
+  ]
+}

@@ -18,19 +18,19 @@
       "id": "p_tutqks5",
       "dir": "in",
       "label": "镍铁",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_5rzpg7z",
       "dir": "in",
       "label": "铬铁",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_9z6g2be",
       "dir": "in",
       "label": "钛锭",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_lvgfv8a",

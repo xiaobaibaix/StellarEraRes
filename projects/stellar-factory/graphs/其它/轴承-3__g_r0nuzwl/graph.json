@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "id": "g_r0nuzwl",
+  "name": "轴承 3",
+  "nodeOrder": [
+    "m_steel",
+    "m_wire",
+    "mach_p_bearing",
+    "prod_p_bearing"
+  ],
+  "edges": [
+    {
+      "id": "e_wgrjfju",
+      "from": {
+        "node": "m_steel",
+        "port": "p_51w3w1q"
+      },
+      "to": {
+        "node": "mach_p_bearing",
+        "port": "p_vs4i45v"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_18q8f2o",
+      "from": {
+        "node": "m_wire",
+        "port": "p_fi2rt8c"
+      },
+      "to": {
+        "node": "mach_p_bearing",
+        "port": "p_j030ce3"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_epu307q",
+      "from": {
+        "node": "mach_p_bearing",
+        "port": "p_oan5hcg"
+      },
+      "to": {
+        "node": "prod_p_bearing",
+        "port": "p_gn29ja3"
+      },
+      "label": "2×"
+    }
+  ]
+}

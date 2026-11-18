@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "id": "m_wire",
+  "kind": "子图",
+  "title": "铜线",
+  "props": {},
+  "ports": [
+    {
+      "id": "p_io8mbw2",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 60
+  },
+  "linkGraph": "g_9xjgx4q",
+  "subgraphMap": {
+    "p_io8mbw2": {
+      "node": "mach_m_wire",
+      "port": "p_qyqtxd1"
+    }
+  }
+}

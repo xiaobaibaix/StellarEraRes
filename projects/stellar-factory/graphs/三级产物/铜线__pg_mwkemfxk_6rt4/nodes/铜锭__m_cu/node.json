@@ -16,6 +16,7 @@
     "x": 60,
     "y": 60
   },
+  "linkGraph": "g_amgpcb2",
   "subgraphMap": {
     "p_ghk5gt1": {
       "node": "mach_m_cu",

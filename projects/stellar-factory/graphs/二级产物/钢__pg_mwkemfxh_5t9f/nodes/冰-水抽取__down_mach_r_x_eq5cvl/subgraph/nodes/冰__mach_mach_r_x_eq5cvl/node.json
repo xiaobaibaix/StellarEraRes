@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "id": "mach_mach_r_x_eq5cvl",
+  "kind": "机器",
+  "title": "冰",
+  "props": {
+    "配方": {
+      "value": "冰 / 水抽取产线",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_w6ccfox",
+      "dir": "in",
+      "label": "钢",
+      "capacity": "many"
+    },
+    {
+      "id": "p_n695jj9",
+      "dir": "in",
+      "label": "管道",
+      "capacity": "many"
+    },
+    {
+      "id": "p_l6akdow",
+      "dir": "in",
+      "label": "电机",
+      "capacity": "many"
+    },
+    {
+      "id": "p_m8rlvv6",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 360
+  }
+}

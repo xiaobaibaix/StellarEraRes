@@ -14,7 +14,7 @@
       "id": "p_v6til5g",
       "dir": "in",
       "label": "产物",
-      "capacity": "one"
+      "capacity": "many"
     }
   ],
   "pos": {

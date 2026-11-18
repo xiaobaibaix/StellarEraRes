@@ -14,13 +14,13 @@
       "id": "p_bojon1s",
       "dir": "in",
       "label": "高温合金",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_ldkv3t2",
       "dir": "in",
       "label": "钛锭",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_w19odf5",

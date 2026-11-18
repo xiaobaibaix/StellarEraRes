@@ -13,25 +13,25 @@
       "id": "p_28955ef",
       "dir": "in",
       "label": "控制计算机",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_i3pdbum",
       "dir": "in",
       "label": "电路板",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_k1q533d",
       "dir": "in",
       "label": "玻璃",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_afioanz",
       "dir": "in",
       "label": "电池组",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_8473pnd",

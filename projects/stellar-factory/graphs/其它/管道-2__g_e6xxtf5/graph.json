@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "g_e6xxtf5",
+  "name": "管道 2",
+  "nodeOrder": [
+    "m_steel",
+    "mach_p_pipe",
+    "prod_p_pipe"
+  ],
+  "edges": [
+    {
+      "id": "e_vvujgna",
+      "from": {
+        "node": "m_steel",
+        "port": "p_cc148uv"
+      },
+      "to": {
+        "node": "mach_p_pipe",
+        "port": "p_2nud1au"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_8nsr4h7",
+      "from": {
+        "node": "mach_p_pipe",
+        "port": "p_97ivihl"
+      },
+      "to": {
+        "node": "prod_p_pipe",
+        "port": "p_p6myhpv"
+      },
+      "label": "30×"
+    }
+  ]
+}

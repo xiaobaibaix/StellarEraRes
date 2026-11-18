@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "id": "g_7h9sg32",
+  "name": "线圈 3",
+  "nodeOrder": [
+    "m_wire",
+    "m_magnet",
+    "mach_p_coil",
+    "prod_p_coil"
+  ],
+  "edges": [
+    {
+      "id": "e_elb7udv",
+      "from": {
+        "node": "m_wire",
+        "port": "p_ydtrn24"
+      },
+      "to": {
+        "node": "mach_p_coil",
+        "port": "p_gd7qmcy"
+      },
+      "label": "4×"
+    },
+    {
+      "id": "e_jaz3c8v",
+      "from": {
+        "node": "m_magnet",
+        "port": "p_ycq7k4z"
+      },
+      "to": {
+        "node": "mach_p_coil",
+        "port": "p_4uxu0kv"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_ox8bf52",
+      "from": {
+        "node": "mach_p_coil",
+        "port": "p_mujf9pq"
+      },
+      "to": {
+        "node": "prod_p_coil",
+        "port": "p_w0wrvyc"
+      },
+      "label": "24×"
+    }
+  ]
+}

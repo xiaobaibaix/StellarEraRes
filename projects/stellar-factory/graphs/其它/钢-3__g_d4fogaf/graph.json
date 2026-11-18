@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "id": "g_d4fogaf",
+  "name": "钢 3",
+  "nodeOrder": [
+    "r_fe",
+    "r_c",
+    "mach_m_steel",
+    "prod_m_steel"
+  ],
+  "edges": [
+    {
+      "id": "e_lafntqg",
+      "from": {
+        "node": "r_fe",
+        "port": "p_zhy0n3t"
+      },
+      "to": {
+        "node": "mach_m_steel",
+        "port": "p_qxlieq3"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_igk34k4",
+      "from": {
+        "node": "r_c",
+        "port": "p_lr3ul9g"
+      },
+      "to": {
+        "node": "mach_m_steel",
+        "port": "p_gzrhphq"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_30eg2is",
+      "from": {
+        "node": "mach_m_steel",
+        "port": "p_j60kb9q"
+      },
+      "to": {
+        "node": "prod_m_steel",
+        "port": "p_iqjywz5"
+      },
+      "label": "3×"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "id": "m_cr",
+  "kind": "资源",
+  "title": "铬铁",
+  "props": {
+    "类别": {
+      "value": "材料",
+      "type": "string"
+    },
+    "配方": {
+      "value": "矿热炉",
+      "type": "string"
+    },
+    "层级": {
+      "value": "材料",
+      "type": "string"
+    },
+    "输入数": {
+      "value": 2,
+      "type": "number"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_0yqi7z6",
+      "dir": "in",
+      "label": "原料1",
+      "capacity": "many"
+    },
+    {
+      "id": "p_haosx45",
+      "dir": "in",
+      "label": "原料2",
+      "capacity": "many"
+    },
+    {
+      "id": "p_14x43r8",
+      "dir": "in",
+      "label": "原料3",
+      "capacity": "many"
+    },
+    {
+      "id": "p_lkrwf9o",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 660
+  }
+}

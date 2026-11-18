@@ -16,6 +16,7 @@
     "x": 60,
     "y": 60
   },
+  "linkGraph": "g_iinsf00",
   "subgraphMap": {
     "p_546e0c5": {
       "node": "mach_m_steel",

@@ -18,13 +18,13 @@
       "id": "p_fk8mm2w",
       "dir": "in",
       "label": "镍",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_pzsh0lq",
       "dir": "in",
       "label": "煤",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_fmu7qid",

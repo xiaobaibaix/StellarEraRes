@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "id": "m_wafer",
+  "kind": "子图",
+  "title": "硅片",
+  "props": {},
+  "ports": [
+    {
+      "id": "p_xjb1vnx",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 60
+  },
+  "linkGraph": "g_g6r3byr",
+  "subgraphMap": {
+    "p_xjb1vnx": {
+      "node": "mach_m_wafer",
+      "port": "p_a8lryya"
+    }
+  }
+}

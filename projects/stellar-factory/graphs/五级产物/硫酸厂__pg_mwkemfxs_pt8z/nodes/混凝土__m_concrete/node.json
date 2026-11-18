@@ -16,6 +16,7 @@
     "x": 60,
     "y": 720
   },
+  "linkGraph": "g_ar60lbp",
   "subgraphMap": {
     "p_4b0rsy7": {
       "node": "mach_m_concrete",

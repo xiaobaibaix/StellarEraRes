@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "id": "g_u89cxd0",
+  "name": "磁体 3",
+  "nodeOrder": [
+    "r_ree",
+    "r_fe",
+    "mach_m_magnet",
+    "prod_m_magnet"
+  ],
+  "edges": [
+    {
+      "id": "e_6esyddj",
+      "from": {
+        "node": "r_ree",
+        "port": "p_mny8dos"
+      },
+      "to": {
+        "node": "mach_m_magnet",
+        "port": "p_on8jv1o"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_vdttmsc",
+      "from": {
+        "node": "r_fe",
+        "port": "p_zhy0n3t"
+      },
+      "to": {
+        "node": "mach_m_magnet",
+        "port": "p_52i1pr9"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_n0oxpxa",
+      "from": {
+        "node": "mach_m_magnet",
+        "port": "p_9jv9zhv"
+      },
+      "to": {
+        "node": "prod_m_magnet",
+        "port": "p_vy1v62a"
+      },
+      "label": "1×"
+    }
+  ]
+}

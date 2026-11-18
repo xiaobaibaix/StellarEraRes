@@ -14,13 +14,13 @@
       "id": "p_ri3smix",
       "dir": "in",
       "label": "硅锭",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_ghp41h2",
       "dir": "in",
       "label": "硫",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_dobmesu",

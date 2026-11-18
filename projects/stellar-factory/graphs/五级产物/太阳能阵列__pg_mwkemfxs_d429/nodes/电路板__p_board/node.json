@@ -16,6 +16,7 @@
     "x": 60,
     "y": 1050
   },
+  "linkGraph": "g_my22yui",
   "subgraphMap": {
     "p_adnq3h2": {
       "node": "mach_p_board",

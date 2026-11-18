@@ -17,13 +17,13 @@
       "id": "p_fkutmje",
       "dir": "in",
       "label": "散热板",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_huyor6v",
       "dir": "in",
       "label": "管道",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_xecr6ar",

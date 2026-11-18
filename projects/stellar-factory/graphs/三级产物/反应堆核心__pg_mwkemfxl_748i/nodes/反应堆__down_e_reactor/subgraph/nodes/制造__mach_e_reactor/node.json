@@ -13,13 +13,13 @@
       "id": "p_kkjhs56",
       "dir": "in",
       "label": "反应堆核心",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_v262scf",
       "dir": "in",
       "label": "控制计算机",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_r091af2",

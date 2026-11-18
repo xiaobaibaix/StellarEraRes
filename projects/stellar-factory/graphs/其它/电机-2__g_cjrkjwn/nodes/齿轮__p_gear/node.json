@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "id": "p_gear",
+  "kind": "子图",
+  "title": "齿轮",
+  "props": {},
+  "ports": [
+    {
+      "id": "p_kbi1ftx",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 1050
+  },
+  "linkGraph": "g_1jektxy",
+  "subgraphMap": {
+    "p_kbi1ftx": {
+      "node": "mach_p_gear",
+      "port": "p_nvb92xm"
+    }
+  }
+}

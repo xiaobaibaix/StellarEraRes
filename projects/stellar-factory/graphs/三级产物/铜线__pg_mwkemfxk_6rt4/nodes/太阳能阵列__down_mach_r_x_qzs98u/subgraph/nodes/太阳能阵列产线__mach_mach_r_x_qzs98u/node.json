@@ -14,25 +14,25 @@
       "id": "p_x3lkqyu",
       "dir": "in",
       "label": "硅片",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_dclcrvf",
       "dir": "in",
       "label": "铜线",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_grl1zwn",
       "dir": "in",
       "label": "铝锭",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_lg9j8b2",
       "dir": "in",
       "label": "电路板",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_fmdsah5",

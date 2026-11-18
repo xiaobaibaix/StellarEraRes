@@ -14,7 +14,7 @@
       "id": "p_y91nbtg",
       "dir": "in",
       "label": "产物",
-      "capacity": "one"
+      "capacity": "many"
     }
   ],
   "pos": {

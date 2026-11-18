@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "g_1evow71",
+  "name": "齿轮 3",
+  "nodeOrder": [
+    "m_steel",
+    "mach_p_gear",
+    "prod_p_gear"
+  ],
+  "edges": [
+    {
+      "id": "e_w7e69kz",
+      "from": {
+        "node": "m_steel",
+        "port": "p_p6vb9lh"
+      },
+      "to": {
+        "node": "mach_p_gear",
+        "port": "p_8cnouix"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_xoz8skg",
+      "from": {
+        "node": "mach_p_gear",
+        "port": "p_nvb92xm"
+      },
+      "to": {
+        "node": "prod_p_gear",
+        "port": "p_sr4kuu8"
+      },
+      "label": "1×"
+    }
+  ]
+}

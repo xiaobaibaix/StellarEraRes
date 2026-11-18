@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "id": "p_nozzle",
+  "name": "喷嘴",
+  "nodeOrder": [
+    "m_super",
+    "m_ti",
+    "mach_p_nozzle",
+    "prod_p_nozzle"
+  ],
+  "edges": [
+    {
+      "id": "e_swcj0ls",
+      "from": {
+        "node": "m_super",
+        "port": "p_3410f9n"
+      },
+      "to": {
+        "node": "mach_p_nozzle",
+        "port": "p_sqfkji8"
+      },
+      "label": "3×"
+    },
+    {
+      "id": "e_ztiuifs",
+      "from": {
+        "node": "m_ti",
+        "port": "p_1rlz34t"
+      },
+      "to": {
+        "node": "mach_p_nozzle",
+        "port": "p_0rf2bjt"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_j4eilou",
+      "from": {
+        "node": "mach_p_nozzle",
+        "port": "p_339ltbh"
+      },
+      "to": {
+        "node": "prod_p_nozzle",
+        "port": "p_wb0r98c"
+      },
+      "label": "8×"
+    }
+  ]
+}

@@ -13,13 +13,13 @@
       "id": "p_8lij72k",
       "dir": "in",
       "label": "喷嘴",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_sxnvz6m",
       "dir": "in",
       "label": "芯片",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_oazigax",

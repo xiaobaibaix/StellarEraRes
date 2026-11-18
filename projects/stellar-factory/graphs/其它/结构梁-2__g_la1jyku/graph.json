@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "g_la1jyku",
+  "name": "结构梁 2",
+  "nodeOrder": [
+    "m_steel",
+    "mach_p_beam",
+    "prod_p_beam"
+  ],
+  "edges": [
+    {
+      "id": "e_4jvyqlg",
+      "from": {
+        "node": "m_steel",
+        "port": "p_jxow4mr"
+      },
+      "to": {
+        "node": "mach_p_beam",
+        "port": "p_jl8jjpp"
+      },
+      "label": "3×"
+    },
+    {
+      "id": "e_y5n132h",
+      "from": {
+        "node": "mach_p_beam",
+        "port": "p_1deeyrl"
+      },
+      "to": {
+        "node": "prod_p_beam",
+        "port": "p_klwcd9v"
+      },
+      "label": "40×"
+    }
+  ]
+}

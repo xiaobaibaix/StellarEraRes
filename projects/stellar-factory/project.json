@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "active": "pg_mwkienvu_xuok",
+  "active": "pg_mwkemfy3_r1fu",
   "kinds": {
     "资源": {
       "name": "资源",
@@ -99,16 +99,9 @@
       "folderId": "f_lv_2"
     },
     {
-      "id": "pg_mwkemfxj_twk8",
-      "name": "钢 · 电弧炉",
-      "dir": "二级产物/钢-·-电弧炉__pg_mwkemfxj_twk8",
-      "level": 2,
-      "folderId": "f_lv_2"
-    },
-    {
       "id": "pg_mwkemfxh_5t9f",
-      "name": "钢 · 高炉",
-      "dir": "二级产物/钢-·-高炉__pg_mwkemfxh_5t9f",
+      "name": "钢",
+      "dir": "二级产物/钢__pg_mwkemfxh_5t9f",
       "level": 2,
       "folderId": "f_lv_2"
     },
@@ -162,11 +155,11 @@
       "folderId": "f_lv_2"
     },
     {
-      "id": "pg_mwkh3hew_18yq",
-      "name": "图 71",
-      "dir": "二级产物/图-71__pg_mwkh3hew_18yq",
+      "id": "pg_mwly0jnd_jf7h",
+      "name": "图 73",
+      "dir": "二级产物/图-73__pg_mwly0jnd_jf7h",
       "level": 2,
-      "folderId": "f_mwkh3b08_x5ao"
+      "folderId": "f_mwly0g2a_bly7"
     },
     {
       "id": "pg_mwkemfxj_fgwc",
@@ -554,6 +547,13 @@
       "folderId": "f_lv_6"
     },
     {
+      "id": "pg_mwkienvu_xuok",
+      "name": "挖掘机",
+      "dir": "七级产物/挖掘机__pg_mwkienvu_xuok",
+      "level": 7,
+      "folderId": "f_lv_0"
+    },
+    {
       "id": "pg_mwkemfy3_y9v1",
       "name": "行星发动机",
       "dir": "七级产物/行星发动机__pg_mwkemfy3_y9v1",
@@ -575,17 +575,2719 @@
       "folderId": "f_lv_0"
     },
     {
-      "id": "pg_mwkienvu_xuok",
-      "name": "挖掘机",
-      "dir": "七级产物/挖掘机__pg_mwkienvu_xuok",
-      "level": 7,
-      "folderId": "f_lv_0"
+      "id": "g_7zfqufq",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_7zfqufq",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_po0s923",
+      "name": "镍铁 2",
+      "dir": "其它/镍铁-2__g_po0s923",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_2q50w2v",
+      "name": "铬铁 2",
+      "dir": "其它/铬铁-2__g_2q50w2v",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_7p0zra5",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_7p0zra5",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_bwhk91l",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_bwhk91l",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_9twkd7m",
+      "name": "镍铁 2",
+      "dir": "其它/镍铁-2__g_9twkd7m",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_acybuvx",
+      "name": "铬铁 2",
+      "dir": "其它/铬铁-2__g_acybuvx",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_3khywwa",
+      "name": "钛锭 2",
+      "dir": "其它/钛锭-2__g_3khywwa",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_i5rbxh8",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_i5rbxh8",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_y0ojp8v",
+      "name": "硅锭 2",
+      "dir": "其它/硅锭-2__g_y0ojp8v",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_zoxhbvq",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_zoxhbvq",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_aaa5hv9",
+      "name": "铝锭 2",
+      "dir": "其它/铝锭-2__g_aaa5hv9",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_umsdxl4",
+      "name": "铜锭 2",
+      "dir": "其它/铜锭-2__g_umsdxl4",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_amgpcb2",
+      "name": "铜锭 2",
+      "dir": "其它/铜锭-2__g_amgpcb2",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_yxtz6ab",
+      "name": "混凝土 2",
+      "dir": "其它/混凝土-2__g_yxtz6ab",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_77fz3sh",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_77fz3sh",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_evh2aw8",
+      "name": "结构梁 2",
+      "dir": "其它/结构梁-2__g_evh2aw8",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_hohl3b5",
+      "name": "铜线 2",
+      "dir": "其它/铜线-2__g_hohl3b5",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_5fe7ddv",
+      "name": "铜线 2",
+      "dir": "其它/铜线-2__g_5fe7ddv",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_93nj20z",
+      "name": "硅片 2",
+      "dir": "其它/硅片-2__g_93nj20z",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_svym5bp",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_svym5bp",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_dmcgie8",
+      "name": "结构梁 2",
+      "dir": "其它/结构梁-2__g_dmcgie8",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_stcifit",
+      "name": "混凝土 2",
+      "dir": "其它/混凝土-2__g_stcifit",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_j2fmo7v",
+      "name": "铜线 2",
+      "dir": "其它/铜线-2__g_j2fmo7v",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_69dx8f6",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_69dx8f6",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_8xzfa73",
+      "name": "结构梁 2",
+      "dir": "其它/结构梁-2__g_8xzfa73",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_h0uyiv0",
+      "name": "混凝土 2",
+      "dir": "其它/混凝土-2__g_h0uyiv0",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_e6xxtf5",
+      "name": "管道 2",
+      "dir": "其它/管道-2__g_e6xxtf5",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_iinsf00",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_iinsf00",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_bdi1yeh",
+      "name": "管道 2",
+      "dir": "其它/管道-2__g_bdi1yeh",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_hfdyt7a",
+      "name": "混凝土 2",
+      "dir": "其它/混凝土-2__g_hfdyt7a",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_aom79xp",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_aom79xp",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_2rwimi4",
+      "name": "结构梁 2",
+      "dir": "其它/结构梁-2__g_2rwimi4",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_5ehfsql",
+      "name": "混凝土 2",
+      "dir": "其它/混凝土-2__g_5ehfsql",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_wpcfs1i",
+      "name": "结构梁 2",
+      "dir": "其它/结构梁-2__g_wpcfs1i",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_6nglis3",
+      "name": "混凝土 2",
+      "dir": "其它/混凝土-2__g_6nglis3",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_6q1ssqh",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_6q1ssqh",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_j2dovmu",
+      "name": "结构梁 2",
+      "dir": "其它/结构梁-2__g_j2dovmu",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_eqphyyj",
+      "name": "混凝土 2",
+      "dir": "其它/混凝土-2__g_eqphyyj",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_sjniifz",
+      "name": "管道 2",
+      "dir": "其它/管道-2__g_sjniifz",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_quop834",
+      "name": "高温合金 2",
+      "dir": "其它/高温合金-2__g_quop834",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_n2290nv",
+      "name": "钛锭 2",
+      "dir": "其它/钛锭-2__g_n2290nv",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_la1jyku",
+      "name": "结构梁 2",
+      "dir": "其它/结构梁-2__g_la1jyku",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_ez2sxjm",
+      "name": "管道 2",
+      "dir": "其它/管道-2__g_ez2sxjm",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_e70jxgv",
+      "name": "不锈钢 2",
+      "dir": "其它/不锈钢-2__g_e70jxgv",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_8v7n79s",
+      "name": "铝合金 2",
+      "dir": "其它/铝合金-2__g_8v7n79s",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_j4ps15z",
+      "name": "铜线 2",
+      "dir": "其它/铜线-2__g_j4ps15z",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_a8my93s",
+      "name": "高温合金 2",
+      "dir": "其它/高温合金-2__g_a8my93s",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_85eaq6x",
+      "name": "结构梁 2",
+      "dir": "其它/结构梁-2__g_85eaq6x",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_yp6y1ol",
+      "name": "不锈钢 2",
+      "dir": "其它/不锈钢-2__g_yp6y1ol",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_bf9hvca",
+      "name": "推进剂 2",
+      "dir": "其它/推进剂-2__g_bf9hvca",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_qsp7mxc",
+      "name": "铜线 2",
+      "dir": "其它/铜线-2__g_qsp7mxc",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_cdxfwfg",
+      "name": "磁体 2",
+      "dir": "其它/磁体-2__g_cdxfwfg",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_dk9xcxn",
+      "name": "硅片 2",
+      "dir": "其它/硅片-2__g_dk9xcxn",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_f0zub2s",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_f0zub2s",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_0lhvflt",
+      "name": "铜线 2",
+      "dir": "其它/铜线-2__g_0lhvflt",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_xw2witd",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_xw2witd",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_zg0hkd5",
+      "name": "结构梁 2",
+      "dir": "其它/结构梁-2__g_zg0hkd5",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_j4w059k",
+      "name": "混凝土 2",
+      "dir": "其它/混凝土-2__g_j4w059k",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_ghcn3nx",
+      "name": "管道 2",
+      "dir": "其它/管道-2__g_ghcn3nx",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_26kpk76",
+      "name": "线圈 2",
+      "dir": "其它/线圈-2__g_26kpk76",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_onwjtk2",
+      "name": "结构梁 2",
+      "dir": "其它/结构梁-2__g_onwjtk2",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_3jnssdn",
+      "name": "铜线 2",
+      "dir": "其它/铜线-2__g_3jnssdn",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_676dcrk",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_676dcrk",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_r570dx3",
+      "name": "磁体 2",
+      "dir": "其它/磁体-2__g_r570dx3",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_xfdkt0s",
+      "name": "齿轮 2",
+      "dir": "其它/齿轮-2__g_xfdkt0s",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_2u3t8cu",
+      "name": "轴承 2",
+      "dir": "其它/轴承-2__g_2u3t8cu",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_557yfeq",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_557yfeq",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_pwfhi74",
+      "name": "铜线 2",
+      "dir": "其它/铜线-2__g_pwfhi74",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_l5ocpgl",
+      "name": "管道 2",
+      "dir": "其它/管道-2__g_l5ocpgl",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_km4uo3u",
+      "name": "电路板 2",
+      "dir": "其它/电路板-2__g_km4uo3u",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_p77wq8t",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_p77wq8t",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_7ne1wq3",
+      "name": "电路板 2",
+      "dir": "其它/电路板-2__g_7ne1wq3",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_ciknvwy",
+      "name": "芯片 2",
+      "dir": "其它/芯片-2__g_ciknvwy",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_bi7wwzm",
+      "name": "铜线 2",
+      "dir": "其它/铜线-2__g_bi7wwzm",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_qya032w",
+      "name": "芯片 2",
+      "dir": "其它/芯片-2__g_qya032w",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_8c1xq1k",
+      "name": "电路板 2",
+      "dir": "其它/电路板-2__g_8c1xq1k",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_hwutxnb",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_hwutxnb",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_mryqr94",
+      "name": "反应堆核心 2",
+      "dir": "其它/反应堆核心-2__g_mryqr94",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_7yq2ra7",
+      "name": "管道 2",
+      "dir": "其它/管道-2__g_7yq2ra7",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_kldaz16",
+      "name": "电路板 2",
+      "dir": "其它/电路板-2__g_kldaz16",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_mvggsei",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_mvggsei",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_l4b523x",
+      "name": "管道 2",
+      "dir": "其它/管道-2__g_l4b523x",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_ar60lbp",
+      "name": "混凝土 2",
+      "dir": "其它/混凝土-2__g_ar60lbp",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_wpxoibq",
+      "name": "电路板 2",
+      "dir": "其它/电路板-2__g_wpxoibq",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_dhvv7gp",
+      "name": "散热板 2",
+      "dir": "其它/散热板-2__g_dhvv7gp",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_12ok9ih",
+      "name": "管道 2",
+      "dir": "其它/管道-2__g_12ok9ih",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_s69bz4c",
+      "name": "硅片 2",
+      "dir": "其它/硅片-2__g_s69bz4c",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_7gdumje",
+      "name": "铜线 2",
+      "dir": "其它/铜线-2__g_7gdumje",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_fe60obe",
+      "name": "铝锭 2",
+      "dir": "其它/铝锭-2__g_fe60obe",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_my22yui",
+      "name": "电路板 2",
+      "dir": "其它/电路板-2__g_my22yui",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_aser8rj",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_aser8rj",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_47fdzsq",
+      "name": "高温合金 2",
+      "dir": "其它/高温合金-2__g_47fdzsq",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_cjymrsg",
+      "name": "管道 2",
+      "dir": "其它/管道-2__g_cjymrsg",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_h34grrl",
+      "name": "芯片 2",
+      "dir": "其它/芯片-2__g_h34grrl",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_fz5bsuq",
+      "name": "喷嘴 2",
+      "dir": "其它/喷嘴-2__g_fz5bsuq",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_v0iad18",
+      "name": "芯片 2",
+      "dir": "其它/芯片-2__g_v0iad18",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_x3iqyol",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_x3iqyol",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_nlm72cw",
+      "name": "管道 2",
+      "dir": "其它/管道-2__g_nlm72cw",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_mp4yuiy",
+      "name": "电机 2",
+      "dir": "其它/电机-2__g_mp4yuiy",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_6g4tlkl",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_6g4tlkl",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_malh4gm",
+      "name": "电机 2",
+      "dir": "其它/电机-2__g_malh4gm",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_sflu3yh",
+      "name": "齿轮 2",
+      "dir": "其它/齿轮-2__g_sflu3yh",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_xcra8yt",
+      "name": "铜线 2",
+      "dir": "其它/铜线-2__g_xcra8yt",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_ifzmxsa",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_ifzmxsa",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_ar0866t",
+      "name": "管道 2",
+      "dir": "其它/管道-2__g_ar0866t",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_43wiwfz",
+      "name": "电机 2",
+      "dir": "其它/电机-2__g_43wiwfz",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_6s6k6jo",
+      "name": "混凝土 2",
+      "dir": "其它/混凝土-2__g_6s6k6jo",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_ji2gmq4",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_ji2gmq4",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_43zhl23",
+      "name": "结构梁 2",
+      "dir": "其它/结构梁-2__g_43zhl23",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_lbpdtwq",
+      "name": "混凝土 2",
+      "dir": "其它/混凝土-2__g_lbpdtwq",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_bipyjuq",
+      "name": "电机 2",
+      "dir": "其它/电机-2__g_bipyjuq",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_2ba7f5m",
+      "name": "反应堆核心 2",
+      "dir": "其它/反应堆核心-2__g_2ba7f5m",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_14vgfe9",
+      "name": "控制计算机 2",
+      "dir": "其它/控制计算机-2__g_14vgfe9",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_jvcw7bp",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_jvcw7bp",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_6ckkm1p",
+      "name": "管道 2",
+      "dir": "其它/管道-2__g_6ckkm1p",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_yn0wmv6",
+      "name": "电机 2",
+      "dir": "其它/电机-2__g_yn0wmv6",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_bywuxv5",
+      "name": "电路板 2",
+      "dir": "其它/电路板-2__g_bywuxv5",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_rgll2ym",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_rgll2ym",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_3tgedg1",
+      "name": "电机 2",
+      "dir": "其它/电机-2__g_3tgedg1",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_2c5jqyz",
+      "name": "齿轮 2",
+      "dir": "其它/齿轮-2__g_2c5jqyz",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_pdd0m0s",
+      "name": "轴承 2",
+      "dir": "其它/轴承-2__g_pdd0m0s",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_bq3b20c",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_bq3b20c",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_zuz3v95",
+      "name": "磁约束环 2",
+      "dir": "其它/磁约束环-2__g_zuz3v95",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_b57zjbu",
+      "name": "线圈 2",
+      "dir": "其它/线圈-2__g_b57zjbu",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_dn81u86",
+      "name": "芯片 2",
+      "dir": "其它/芯片-2__g_dn81u86",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_rrxehtz",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_rrxehtz",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_cjrkjwn",
+      "name": "电机 2",
+      "dir": "其它/电机-2__g_cjrkjwn",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_yyc4wuv",
+      "name": "齿轮 2",
+      "dir": "其它/齿轮-2__g_yyc4wuv",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_l9612rq",
+      "name": "轴承 2",
+      "dir": "其它/轴承-2__g_l9612rq",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_eze36r4",
+      "name": "控制计算机 2",
+      "dir": "其它/控制计算机-2__g_eze36r4",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_n5600s9",
+      "name": "电路板 2",
+      "dir": "其它/电路板-2__g_n5600s9",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_y2k9urc",
+      "name": "玻璃 2",
+      "dir": "其它/玻璃-2__g_y2k9urc",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_h0gxsf7",
+      "name": "电池组 2",
+      "dir": "其它/电池组-2__g_h0gxsf7",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_q4n1ypp",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_q4n1ypp",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_4flud7o",
+      "name": "电机 2",
+      "dir": "其它/电机-2__g_4flud7o",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_dt3p6lk",
+      "name": "齿轮 2",
+      "dir": "其它/齿轮-2__g_dt3p6lk",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_o7vtcpz",
+      "name": "电路板 2",
+      "dir": "其它/电路板-2__g_o7vtcpz",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_jvc202x",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_jvc202x",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_jo57zww",
+      "name": "电机 2",
+      "dir": "其它/电机-2__g_jo57zww",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_3y6ff00",
+      "name": "齿轮 2",
+      "dir": "其它/齿轮-2__g_3y6ff00",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_38i4tev",
+      "name": "轴承 2",
+      "dir": "其它/轴承-2__g_38i4tev",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_z2mf8e0",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_z2mf8e0",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_9lsjz9k",
+      "name": "管道 2",
+      "dir": "其它/管道-2__g_9lsjz9k",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_ndkg8fe",
+      "name": "电机 2",
+      "dir": "其它/电机-2__g_ndkg8fe",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_j6ztfkf",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_j6ztfkf",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_ho41utf",
+      "name": "电机 2",
+      "dir": "其它/电机-2__g_ho41utf",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_vvnhz88",
+      "name": "齿轮 2",
+      "dir": "其它/齿轮-2__g_vvnhz88",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_8rot0dc",
+      "name": "轴承 2",
+      "dir": "其它/轴承-2__g_8rot0dc",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_8xvlmi6",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_8xvlmi6",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_pc2itp3",
+      "name": "电机 2",
+      "dir": "其它/电机-2__g_pc2itp3",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_euxey6m",
+      "name": "电路板 2",
+      "dir": "其它/电路板-2__g_euxey6m",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_qwd3hhc",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_qwd3hhc",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_oq44391",
+      "name": "电机 2",
+      "dir": "其它/电机-2__g_oq44391",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_xod82cs",
+      "name": "齿轮 2",
+      "dir": "其它/齿轮-2__g_xod82cs",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_6ag7hj7",
+      "name": "轴承 2",
+      "dir": "其它/轴承-2__g_6ag7hj7",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_5678swc",
+      "name": "钢 2",
+      "dir": "其它/钢-2__g_5678swc",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_8h8wi5x",
+      "name": "电机 2",
+      "dir": "其它/电机-2__g_8h8wi5x",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_gheen3s",
+      "name": "齿轮 2",
+      "dir": "其它/齿轮-2__g_gheen3s",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_n7mdty5",
+      "name": "结构梁 2",
+      "dir": "其它/结构梁-2__g_n7mdty5",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_wxyyeba",
+      "name": "基座环 2",
+      "dir": "其它/基座环-2__g_wxyyeba",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_3spqt89",
+      "name": "推力室 2",
+      "dir": "其它/推力室-2__g_3spqt89",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_9v9lw96",
+      "name": "磁约束环 2",
+      "dir": "其它/磁约束环-2__g_9v9lw96",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_ztgy56o",
+      "name": "注入器 2",
+      "dir": "其它/注入器-2__g_ztgy56o",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_qruh1u3",
+      "name": "反应堆 2",
+      "dir": "其它/反应堆-2__g_qruh1u3",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_ag7oijm",
+      "name": "散热阵列 2",
+      "dir": "其它/散热阵列-2__g_ag7oijm",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_ejqvcom",
+      "name": "燃料舱 2",
+      "dir": "其它/燃料舱-2__g_ejqvcom",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_31dzyo5",
+      "name": "控制舱 2",
+      "dir": "其它/控制舱-2__g_31dzyo5",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_jv2nt2x",
+      "name": "结构梁 2",
+      "dir": "其它/结构梁-2__g_jv2nt2x",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_zjwa9bl",
+      "name": "电机 2",
+      "dir": "其它/电机-2__g_zjwa9bl",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_l1vs2zi",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_l1vs2zi",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_kywc3ev",
+      "name": "铜锭 3",
+      "dir": "其它/铜锭-3__g_kywc3ev",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_6ypre0y",
+      "name": "铜锭 3",
+      "dir": "其它/铜锭-3__g_6ypre0y",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_k0u6ibt",
+      "name": "硅锭 3",
+      "dir": "其它/硅锭-3__g_k0u6ibt",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_sce5igp",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_sce5igp",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_jy18pfo",
+      "name": "铜锭 3",
+      "dir": "其它/铜锭-3__g_jy18pfo",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_n3g30wp",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_n3g30wp",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_r7a083e",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_r7a083e",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_zrkzhtm",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_zrkzhtm",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_aiqeiss",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_aiqeiss",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_aiyfpx7",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_aiyfpx7",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_yj5hk83",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_yj5hk83",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_n4ggt4b",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_n4ggt4b",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_v3xjcaf",
+      "name": "镍铁 3",
+      "dir": "其它/镍铁-3__g_v3xjcaf",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_ab8b5dz",
+      "name": "铬铁 3",
+      "dir": "其它/铬铁-3__g_ab8b5dz",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_9gqw134",
+      "name": "钛锭 3",
+      "dir": "其它/钛锭-3__g_9gqw134",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_w2t0v8l",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_w2t0v8l",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_diqv7x0",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_diqv7x0",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_plnrmeh",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_plnrmeh",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_aspb5h4",
+      "name": "镍铁 3",
+      "dir": "其它/镍铁-3__g_aspb5h4",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_hok5dac",
+      "name": "铬铁 3",
+      "dir": "其它/铬铁-3__g_hok5dac",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_c5ryxpz",
+      "name": "铝锭 3",
+      "dir": "其它/铝锭-3__g_c5ryxpz",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_gn9umca",
+      "name": "铜锭 3",
+      "dir": "其它/铜锭-3__g_gn9umca",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_qtlikqw",
+      "name": "铜锭 3",
+      "dir": "其它/铜锭-3__g_qtlikqw",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_ibxitqj",
+      "name": "镍铁 3",
+      "dir": "其它/镍铁-3__g_ibxitqj",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_3e9dogp",
+      "name": "铬铁 3",
+      "dir": "其它/铬铁-3__g_3e9dogp",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_nknan9i",
+      "name": "钛锭 3",
+      "dir": "其它/钛锭-3__g_nknan9i",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_wonu7vi",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_wonu7vi",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_1iuoh5t",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_1iuoh5t",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_xbdke18",
+      "name": "镍铁 3",
+      "dir": "其它/镍铁-3__g_xbdke18",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_dd9hfy4",
+      "name": "铬铁 3",
+      "dir": "其它/铬铁-3__g_dd9hfy4",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_2uo2l53",
+      "name": "铜锭 3",
+      "dir": "其它/铜锭-3__g_2uo2l53",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_i23yelx",
+      "name": "硅锭 3",
+      "dir": "其它/硅锭-3__g_i23yelx",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_uwgoolk",
+      "name": "铜锭 3",
+      "dir": "其它/铜锭-3__g_uwgoolk",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_zv0t19m",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_zv0t19m",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_c19uwlt",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_c19uwlt",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_tx3vwrj",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_tx3vwrj",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_4ktpa4a",
+      "name": "磁体 3",
+      "dir": "其它/磁体-3__g_4ktpa4a",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_plc2rch",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_plc2rch",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_ca9pi0u",
+      "name": "铜锭 3",
+      "dir": "其它/铜锭-3__g_ca9pi0u",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_puigjds",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_puigjds",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_rhn1uxh",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_rhn1uxh",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_540jpgo",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_540jpgo",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_sgdngwm",
+      "name": "铜锭 3",
+      "dir": "其它/铜锭-3__g_sgdngwm",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_j24svb0",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_j24svb0",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_9xjgx4q",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_9xjgx4q",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_66x5gjy",
+      "name": "硅片 3",
+      "dir": "其它/硅片-3__g_66x5gjy",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_8tgronc",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_8tgronc",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_4gzocr1",
+      "name": "硅片 3",
+      "dir": "其它/硅片-3__g_4gzocr1",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_g6r3byr",
+      "name": "硅片 3",
+      "dir": "其它/硅片-3__g_g6r3byr",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_7x954ce",
+      "name": "铜锭 3",
+      "dir": "其它/铜锭-3__g_7x954ce",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_odbpysw",
+      "name": "硅片 3",
+      "dir": "其它/硅片-3__g_odbpysw",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_8jker1o",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_8jker1o",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_bj9skf5",
+      "name": "硅片 3",
+      "dir": "其它/硅片-3__g_bj9skf5",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_dnw0nde",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_dnw0nde",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_bjpze11",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_bjpze11",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_575pieo",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_575pieo",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_0mvhd3v",
+      "name": "硅片 3",
+      "dir": "其它/硅片-3__g_0mvhd3v",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_85wnvuu",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_85wnvuu",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_uo30f6s",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_uo30f6s",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_zd5xvzw",
+      "name": "硅片 3",
+      "dir": "其它/硅片-3__g_zd5xvzw",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_vfi9246",
+      "name": "铝合金 3",
+      "dir": "其它/铝合金-3__g_vfi9246",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_azt0hj2",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_azt0hj2",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_xlxoove",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_xlxoove",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_06myuvz",
+      "name": "硅锭 3",
+      "dir": "其它/硅锭-3__g_06myuvz",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_ldiqkk6",
+      "name": "铜锭 3",
+      "dir": "其它/铜锭-3__g_ldiqkk6",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_mj86j5f",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_mj86j5f",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_tooc2bw",
+      "name": "硅片 3",
+      "dir": "其它/硅片-3__g_tooc2bw",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_cxvitci",
+      "name": "镍铁 3",
+      "dir": "其它/镍铁-3__g_cxvitci",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_t9cwb27",
+      "name": "铬铁 3",
+      "dir": "其它/铬铁-3__g_t9cwb27",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_o44ckwu",
+      "name": "钛锭 3",
+      "dir": "其它/钛锭-3__g_o44ckwu",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_v9tnn1x",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_v9tnn1x",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_do1rpr9",
+      "name": "硅片 3",
+      "dir": "其它/硅片-3__g_do1rpr9",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_bae2ivx",
+      "name": "高温合金 3",
+      "dir": "其它/高温合金-3__g_bae2ivx",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_bd7pi40",
+      "name": "钛锭 3",
+      "dir": "其它/钛锭-3__g_bd7pi40",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_jif8cxq",
+      "name": "硅片 3",
+      "dir": "其它/硅片-3__g_jif8cxq",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_g1sxmlk",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_g1sxmlk",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_05dg802",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_05dg802",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_e9id8yk",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_e9id8yk",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_8eadfpk",
+      "name": "磁体 3",
+      "dir": "其它/磁体-3__g_8eadfpk",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_581d6ql",
+      "name": "齿轮 3",
+      "dir": "其它/齿轮-3__g_581d6ql",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_r0nuzwl",
+      "name": "轴承 3",
+      "dir": "其它/轴承-3__g_r0nuzwl",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_z0nw46g",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_z0nw46g",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_w4d0scy",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_w4d0scy",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_u89cxd0",
+      "name": "磁体 3",
+      "dir": "其它/磁体-3__g_u89cxd0",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_g7lnmow",
+      "name": "齿轮 3",
+      "dir": "其它/齿轮-3__g_g7lnmow",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_kgookqn",
+      "name": "轴承 3",
+      "dir": "其它/轴承-3__g_kgookqn",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_xwt8nfr",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_xwt8nfr",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_jv9j9j6",
+      "name": "铜锭 3",
+      "dir": "其它/铜锭-3__g_jv9j9j6",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_dkp7pii",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_dkp7pii",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_vlz93j0",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_vlz93j0",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_omo7eph",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_omo7eph",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_wcskvsp",
+      "name": "磁体 3",
+      "dir": "其它/磁体-3__g_wcskvsp",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_ls30zjk",
+      "name": "齿轮 3",
+      "dir": "其它/齿轮-3__g_ls30zjk",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_vhfk7qs",
+      "name": "轴承 3",
+      "dir": "其它/轴承-3__g_vhfk7qs",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_x7x26i8",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_x7x26i8",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_0drw7hn",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_0drw7hn",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_rkqj27y",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_rkqj27y",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_x6jcysq",
+      "name": "磁体 3",
+      "dir": "其它/磁体-3__g_x6jcysq",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_el80kmq",
+      "name": "齿轮 3",
+      "dir": "其它/齿轮-3__g_el80kmq",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_wtuk71v",
+      "name": "轴承 3",
+      "dir": "其它/轴承-3__g_wtuk71v",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_8canqvc",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_8canqvc",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_gnfqw3g",
+      "name": "芯片 3",
+      "dir": "其它/芯片-3__g_gnfqw3g",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_7i2a7uo",
+      "name": "电路板 3",
+      "dir": "其它/电路板-3__g_7i2a7uo",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_d4fogaf",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_d4fogaf",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_db0yha5",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_db0yha5",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_dm4tydp",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_dm4tydp",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_e1rmxi4",
+      "name": "磁体 3",
+      "dir": "其它/磁体-3__g_e1rmxi4",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_p7vh18w",
+      "name": "齿轮 3",
+      "dir": "其它/齿轮-3__g_p7vh18w",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_0fe2u8o",
+      "name": "轴承 3",
+      "dir": "其它/轴承-3__g_0fe2u8o",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_gt6h8st",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_gt6h8st",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_q7ezbln",
+      "name": "硅片 3",
+      "dir": "其它/硅片-3__g_q7ezbln",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_h8mpoav",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_h8mpoav",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_b3wi6dp",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_b3wi6dp",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_zk3cz6s",
+      "name": "磁体 3",
+      "dir": "其它/磁体-3__g_zk3cz6s",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_tldqy9j",
+      "name": "齿轮 3",
+      "dir": "其它/齿轮-3__g_tldqy9j",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_qh6t0yg",
+      "name": "轴承 3",
+      "dir": "其它/轴承-3__g_qh6t0yg",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_6o22o9w",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_6o22o9w",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_bc2klce",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_bc2klce",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_07tnfjb",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_07tnfjb",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_7h9sg32",
+      "name": "线圈 3",
+      "dir": "其它/线圈-3__g_7h9sg32",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_5auj6rc",
+      "name": "结构梁 3",
+      "dir": "其它/结构梁-3__g_5auj6rc",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_aayp40x",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_aayp40x",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_3ib0ae2",
+      "name": "磁体 3",
+      "dir": "其它/磁体-3__g_3ib0ae2",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_dcj816s",
+      "name": "硅片 3",
+      "dir": "其它/硅片-3__g_dcj816s",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_84ax1mn",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_84ax1mn",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_sp4f9r3",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_sp4f9r3",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_7wnf6td",
+      "name": "磁体 3",
+      "dir": "其它/磁体-3__g_7wnf6td",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_1jektxy",
+      "name": "齿轮 3",
+      "dir": "其它/齿轮-3__g_1jektxy",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_boejbug",
+      "name": "轴承 3",
+      "dir": "其它/轴承-3__g_boejbug",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_j1ohfdg",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_j1ohfdg",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_4wkh9zn",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_4wkh9zn",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_cnihpoo",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_cnihpoo",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_4ubfstp",
+      "name": "芯片 3",
+      "dir": "其它/芯片-3__g_4ubfstp",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_5wnovs7",
+      "name": "电路板 3",
+      "dir": "其它/电路板-3__g_5wnovs7",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_06pj9gr",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_06pj9gr",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_o4i434w",
+      "name": "硅片 3",
+      "dir": "其它/硅片-3__g_o4i434w",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_0edj7th",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_0edj7th",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_gm84wvd",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_gm84wvd",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_gkbt1j8",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_gkbt1j8",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_c97bhd1",
+      "name": "磁体 3",
+      "dir": "其它/磁体-3__g_c97bhd1",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_0izwo9s",
+      "name": "齿轮 3",
+      "dir": "其它/齿轮-3__g_0izwo9s",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_telhbcz",
+      "name": "轴承 3",
+      "dir": "其它/轴承-3__g_telhbcz",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_e7jnhh1",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_e7jnhh1",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_4oqeiot",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_4oqeiot",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_0pd4mih",
+      "name": "硅片 3",
+      "dir": "其它/硅片-3__g_0pd4mih",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_irotgil",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_irotgil",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_t2udpi9",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_t2udpi9",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_7ifz8cs",
+      "name": "磁体 3",
+      "dir": "其它/磁体-3__g_7ifz8cs",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_vgmve9u",
+      "name": "齿轮 3",
+      "dir": "其它/齿轮-3__g_vgmve9u",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_38tnqb1",
+      "name": "轴承 3",
+      "dir": "其它/轴承-3__g_38tnqb1",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_2wm17na",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_2wm17na",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_rafc11j",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_rafc11j",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_6747bx5",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_6747bx5",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_di0yufa",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_di0yufa",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_874ntcp",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_874ntcp",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_vvxo05o",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_vvxo05o",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_kpii9wr",
+      "name": "磁体 3",
+      "dir": "其它/磁体-3__g_kpii9wr",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_v9gjib6",
+      "name": "齿轮 3",
+      "dir": "其它/齿轮-3__g_v9gjib6",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_doixodu",
+      "name": "轴承 3",
+      "dir": "其它/轴承-3__g_doixodu",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_avif4ei",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_avif4ei",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_46hozxg",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_46hozxg",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_wbx5iry",
+      "name": "磁体 3",
+      "dir": "其它/磁体-3__g_wbx5iry",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_p24tnmg",
+      "name": "齿轮 3",
+      "dir": "其它/齿轮-3__g_p24tnmg",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_eu1086b",
+      "name": "轴承 3",
+      "dir": "其它/轴承-3__g_eu1086b",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_vdpmgfq",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_vdpmgfq",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_kiha3sq",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_kiha3sq",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_2qglukt",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_2qglukt",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_8k8edj5",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_8k8edj5",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_18kc7ag",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_18kc7ag",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_vfb4d14",
+      "name": "磁体 3",
+      "dir": "其它/磁体-3__g_vfb4d14",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_1evow71",
+      "name": "齿轮 3",
+      "dir": "其它/齿轮-3__g_1evow71",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_kt1z1n9",
+      "name": "轴承 3",
+      "dir": "其它/轴承-3__g_kt1z1n9",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_8uet88m",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_8uet88m",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_0htjgbj",
+      "name": "硅片 3",
+      "dir": "其它/硅片-3__g_0htjgbj",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_rrp3c2g",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_rrp3c2g",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_7rn98es",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_7rn98es",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_6wosldn",
+      "name": "磁体 3",
+      "dir": "其它/磁体-3__g_6wosldn",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_t7qwdx8",
+      "name": "齿轮 3",
+      "dir": "其它/齿轮-3__g_t7qwdx8",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_86f8si3",
+      "name": "轴承 3",
+      "dir": "其它/轴承-3__g_86f8si3",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_vewe8sr",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_vewe8sr",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_s39w29n",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_s39w29n",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_12yzs76",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_12yzs76",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_1jwetoy",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_1jwetoy",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_yuqcvhl",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_yuqcvhl",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_hd85kj5",
+      "name": "磁体 3",
+      "dir": "其它/磁体-3__g_hd85kj5",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_k5xoxgm",
+      "name": "齿轮 3",
+      "dir": "其它/齿轮-3__g_k5xoxgm",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_njdkzqf",
+      "name": "轴承 3",
+      "dir": "其它/轴承-3__g_njdkzqf",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_qm9x436",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_qm9x436",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_b2y28vh",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_b2y28vh",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_oypp41n",
+      "name": "结构梁 3",
+      "dir": "其它/结构梁-3__g_oypp41n",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_sb7kd7p",
+      "name": "混凝土 3",
+      "dir": "其它/混凝土-3__g_sb7kd7p",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_jk17wtt",
+      "name": "高温合金 3",
+      "dir": "其它/高温合金-3__g_jk17wtt",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_2xg68b0",
+      "name": "结构梁 3",
+      "dir": "其它/结构梁-3__g_2xg68b0",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_iop96yl",
+      "name": "不锈钢 3",
+      "dir": "其它/不锈钢-3__g_iop96yl",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_z7lviqs",
+      "name": "推进剂 3",
+      "dir": "其它/推进剂-3__g_z7lviqs",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_0fsxaz1",
+      "name": "线圈 3",
+      "dir": "其它/线圈-3__g_0fsxaz1",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_wbe8f0b",
+      "name": "结构梁 3",
+      "dir": "其它/结构梁-3__g_wbe8f0b",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_vov5in3",
+      "name": "喷嘴 3",
+      "dir": "其它/喷嘴-3__g_vov5in3",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_85qgmey",
+      "name": "芯片 3",
+      "dir": "其它/芯片-3__g_85qgmey",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_1g3izha",
+      "name": "反应堆核心 3",
+      "dir": "其它/反应堆核心-3__g_1g3izha",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_ijlal5n",
+      "name": "控制计算机 3",
+      "dir": "其它/控制计算机-3__g_ijlal5n",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_b938ykz",
+      "name": "散热板 3",
+      "dir": "其它/散热板-3__g_b938ykz",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_1nxbloo",
+      "name": "管道 3",
+      "dir": "其它/管道-3__g_1nxbloo",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_ubfcdsw",
+      "name": "结构梁 3",
+      "dir": "其它/结构梁-3__g_ubfcdsw",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_phhrwl3",
+      "name": "管道 3",
+      "dir": "其它/管道-3__g_phhrwl3",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_peqez6z",
+      "name": "不锈钢 3",
+      "dir": "其它/不锈钢-3__g_peqez6z",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_0k7td9o",
+      "name": "控制计算机 3",
+      "dir": "其它/控制计算机-3__g_0k7td9o",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_q6gdrr6",
+      "name": "电路板 3",
+      "dir": "其它/电路板-3__g_q6gdrr6",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_m4iyfy9",
+      "name": "玻璃 3",
+      "dir": "其它/玻璃-3__g_m4iyfy9",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_lfr7y4f",
+      "name": "电池组 3",
+      "dir": "其它/电池组-3__g_lfr7y4f",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_jjq4sp7",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_jjq4sp7",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_73y42mm",
+      "name": "铜线 3",
+      "dir": "其它/铜线-3__g_73y42mm",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_cx33nqe",
+      "name": "钢 3",
+      "dir": "其它/钢-3__g_cx33nqe",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_w5tyodn",
+      "name": "磁体 3",
+      "dir": "其它/磁体-3__g_w5tyodn",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_o1r47if",
+      "name": "齿轮 3",
+      "dir": "其它/齿轮-3__g_o1r47if",
+      "level": 0,
+      "folderId": null
+    },
+    {
+      "id": "g_h5yzw9i",
+      "name": "轴承 3",
+      "dir": "其它/轴承-3__g_h5yzw9i",
+      "level": 0,
+      "folderId": null
     }
   ],
   "folders": [
     {
       "id": "f_lv_1",
-      "name": "一级矿",
+      "name": "一级产物",
       "parentId": null
     },
     {
@@ -624,16 +3326,22 @@
       "parentId": null
     },
     {
-      "id": "f_mwkh3b08_x5ao",
-      "name": "新分组",
-      "parentId": "f_lv_2"
+      "id": "f_mwly0g2a_bly7",
+      "name": "建筑",
+      "parentId": null
     }
   ],
   "grouped": false,
   "style": {
-    "name": "",
-    "description": "",
-    "rules": "",
-    "avoid": ""
+    "presets": [
+      {
+        "id": "s_stellar_icon",
+        "name": "星海工业图标",
+        "description": "深色底上的等距工业风图标，冷灰蓝金属主体 + 暖橙边缘光，粗深色描边、轻体积感、左上统一光照，表面保留轻微磨损与轧制纹理",
+        "rules": "正方形 1:1；主体居中，占画面约 70%；等距视角；纯深灰 #0f1318 背景；无地面阴影；3px 深色描边；缩到 64px 仍可辨识；不裁切",
+        "avoid": "文字、数字、水印、渐变光晕、写实照片、复杂背景、多个主体、漂浮装饰"
+      }
+    ],
+    "defaultId": "s_stellar_icon"
   }
 }

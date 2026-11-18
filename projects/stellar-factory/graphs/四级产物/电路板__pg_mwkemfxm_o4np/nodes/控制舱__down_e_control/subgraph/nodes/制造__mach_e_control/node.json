@@ -13,25 +13,25 @@
       "id": "p_wjl91b9",
       "dir": "in",
       "label": "控制计算机",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_m160mef",
       "dir": "in",
       "label": "电路板",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_pdi5oqu",
       "dir": "in",
       "label": "玻璃",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_3r7e0s6",
       "dir": "in",
       "label": "电池组",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_9enmdrk",

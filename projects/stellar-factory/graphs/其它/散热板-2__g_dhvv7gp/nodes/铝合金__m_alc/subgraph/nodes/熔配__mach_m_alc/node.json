@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "id": "mach_m_alc",
+  "kind": "机器",
+  "title": "熔配",
+  "props": {
+    "配方": {
+      "value": "熔配",
+      "type": "string"
+    },
+    "层级": {
+      "value": "L3",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_q4kza3e",
+      "dir": "in",
+      "label": "铝锭",
+      "capacity": "many"
+    },
+    {
+      "id": "p_hon44m7",
+      "dir": "in",
+      "label": "铜锭",
+      "capacity": "many"
+    },
+    {
+      "id": "p_xpy19qg",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 225
+  }
+}

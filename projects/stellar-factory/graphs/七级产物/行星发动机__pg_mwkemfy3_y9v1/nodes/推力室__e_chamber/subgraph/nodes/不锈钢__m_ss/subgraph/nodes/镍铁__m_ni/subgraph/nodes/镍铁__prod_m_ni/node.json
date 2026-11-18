@@ -18,7 +18,7 @@
       "id": "p_zw80y92",
       "dir": "in",
       "label": "产物",
-      "capacity": "one"
+      "capacity": "many"
     }
   ],
   "pos": {

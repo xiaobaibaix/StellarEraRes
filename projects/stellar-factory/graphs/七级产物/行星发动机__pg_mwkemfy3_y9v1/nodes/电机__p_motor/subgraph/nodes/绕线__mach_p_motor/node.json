@@ -18,31 +18,31 @@
       "id": "p_ikud2sr",
       "dir": "in",
       "label": "铜线",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_jyxukb8",
       "dir": "in",
       "label": "钢",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_ykuhzg0",
       "dir": "in",
       "label": "磁体",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_fyt3at7",
       "dir": "in",
       "label": "齿轮",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_dmtxis5",
       "dir": "in",
       "label": "轴承",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_a25wohz",

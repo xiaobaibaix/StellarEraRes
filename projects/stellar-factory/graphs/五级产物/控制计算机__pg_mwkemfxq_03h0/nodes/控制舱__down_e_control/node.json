@@ -14,7 +14,7 @@
       "id": "p_g9tumeo",
       "dir": "in",
       "label": "产物",
-      "capacity": "one"
+      "capacity": "many"
     }
   ],
   "pos": {

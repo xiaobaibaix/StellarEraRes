@@ -14,7 +14,7 @@
       "id": "p_ru0m1ue",
       "dir": "in",
       "label": "产物",
-      "capacity": "one"
+      "capacity": "many"
     }
   ],
   "pos": {

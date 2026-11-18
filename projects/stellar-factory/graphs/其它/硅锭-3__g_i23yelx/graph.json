@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "id": "g_i23yelx",
+  "name": "硅锭 3",
+  "nodeOrder": [
+    "r_si",
+    "r_c",
+    "mach_m_si",
+    "prod_m_si"
+  ],
+  "edges": [
+    {
+      "id": "e_v8v29tv",
+      "from": {
+        "node": "r_si",
+        "port": "p_n5khnf1"
+      },
+      "to": {
+        "node": "mach_m_si",
+        "port": "p_voflcxr"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_33kj1ig",
+      "from": {
+        "node": "r_c",
+        "port": "p_lr3ul9g"
+      },
+      "to": {
+        "node": "mach_m_si",
+        "port": "p_60a3lr2"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_e3mq15q",
+      "from": {
+        "node": "mach_m_si",
+        "port": "p_gmjp8u4"
+      },
+      "to": {
+        "node": "prod_m_si",
+        "port": "p_rrtjda2"
+      },
+      "label": "1×"
+    }
+  ]
+}

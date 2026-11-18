@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "prod_p_pc",
+  "kind": "资源",
+  "title": "控制计算机",
+  "props": {
+    "类别": {
+      "value": "产物",
+      "type": "string"
+    },
+    "层级": {
+      "value": "L5",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_f2h71em",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 800,
+    "y": 225
+  }
+}

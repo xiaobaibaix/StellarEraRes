@@ -28,13 +28,13 @@
       "id": "p_p0ydau",
       "dir": "in",
       "label": "锂",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_k399td",
       "dir": "in",
       "label": "铜线",
-      "capacity": "one"
+      "capacity": "many"
     }
   ],
   "pos": {

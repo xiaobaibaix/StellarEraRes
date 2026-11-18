@@ -34,7 +34,7 @@
       "id": "p_swlmong",
       "dir": "in",
       "label": "输入",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_pep25je",

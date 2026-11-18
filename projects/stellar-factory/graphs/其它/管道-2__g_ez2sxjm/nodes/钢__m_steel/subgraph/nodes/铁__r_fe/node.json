@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "id": "r_fe",
+  "kind": "资源",
+  "title": "铁",
+  "props": {
+    "符号": {
+      "value": "Fe",
+      "type": "string"
+    },
+    "类别": {
+      "value": "元素",
+      "type": "string"
+    },
+    "深度": {
+      "value": "2–8 格",
+      "type": "string"
+    },
+    "星球": {
+      "value": "岩石 / 金属",
+      "type": "string"
+    },
+    "用途": {
+      "value": "结构、钢",
+      "type": "string"
+    },
+    "层级": {
+      "value": "原矿",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_zhy0n3t",
+      "dir": "out",
+      "label": "产出",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 60
+  }
+}

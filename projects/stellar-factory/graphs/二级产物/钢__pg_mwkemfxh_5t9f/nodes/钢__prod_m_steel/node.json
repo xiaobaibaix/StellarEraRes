@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "id": "prod_m_steel",
+  "kind": "资源",
+  "title": "钢",
+  "props": {
+    "类别": {
+      "value": "产物",
+      "type": "string"
+    },
+    "层级": {
+      "value": "L2",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_iqjywz5",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "many"
+    },
+    {
+      "id": "p_o4ymvjl",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 800,
+    "y": 225
+  },
+  "resources": [
+    {
+      "id": "r_clfv51w",
+      "type": "image",
+      "label": "图标",
+      "path": "",
+      "views": [
+        {
+          "id": "r_style_demo",
+          "type": "image",
+          "label": "钢板图标（风格示例）",
+          "path": "assets/icons/steel-plate-style.png",
+          "file": "resources/r_style_demo-steel-plate-style.png",
+          "prompt": "三块叠放的热轧钢板，边缘带橙红余温，表面有轧制纹路，四角倒角，轻微磨损",
+          "styleId": "s_stellar_icon"
+        }
+      ],
+      "group": true
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "id": "prod_p_gear",
+  "kind": "资源",
+  "title": "齿轮",
+  "props": {
+    "类别": {
+      "value": "产物",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_xthmzta",
+      "dir": "in",
+      "label": "产物",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 800,
+    "y": 60
+  }
+}

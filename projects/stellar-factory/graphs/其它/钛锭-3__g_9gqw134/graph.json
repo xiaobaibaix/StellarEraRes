@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "g_9gqw134",
+  "name": "钛锭 3",
+  "nodeOrder": [
+    "r_ti",
+    "mach_m_ti",
+    "prod_m_ti"
+  ],
+  "edges": [
+    {
+      "id": "e_fhv32br",
+      "from": {
+        "node": "r_ti",
+        "port": "p_nxbrv6t"
+      },
+      "to": {
+        "node": "mach_m_ti",
+        "port": "p_v9oogj5"
+      },
+      "label": "3×"
+    },
+    {
+      "id": "e_k2cbrjs",
+      "from": {
+        "node": "mach_m_ti",
+        "port": "p_knpxpug"
+      },
+      "to": {
+        "node": "prod_m_ti",
+        "port": "p_nam1iv9"
+      },
+      "label": "1×"
+    }
+  ]
+}

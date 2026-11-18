@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "g_aaa5hv9",
+  "name": "铝锭 2",
+  "nodeOrder": [
+    "r_al",
+    "mach_m_al",
+    "prod_m_al"
+  ],
+  "edges": [
+    {
+      "id": "e_yv6k8h7",
+      "from": {
+        "node": "r_al",
+        "port": "p_zyrn0xs"
+      },
+      "to": {
+        "node": "mach_m_al",
+        "port": "p_h150nzd"
+      },
+      "label": "3×"
+    },
+    {
+      "id": "e_1lm2n7s",
+      "from": {
+        "node": "mach_m_al",
+        "port": "p_1sxa6vn"
+      },
+      "to": {
+        "node": "prod_m_al",
+        "port": "p_8m7b6bp"
+      },
+      "label": "2×"
+    }
+  ]
+}

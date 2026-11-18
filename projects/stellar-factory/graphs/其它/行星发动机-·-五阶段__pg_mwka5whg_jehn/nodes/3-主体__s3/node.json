@@ -22,7 +22,7 @@
       "id": "p_u8i0o6v",
       "dir": "in",
       "label": "前置",
-      "capacity": "one"
+      "capacity": "many"
     },
     {
       "id": "p_hpufbo3",

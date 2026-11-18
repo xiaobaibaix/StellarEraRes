@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "id": "p_bearing",
+  "kind": "资源",
+  "title": "轴承",
+  "props": {
+    "类别": {
+      "value": "部件",
+      "type": "string"
+    },
+    "配方": {
+      "value": "精磨",
+      "type": "string"
+    },
+    "层级": {
+      "value": "部件",
+      "type": "string"
+    },
+    "输入数": {
+      "value": 2,
+      "type": "number"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_k6bat61",
+      "dir": "in",
+      "label": "原料1",
+      "capacity": "many"
+    },
+    {
+      "id": "p_hc06dlp",
+      "dir": "in",
+      "label": "原料2",
+      "capacity": "many"
+    },
+    {
+      "id": "p_1xnv7hm",
+      "dir": "in",
+      "label": "原料3",
+      "capacity": "many"
+    },
+    {
+      "id": "p_s5fdho8",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "many"
+    }
+  ],
+  "pos": {
+    "x": 60,
+    "y": 960
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "id": "mach_mach_r_x_jbww96",
+  "kind": "机器",
+  "title": "地基浇筑产线",
+  "props": {
+    "配方": {
+      "value": "地基浇筑产线",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_xoxw1ib",
+      "dir": "in",
+      "label": "混凝土",
+      "capacity": "many"
+    },
+    {
+      "id": "p_jcy8ul3",
+      "dir": "in",
+      "label": "钢",
+      "capacity": "many"
+    },
+    {
+      "id": "p_vwn7cd0",
+      "dir": "in",
+      "label": "结构梁",
+      "capacity": "many"
+    },
+    {
+      "id": "p_btghg0q",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 360
+  }
+}

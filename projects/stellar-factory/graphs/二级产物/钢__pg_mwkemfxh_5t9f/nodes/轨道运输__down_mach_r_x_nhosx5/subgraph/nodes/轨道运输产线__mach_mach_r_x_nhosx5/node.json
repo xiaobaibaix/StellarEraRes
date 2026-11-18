@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "id": "mach_mach_r_x_nhosx5",
+  "kind": "机器",
+  "title": "轨道运输产线",
+  "props": {
+    "配方": {
+      "value": "轨道运输产线",
+      "type": "string"
+    }
+  },
+  "ports": [
+    {
+      "id": "p_75jlh1k",
+      "dir": "in",
+      "label": "钢",
+      "capacity": "many"
+    },
+    {
+      "id": "p_c97na3b",
+      "dir": "in",
+      "label": "结构梁",
+      "capacity": "many"
+    },
+    {
+      "id": "p_5xz1sqb",
+      "dir": "in",
+      "label": "混凝土",
+      "capacity": "many"
+    },
+    {
+      "id": "p_ff6dljy",
+      "dir": "out",
+      "label": "产物",
+      "capacity": "one"
+    }
+  ],
+  "pos": {
+    "x": 420,
+    "y": 360
+  }
+}

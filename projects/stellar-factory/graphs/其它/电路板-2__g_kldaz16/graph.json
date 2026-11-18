@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "id": "g_kldaz16",
+  "name": "电路板 2",
+  "nodeOrder": [
+    "m_wire",
+    "m_wafer",
+    "mach_p_board",
+    "prod_p_board"
+  ],
+  "edges": [
+    {
+      "id": "e_0mnjm9u",
+      "from": {
+        "node": "m_wire",
+        "port": "p_io8mbw2"
+      },
+      "to": {
+        "node": "mach_p_board",
+        "port": "p_0gkrgq5"
+      },
+      "label": "2×"
+    },
+    {
+      "id": "e_vyhsd9r",
+      "from": {
+        "node": "m_wafer",
+        "port": "p_hibrnwq"
+      },
+      "to": {
+        "node": "mach_p_board",
+        "port": "p_7gmap07"
+      },
+      "label": "1×"
+    },
+    {
+      "id": "e_ia728xd",
+      "from": {
+        "node": "mach_p_board",
+        "port": "p_nui5aq4"
+      },
+      "to": {
+        "node": "prod_p_board",
+        "port": "p_yaf910w"
+      },
+      "label": "2×"
+    }
+  ]
+}
